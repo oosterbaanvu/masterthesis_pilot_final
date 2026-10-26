@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "mooselab/Detect-Cell-level-Data-Anomalies-With-LUCARIO",
+    "sha": "3664bfa830b7b13f8a08cc7dd960c871c56aaeeb",
+    "path": "data/sources/mooselab__Detect-Cell-level-Data-Anomalies-With-LUCARIO",
+    "code": 0,
+    "log": "Cloning into 'data/sources/mooselab__Detect-Cell-level-Data-Anomalies-With-LUCARIO'...\n"
+  },
+  {
+    "repository": "calgo-lab/tab_err",
+    "sha": "4e5d348e442824f3c09ed462e37dbbe910ef330a",
+    "path": "data/sources/calgo-lab__tab_err",
+    "code": 0,
+    "log": "Cloning into 'data/sources/calgo-lab__tab_err'...\n"
+  }
+]

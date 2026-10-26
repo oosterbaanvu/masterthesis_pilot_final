@@ -1,0 +1,3 @@
+Using Python 3.12.14 environment at: data/envs/pilot
+error: No solution found when resolving dependencies
+  cause: Because there is no version of tab-err==0.2.2 and you require tab-err==0.2.2, we can conclude that your requirements are unsatisfiable.

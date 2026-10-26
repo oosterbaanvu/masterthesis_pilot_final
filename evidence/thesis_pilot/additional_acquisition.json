@@ -1,0 +1,16 @@
+[
+  {
+    "name": "wine",
+    "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+    "path": "data/pilot_sources/wine.zip",
+    "bytes": 91353,
+    "sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4"
+  },
+  {
+    "name": "zeroed_paper",
+    "url": "https://arxiv.org/pdf/2504.05345",
+    "path": "data/pilot_sources/zeroed_paper.pdf",
+    "bytes": 1647550,
+    "sha256": "2c3b5cb402016c9105c16f01349f56a6857bb7d13de57e41af5377d7d7050367"
+  }
+]
