@@ -1,0 +1,10 @@
+{
+  "status": "EXECUTED_VALID",
+  "shape": [
+    800,
+    4
+  ],
+  "changed_missing_targets": 40,
+  "flagged_missing_targets": 0,
+  "lesson": "Original CDC remove_outliers accepts missing numeric input and deliberately excludes already-missing cells from its outlier mask. E1 should be scored, not declared incompatible; no repair/imputation score substituted."
+}

@@ -51,7 +51,8 @@ def run_dataset(name,smoke=False,selected=None):
        start=time.perf_counter()
        # Explicit domain exclusions avoid rows disappearing in native parsers.
        numeric_invalid=any(pd.to_numeric(changed[c],errors='coerce').isna().any() for c in targets if c not in cat)
-       if numeric_invalid and model.name in {'dboost_numeric_original','cdc_original'}:
+       unparseable=any((pd.to_numeric(changed[c],errors='coerce').isna() & ~changed[c].astype(str).isin(['','nan','None'])).any() for c in targets if c not in cat)
+       if (numeric_invalid and model.name=='dboost_numeric_original') or (unparseable and model.name=='cdc_original'):
         failures.append({'method':model.name,'status':'INCOMPATIBLE_SCENARIO','reason':'Non-numeric/missing intervention outside native numeric input support; no dropped rows or zero-score replacement'});continue
        try:preds[model.name]=model.score(changed)
        except Exception as e:failures.append({'method':model.name,'status':'BLOCKED_TECHNICAL','reason':repr(e)})

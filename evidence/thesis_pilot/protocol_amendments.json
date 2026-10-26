@@ -3,5 +3,11 @@
     "version": "1.1",
     "reason": "Declared four-field common modelling/evaluation scope, explicit Wine operational bounds, provenance and invalid-target abstentions. No thresholds or model choices changed after smoke outcomes.",
     "invalidated": "Smoke scenarios superseded for full-grid claims; preserved under results/thesis_pilot/attempts/smoke_v1. Author-example parity retained."
+  },
+  {
+    "version": "1.2",
+    "reason": "After v1.1 diagnostic, CDC missing numeric input is scored as supported (native outlier mask excludes missing cells), while invalid lexical numeric inputs remain excluded. Seed original LUCARIO KMeans with 42 for reproducibility. No thresholds, operations, source populations or model selection tuned. Full v1.1 predictions and metrics preserved; entire 630-scenario grid rerun.",
+    "evidence": "evidence/thesis_pilot/cdc_missing_probe.json",
+    "superseded": "results/thesis_pilot/attempts/full_grid_v1.1"
   }
 ]

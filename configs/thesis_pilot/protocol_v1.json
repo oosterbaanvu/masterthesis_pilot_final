@@ -1,5 +1,5 @@
 {
-  "version": "1.1-full-grid-after-engineering-smoke",
+  "version": "1.2-correct-missing-input-and-explicit-rng",
   "frozen_before_results": true,
   "datasets": [
     "credit",
@@ -44,5 +44,5 @@
   "no_op_rejected": true,
   "counterfactual_untouched_predictions": true,
   "policy": "No original outcome or clean-reference values in feature matrices; no tuning from evaluation injections. Unknown source correctness retained.",
-  "amendment": "Declared four-field common modelling/evaluation scope, explicit Wine operational bounds, provenance and invalid-target abstentions. No thresholds or model choices changed after smoke outcomes."
+  "amendment": "After v1.1 diagnostic, CDC missing numeric input is scored as supported (native outlier mask excludes missing cells), while invalid lexical numeric inputs remain excluded. Seed original LUCARIO KMeans with 42 for reproducibility. No thresholds, operations, source populations or model selection tuned. Full v1.1 predictions and metrics preserved; entire 630-scenario grid rerun."
 }

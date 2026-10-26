@@ -39,6 +39,7 @@ def lucario_score(df,cons):
 def dispatch(req):
  op=req['op'];method=req['method'];df=pd.DataFrame(req['rows'],columns=req['columns'])
  if op=='fit':
+  np.random.seed(42)  # deterministic original LUCARIO KMeans initialization, no algorithm replacement
   targets=req['targets'];STATE.update(columns=req['columns'],targets=targets,method=method)
   if method.startswith('lucario'):
    source=Path(req['source']);sys.path.insert(0,str(source));STATE['constraints']=lucario_fit(df[targets]);return {'constraints':STATE['constraints'],'mode':'original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change'}
