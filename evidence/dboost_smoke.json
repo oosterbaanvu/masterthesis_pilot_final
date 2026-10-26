@@ -1,0 +1,19 @@
+{
+  "revision": "a47cb564e900c3e5220413f810e810b00046d561",
+  "command": [
+    "/workspace/masterthesis_pilot_final/.venv/bin/python",
+    "/workspace/masterthesis_pilot_final/data/sources/cpitclaudel__dBoost/dboost/dboost-stdin.py",
+    "--statistical",
+    "0.5",
+    "--gaussian",
+    "3",
+    "--minimal",
+    "/workspace/masterthesis_pilot_final/data/fixtures/dboost.tsv"
+  ],
+  "exit_code": 0,
+  "stdout": "100\n",
+  "stderr": ">> Finding correlations\n>> Building model...\n>> Finding outliers...\nTime 0 0.005809965000025841\nRuntime  0.007675672000004852\n   1 outliers found\n",
+  "test_kind": "ENGINEERING_FIXTURE_ONLY",
+  "granularity": "ROW (upstream --minimal output), not cell",
+  "expected_outlier_row": 100
+}

@@ -1,0 +1,42 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting setuptools==80.9.0 (from -r requirements-dev.txt (line 1))
+  Downloading setuptools-80.9.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting pytest==8.3.5 (from -r requirements-dev.txt (line 2))
+  Downloading pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Collecting xlrd==2.0.2 (from -r requirements-dev.txt (line 3))
+  Downloading xlrd-2.0.2-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting iniconfig==2.1.0 (from -r requirements-dev.txt (line 4))
+  Downloading iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting pluggy==1.6.0 (from -r requirements-dev.txt (line 5))
+  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting packaging==25.0 (from -r requirements-dev.txt (line 6))
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading setuptools-80.9.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 28.7 MB/s eta 0:00:00
+Downloading pytest-8.3.5-py3-none-any.whl (343 kB)
+Downloading xlrd-2.0.2-py2.py3-none-any.whl (96 kB)
+Downloading iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+Downloading packaging-25.0-py3-none-any.whl (66 kB)
+Installing collected packages: xlrd, setuptools, pluggy, packaging, iniconfig, pytest
+Successfully installed iniconfig-2.1.0 packaging-25.0 pluggy-1.6.0 pytest-8.3.5 setuptools-80.9.0 xlrd-2.0.2
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Obtaining file:///tmp/thesis-clean-reproduction
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: thesis-audit
+  Building editable for thesis-audit (pyproject.toml): started
+  Building editable for thesis-audit (pyproject.toml): finished with status 'done'
+  Created wheel for thesis-audit: filename=thesis_audit-0.1.0-0.editable-py3-none-any.whl size=1346 sha256=d297199f71ce28d47d601bd5df8fc547f42e19f205609801fa4b02cb2b0e8a17
+  Stored in directory: /tmp/pip-ephem-wheel-cache-68oa3wl4/wheels/ee/05/41/789fa7510468e520cd65809826d641fa39d548b8152c5ec371
+Successfully built thesis-audit
+Installing collected packages: thesis-audit
+Successfully installed thesis-audit-0.1.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

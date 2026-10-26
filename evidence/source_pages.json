@@ -1,0 +1,20 @@
+[
+  {
+    "name": "mlr_index",
+    "url": "https://proceedings.mlr.press/v238/",
+    "bytes": 489113,
+    "sha256": "daff289c0250e36f6ac2f75b7661d815640277b3041a13d47751a71738d22682"
+  },
+  {
+    "name": "uci_credit_page",
+    "url": "https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients",
+    "bytes": 172377,
+    "sha256": "56fe5d5192418f84544699ca06b6bd2683f5ae3b53abcb2c58ca1832a6374e18"
+  },
+  {
+    "name": "uci_bank_page",
+    "url": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+    "bytes": 328731,
+    "sha256": "c9668aa0c1c031b61f222cf196f8d916d2a6efb2f034d3a61f58582d5e2aec70"
+  }
+]

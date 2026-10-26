@@ -1,0 +1,79 @@
+{
+  "fresh_directory": "/tmp/thesis-clean-reproduction",
+  "fresh_dependency_install": "PASSED (scripts/setup.sh, isolated venv)",
+  "fresh_remote_acquisition": "29/29 acquired and byte-verified",
+  "reproduction": "PASSED",
+  "artifact_comparisons": [
+    {
+      "path": "evidence/pair_audits.json",
+      "identical": true,
+      "sha256": "0d4f997581a6ba4df76ac9eeebd6c79d95e97bfcbf2c5fab9632507877f208b1"
+    },
+    {
+      "path": "evidence/column_audits.json",
+      "identical": true,
+      "sha256": "346bbe7fec5e6179a98127e6baf42ef23df1a834fc88565b23c7adb341e13436"
+    },
+    {
+      "path": "evidence/file_profiles.json",
+      "identical": true,
+      "sha256": "6db2c4f110b7925b583d47e642ff081e462f2a38e82483315f96e41d5da242de"
+    },
+    {
+      "path": "evidence/supplementary_audits.json",
+      "identical": true,
+      "sha256": "fd3df5294de442d14bef4ec2d871d6db9050f9b477e1e4f04aada66d9cebdc41"
+    },
+    {
+      "path": "manifests/qualification.json",
+      "identical": true,
+      "sha256": "d6c1735c1bcb3b67d9b509d12932466acdc552f3f0f3710f5c8978f7eb28ea33"
+    },
+    {
+      "path": "manifests/compatibility.json",
+      "identical": true,
+      "sha256": "1f31602da9dfa53e2c4f8c1b68ad88f99010536d254b9c6f5142df1f77c47d8d"
+    },
+    {
+      "path": "configs/protocol_v0.1.json",
+      "identical": true,
+      "sha256": "61a77b408173c1adc8b2ca452e027ca3ee0a9fdd164a0857bd51421d0b151d97"
+    },
+    {
+      "path": "reports/01_dataset_inventory.md",
+      "identical": true,
+      "sha256": "07513c7e1222a304f1514c7432994638d42e866edfd6ea46d24e91840ca9c83c"
+    },
+    {
+      "path": "reports/02_ground_truth_audit.md",
+      "identical": true,
+      "sha256": "be7c2efb47f90a7ef069f25c8398000debdea3ccd2628a414987c2ba2770e185"
+    },
+    {
+      "path": "reports/03_domain_and_method_compatibility.md",
+      "identical": true,
+      "sha256": "557e55c29ef8a2c9013663cb26814335b8b44e50e5cae963f0ebd311b679f794"
+    },
+    {
+      "path": "reports/04_baseline_design.md",
+      "identical": true,
+      "sha256": "07a5c34015e13e2463cf5c08699585b92d5e14e0b2a951611158bf95cd341e64"
+    },
+    {
+      "path": "reports/06_research_protocol.md",
+      "identical": true,
+      "sha256": "4d16926a3766c9a5a3620546d38e380ce6ef9d513baa750941eb43c9f4955c24"
+    },
+    {
+      "path": "reports/07_pilot_results.md",
+      "identical": true,
+      "sha256": "edd70d0a9c2295ef6ad3587ed6e5e0d9c2f170d697bb34b8848a366981030a86"
+    },
+    {
+      "path": "reports/09_independent_scientific_audit.md",
+      "identical": true,
+      "sha256": "ed58f03b8ee5b6be1adfd18d498312d1ee2da1ff82d041c83adbbb8534ce0a74"
+    }
+  ],
+  "limitations": "Fresh directory on same cloud host, not a separately restarted cloud task. Scientific gates still unresolved."
+}

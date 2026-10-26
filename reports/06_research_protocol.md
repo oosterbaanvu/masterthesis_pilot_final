@@ -1,0 +1,21 @@
+# Provisional protocol v0.1 — audit-only freeze
+
+Machine-readable freeze: `configs/protocol_v0.1.json`. `execution_allowed=false`. This is not preregistration and does not reserve a pristine test set after inspection of public benchmarks.
+
+**Current hard-gate outcome:** no accepted primary portfolio; extended baseline and fair information access unresolved; novelty not established. Do not run a confirmatory or labelled feasibility leaderboard under this configuration.
+
+Narrow candidate RQ: Among published unambiguous **distinct column-value error labels**, what additional reference hits and review burden do pretrained semantic-domain constraints yield beyond frozen generic conventional column controls, and how does this depend on baseline strength? It does not estimate full-table cell error prevalence or financial-domain effectiveness.
+
+H1: incremental hits may be zero. H2: increments can shrink or turn adverse under stronger baseline and a shared review budget. H3: results vary by error family, but family annotation requires a reviewed coding scheme; it is not inferred merely from which detector catches a value. Report direction and absolute effect, not only relative improvement.
+
+Population: only structurally eligible RT/ST source columns, with exact exclusion IDs frozen now. Distinct value is the review and label unit. Publisher obvious labels are positives; debatable labels are ignored for precision/recall but their reviews consume budget; source-consistent remaining values are reference negatives, not independently proven clean. Full-table, synthetic and uncertain-repair tracks remain separate.
+
+Splits: obtain original source-table IDs before claiming independent test sources; group duplicate columns and entity/source relations. All historic/publicly audited sources remain exploratory. New final confirmation needs genuinely reserved source-held-out columns or a prospectively collected, independently adjudicated table set. Do not split invented rows. Partition training/development/final groups before fitting thresholds. No reference feature, clean-path oracle, final-label tuning or clean-derived domain list is allowed. An explicit labelled-reference Raha track counts annotation cost. CDC requires a separate historical-clean-information track; do not mix it into dirty-only comparison.
+
+Freeze A and B separately with authoritative rule provenance and training-only thresholds. Candidate fixed budgets: 5/10/25 per 1000 distinct values; these are illustrative, not empirically validated workplace budgets. Report unconstrained alert sets as well as equal **total** budgets. Define a stable order/tie policy before evaluation. A control-first schedule and a score-pooled schedule are different policies; raw incompatible scores cannot be compared as calibrated confidence. Count displaced control hits, extra ignored alerts and total workload. No zero-increment precision of 100%.
+
+Metrics: reference precision, recall, F1; additional hits and alerts beyond A/B, marginal precision with undefined zero denominator, and lost hits under total capacity. PR-AUC only on genuine comparable ranked predictions covering the same universe. No PR-AUC for binary flags disguised as a continuous ranking. Cost per useful detection requires measured runtime/reviewer time and reviewed semantics, otherwise NOT_ESTIMATED.
+
+Analysis: source-specific tables and paired increments; source/table-cluster uncertainty only if grouping metadata exist. Without source IDs, report descriptive results with dependence limitations, not cell-level p-values. Overlapping seeds are not independent datasets. Check family prevalence and threshold sensitivity without retuning on final labels. No single pooled natural/synthetic or full-table/column-value F1. Negative increments remain publishable results.
+
+Threats: incomplete clean references, annotation subjectivity, inspected historical sources, corpus contamination, weak metadata, small positive population, unknown source grouping and conditional rights. Amendments affecting labels, population or rules invalidate affected old results and require versioned re-evaluation. No detector benchmark metrics exist yet to invalidate here.

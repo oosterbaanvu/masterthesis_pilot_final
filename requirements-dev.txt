@@ -1,0 +1,6 @@
+setuptools==80.9.0
+pytest==8.3.5
+xlrd==2.0.2
+iniconfig==2.1.0
+pluggy==1.6.0
+packaging==25.0

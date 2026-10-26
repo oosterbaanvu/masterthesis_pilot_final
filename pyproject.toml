@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thesis-audit"
+version = "0.1.0"
+description = "Conservative, provenance-first tabular error benchmark audit"
+requires-python = ">=3.11"
+dependencies = ["xlrd==2.0.2"]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

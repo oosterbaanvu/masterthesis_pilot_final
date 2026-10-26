@@ -1,0 +1,66 @@
+[
+  {
+    "path": "data/literature/autotest.pdf",
+    "url": "https://arxiv.org/pdf/2504.10762v1",
+    "sha256": "99017301642072b60c08c32ee7b6af583da1a1567f7cbd5eed35d088b6188485",
+    "bytes": 2142666,
+    "revision": "arxiv v1",
+    "rights": "Publication copyright; local reading only"
+  },
+  {
+    "path": "data/literature/holoclean.pdf",
+    "url": "https://www.vldb.org/pvldb/vol10/p1190-rekatsinas.pdf",
+    "sha256": "9285c2bde869c5743a9b6b1a58925c326c749d4011fc6c6c7c60a9d60bf90cda",
+    "bytes": 774970,
+    "revision": "Published PDF; pinned content checksum",
+    "rights": "Publication copyright; local reading only"
+  },
+  {
+    "path": "data/literature/detecting_errors.pdf",
+    "url": "https://www.vldb.org/pvldb/vol9/p993-abedjan.pdf",
+    "sha256": "a6e6653f81d439f671af9f2e14c35a89514d384291e317fa3c5056399e911147",
+    "bytes": 688165,
+    "revision": "Published PDF; pinned content checksum",
+    "rights": "Publication copyright; local reading only"
+  },
+  {
+    "path": "data/literature/bart.pdf",
+    "url": "https://www.vldb.org/pvldb/vol9/p36-arocena.pdf",
+    "sha256": "a589042a5d9327932ccf4b48d9bc017af2e9552202b5b542be4c85b97a50299b",
+    "bytes": 678503,
+    "revision": "Published PDF; pinned content checksum",
+    "rights": "Publication copyright; local reading only"
+  },
+  {
+    "path": "data/literature/cdc.pdf",
+    "url": "https://proceedings.mlr.press/v238/jager24a/jager24a.pdf",
+    "sha256": "da6d27dbc2eecf286d16fbaa8062d924b8ef7470d791bac59396adde6c9c37ad",
+    "bytes": 472260,
+    "revision": "Published PDF; pinned content checksum",
+    "rights": "Publication copyright; local reading only"
+  },
+  {
+    "path": "data/literature/raha_paper.pdf",
+    "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/documentation/raha_paper.pdf",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "sha256": "2a0dda719272de530ffa43cd8ee9d3e1bfdc282dd9719e0551054467376583c0",
+    "bytes": 1706656,
+    "rights": "Publication copyright; local reading only"
+  },
+  {
+    "path": "data/literature/raha_reproducibility_report.pdf",
+    "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/documentation/raha_reproducibility_report.pdf",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "sha256": "3f7e50ee47fd36b3b82cb14b5e2265fdbe2fdf2923079d337ac6bb183d5c05e5",
+    "bytes": 472088,
+    "rights": "Publication copyright; local reading only"
+  },
+  {
+    "path": "data/literature/baran_paper.pdf",
+    "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/documentation/baran_paper.pdf",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "sha256": "61d16707f964d7eed1890d30b5b20fd7f835394191394f1230e8d9753d321ebf",
+    "bytes": 921324,
+    "rights": "Publication copyright; local reading only"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "autotest",
+    "url": "https://arxiv.org/pdf/2504.10762",
+    "bytes": 2142666,
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "name": "holoclean",
+    "url": "https://www.vldb.org/pvldb/vol10/p1190-rekatsinas.pdf",
+    "bytes": 774970,
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "name": "detecting_errors",
+    "url": "https://www.vldb.org/pvldb/vol9/p993-abedjan.pdf",
+    "bytes": 688165,
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "name": "bart",
+    "url": "https://www.vldb.org/pvldb/vol9/p36-arocena.pdf",
+    "bytes": 678503,
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "name": "flights_truth",
+    "url": "https://www.vldb.org/pvldb/vol5/p550_xianli.pdf",
+    "bytes": 36448,
+    "returncode": 1,
+    "error": "Syntax Warning: May not be a PDF file (continuing anyway)\nSyntax Error (2): Illegal character <21> in hex string\nSyntax Error (4): Illegal character <4f> in hex string\nSyntax Error (6): Illegal character <54> in hex string\nSyntax Error (7): Illegal character <59> in hex string\nSyntax Error (8): Illegal character <50> in hex string\nSyntax Error (11): Illegal character <68> in hex string\nSyntax Error (12): Illegal character <74> in hex string\nSyntax Error (13): Illegal character <6d> in hex string\nSyntax Error (14): Illegal character <6c> in hex string\nSyntax Error (17): Illegal character <68> in hex string\nSyntax Error (18): Illegal character <74> in hex string\nSyntax Error (19): Illegal character <6d> in hex string\nSyntax Error (20): Illegal character <6c> in hex string\nSyntax Error (23): Illegal character <68> in hex string\nSyntax Error (29): Illegal character <6d> in hex string\nSyntax Error (31): Illegal character <74> in hex string\nSyntax Error (35): Illegal character <68> in hex string\nSyntax Error (37): Illegal character <72> in hex string\nSyntax Error (38): Illegal character <53> in hex string\nSyntax Error (40): Illegal character <74> in hex string\nSyntax Error (41): Illegal character <3d> in hex string\nSyntax Error (42): Illegal character <22> in hex string\nSyntax Error (43): Illegal character <75> in hex string\nSyntax Error (44): Illegal character <74> in hex string\nSyntax Error (46): Illegal character <2d> in hex string\nSyntax Error (48): Illegal character <22> in hex string\nSyntax Error (49): Illegal character <2f> in hex string\nSyntax Error (52): Illegal character <6d> in hex string\nSyntax Error (54): Illegal character <74> in hex string\nSyntax Error (57): Illegal character <6e> in hex string\nSyntax Error (59): Illegal character <6d> in hex string\nSyntax Error (61): Illegal character <3d> in hex string\nSyntax Error (62): Illegal character <22> in hex string\nSyntax Error (63): Illegal character <72> in hex string\nSyntax Error (64): Illegal character <6f> in hex string\nSyntax Error (66): Illegal character <6f> in hex string\nSyntax Error (67): Illegal character <74> in hex string\nSyntax Error (68): Illegal character <73> in hex string\nSyntax Error (69): Illegal character <22> in hex string\nSyntax Error (72): Illegal character <6f> in hex string\nSyntax Error (73): Illegal character <6e> in hex string\nSyntax Error (74): Illegal character <74> in hex string\nSyntax Error (76): Illegal character <6e> in hex string\nSyntax Error (77): Illegal character <74> in hex string\nSyntax Error (78): Illegal character <3d> in hex string\nSyntax Error (79): Illegal character <22> in hex string\nSyntax Error (80): Illegal character <6e> in hex string\nSyntax Error (81): Illegal character <6f> in hex string\nSyntax Error (82): Illegal character <69> in hex string\nSyntax Error (83): Illegal character <6e> in hex string\nSyntax Error (86): Illegal character <78> in hex string\nSyntax Error (87): Illegal character <2c> in hex string\nSyntax Error (88): Illegal character <6e> in hex string\nSyntax Error (89): Illegal character <6f> in hex string\nSyntax Error (91): Illegal character <6f> in hex string\nSyntax Error (92): Illegal character <6c> in hex string\nSyntax Error (93): Illegal character <6c> in hex string\nSyntax Error (94): Illegal character <6f> in hex string\nSyntax Error (95): Illegal character <77> in hex string\nSyntax Error (96): Illegal character <22> in hex string\nSyntax Error (97): Illegal character <2f> in hex string\nSyntax Error (100): Illegal character <6d> in hex string\nSyntax Error (102): Illegal character <74> in hex string\nSyntax Error (105): Illegal character <6e> in hex string\nSyntax Error (107): Illegal character <6d> in hex string\nSyntax Error (109): Illegal character <3d> in hex string\nSyntax Error (110): Illegal character <22> in hex string\nSyntax Error (111): Illegal character <76> in hex string\nSyntax Error (112): Illegal character <69> in hex string\nSyntax Error (114): Illegal character <77> in hex string\nSyntax Error (115): Illegal character <70> in hex string\nSyntax Error (116): Illegal character <6f> in hex string\nSyntax Error (117): Illegal character <72> in hex string\nSyntax Error (118): Illegal character <74> in hex string\nSyntax Error (119): Illegal character <22> in hex string\nSyntax Error (122): Illegal character <6f> in hex string\nSyntax Error (123): Illegal character <6e> in hex string\nSyntax Error (124): Illegal character <74> in hex string\nSyntax Error (126): Illegal character <6e> in hex string\nSyntax Error (127): Illegal character <74> in hex string\nSyntax Error (128): Illegal character <3d> in hex string\nSyntax Error (129): Illegal character <22> in hex string\nSyntax Error (130): Illegal character <77> in hex string\nSyntax Error (131): Illegal character <69> in hex string\nSyntax Error (133): Illegal character <74> in hex string\nSyntax Error (134): Illegal character <68> in hex string\nSyntax Error (135): Illegal character <3d> in hex string\nSyntax Error (138): Illegal character <76> in hex string\nSyntax Error (139): Illegal character <69> in hex string\nSyntax Error (142): Illegal character <2d> in hex string\nSyntax Error (143): Illegal character <77> in hex string\nSyntax Error (144): Illegal character <69> in hex string\nSyntax Error (146): Illegal character <74> in hex string\nSyntax Error (147): Illegal character <68> in hex string\nSyntax Error (148): Illegal character <22> in hex string\nSyntax Error (149): Illegal character <2f> in hex string\nSyntax Error: Couldn't find trailer dictionary\nSyntax Error: Couldn't find trailer dictionary\nSyntax Error: Couldn't read xref table\n"
+  }
+]

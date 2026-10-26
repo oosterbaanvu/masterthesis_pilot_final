@@ -1,0 +1,176 @@
+[
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/beers/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 233019,
+    "sha256": "373227df59ad197e154dd5149125789e415019535c7223355e9486ee1b3b93de"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/beers/dirty.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 255295,
+    "sha256": "7110bf4931a9445a1675e544d6c996817c739136239f8a2b02e088c7ec0a1f68"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/flights/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 173159,
+    "sha256": "0acfcfd8985b06fdd363965c9e8d9522c43e7589a93d79ae7dc311e1c37fdf3b"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/flights/dirty.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 154776,
+    "sha256": "1b5c1afa10aa0e7c20fd7e14d05c56772715b2771aa0f5fa67ed1709e1eecd46"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/toy/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 123,
+    "sha256": "f65ac35ab19ac1286ce05acba728914f3b6c01c83b6de942dd4ee2210299fec1"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/toy/dirty.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 106,
+    "sha256": "bcbd9e8ef0d5435c94dc825b03a9c3745a31f99caa651321f6648b54e7230bba"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/hospital/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 303324,
+    "sha256": "ea3ee44998455c0b491750c348509de176c758a3bbf58e4530c0a136bb248b4b"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/hospital/dirty.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 303306,
+    "sha256": "dbc5575b915fe8b5e0ac6dc6172f38ba91e611fdb76d09a8f4a81cb7ea9925ac"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/tax/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 14621003,
+    "sha256": "201290927ae92e65b3940d776b3df5b4d953c5dfd9abb231715a2e65ecca87b0"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/tax/dirty.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 14633203,
+    "sha256": "8dd3429ec4791b2ed1a688c308a57a9f3d1a94f77d1f4e98294a67273270b973"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/rayyan/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 272785,
+    "sha256": "23159f43c0706782388ed8957ad0c74eb7b88bc98f34d65bd49296e186d4673f"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/rayyan/dirty.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 273084,
+    "sha256": "7e25e6db262b0c72ca2d9735d5959599cf5a582e1c705459507c7b45d0d1d174"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/movies_1/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 4399162,
+    "sha256": "22a84e70d153d809341c55cf8e8154beebe1836456f617bf8277b953a762bfca"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/movies_1/dirty.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 4550868,
+    "sha256": "bed752115dd0a5925ea36db443ff6835d10a5a8d2f549299535b14f8ac324316"
+  },
+  {
+    "path": "data/raw/HoloClean__holoclean/testdata/hospital.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 288298,
+    "sha256": "bbb2f60e9e7bbda68b1115b3bbb9a0d70587a9d33384a2373e4d447789fd619a"
+  },
+  {
+    "path": "data/raw/HoloClean__holoclean/testdata/hospital_clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 559029,
+    "sha256": "5dc89f7701abae92af81308ae9cbeea584c39cba288fdffe3324397e15f8ca2c"
+  },
+  {
+    "path": "data/raw/HoloClean__holoclean/testdata/flight.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 6174552,
+    "sha256": "f563725092c1b964b8429419ab2f84f1d355af2e09b4aab2d985888176020456"
+  },
+  {
+    "path": "data/raw/HoloClean__holoclean/testdata/flight_clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 880009,
+    "sha256": "cef9ac09799913e39ffe513691e85d018634b9ea1e53c30882d9df22af95be87"
+  },
+  {
+    "path": "data/raw/HoloClean__holoclean/testdata/hospital_constraints.txt",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 1182,
+    "sha256": "0eb05d12dfbb7bcd213ff086c04c971314a68fbb85ba4532e763e399e0085825"
+  },
+  {
+    "path": "data/raw/qixuchen__AutoTest/benchmarks/st_bench.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 1668300,
+    "sha256": "6899f46debd284d2167b644fe1f917bb59fa4785c1565cd1499c10359649ecf0"
+  },
+  {
+    "path": "data/raw/qixuchen__AutoTest/benchmarks/rt_bench.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 9460202,
+    "sha256": "57cc995d15275fced84d19abaaa46802dd990492052c08d0cbc7fe76b49cb623"
+  },
+  {
+    "path": "data/raw/qixuchen__AutoTest/benchmarks/benchmark_readme.md",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 1505,
+    "sha256": "22fc315890f0fe63ec5da84692b726d011fb1ed7f240b9e0ed59c914e44190d8"
+  },
+  {
+    "path": "data/raw/calgo-lab__error-paper/README.md",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 1767,
+    "sha256": "e9cd262eac69d8be384ed817fdcdcfcb71e2ed3feb6289062b81cde763d983b0"
+  },
+  {
+    "path": "data/raw/calgo-lab__error-paper/data/restaurant/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 63454,
+    "sha256": "4273d92fb4246732fabdc13b449786458d97995cd179780b6f7c6a756351d953"
+  },
+  {
+    "path": "data/raw/calgo-lab__error-paper/data/restaurant/restaurant_3_1.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 62251,
+    "sha256": "13285f246daed35bffa7f1abf5cfcdc1069a4d73b196af017ffe2d3822191760"
+  },
+  {
+    "path": "data/raw/calgo-lab__error-paper/data/cars/clean.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 22312,
+    "sha256": "29d0feff7af38acaea5a96d225fa4a213a057ed8f03614881be6abd42d1b553b"
+  },
+  {
+    "path": "data/raw/calgo-lab__error-paper/data/cars/cars_3_1.csv",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 21936,
+    "sha256": "c803f870e22539a69250ee36c79e91364217f32c07bbb53f289952d8e9be9ff7"
+  },
+  {
+    "path": "data/recovery_downloads/default+of+credit+card+clients.zip",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 5539494,
+    "sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602"
+  },
+  {
+    "path": "data/recovery_downloads/bank+marketing.zip",
+    "state": "VERIFIED_LOCAL",
+    "bytes": 1023843,
+    "sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4"
+  }
+]

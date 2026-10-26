@@ -1,0 +1,2309 @@
+{
+  "data/raw/BigDaMa__raha/datasets/beers/clean.csv": {
+    "rows": 2410,
+    "columns": 11,
+    "schema": [
+      "index",
+      "id",
+      "beer-name",
+      "style",
+      "ounces",
+      "abv",
+      "ibu",
+      "brewery_id",
+      "brewery-name",
+      "city",
+      "state"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "index": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2410,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2410,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "beer-name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2304,
+        "unique": false,
+        "leading_zero_count": 1
+      },
+      "style": {
+        "storage_type": "string",
+        "empty": 5,
+        "literal_tokens": {},
+        "distinct": 100,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "ounces": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 7,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "abv": {
+        "storage_type": "string",
+        "empty": 62,
+        "literal_tokens": {},
+        "distinct": 75,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "ibu": {
+        "storage_type": "string",
+        "empty": 1005,
+        "literal_tokens": {},
+        "distinct": 108,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "brewery_id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 558,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "brewery-name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 551,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "city": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 384,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "state": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 51,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/beers/dirty.csv": {
+    "rows": 2410,
+    "columns": 11,
+    "schema": [
+      "index",
+      "id",
+      "beer_name",
+      "style",
+      "ounces",
+      "abv",
+      "ibu",
+      "brewery_id",
+      "brewery_name",
+      "city",
+      "state"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "index": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2410,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2410,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "beer_name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2304,
+        "unique": false,
+        "leading_zero_count": 1
+      },
+      "style": {
+        "storage_type": "string",
+        "empty": 5,
+        "literal_tokens": {},
+        "distinct": 100,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "ounces": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 25,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "abv": {
+        "storage_type": "string",
+        "empty": 62,
+        "literal_tokens": {},
+        "distinct": 132,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "ibu": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "N/A": 1005
+        },
+        "distinct": 108,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "brewery_id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 558,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "brewery_name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 551,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "city": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 475,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "state": {
+        "storage_type": "string",
+        "empty": 127,
+        "literal_tokens": {},
+        "distinct": 52,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/flights/clean.csv": {
+    "rows": 2376,
+    "columns": 7,
+    "schema": [
+      "tuple_id",
+      "src",
+      "flight",
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "tuple_id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2376,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "src": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 38,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "flight": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 100,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "sched_dep_time": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 79,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "act_dep_time": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 91,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "sched_arr_time": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 94,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "act_arr_time": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 96,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/flights/dirty.csv": {
+    "rows": 2376,
+    "columns": 7,
+    "schema": [
+      "tuple_id",
+      "src",
+      "flight",
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "tuple_id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2376,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "src": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 38,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "flight": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 100,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "sched_dep_time": {
+        "storage_type": "string",
+        "empty": 784,
+        "literal_tokens": {},
+        "distinct": 138,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "act_dep_time": {
+        "storage_type": "string",
+        "empty": 376,
+        "literal_tokens": {},
+        "distinct": 291,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "sched_arr_time": {
+        "storage_type": "string",
+        "empty": 770,
+        "literal_tokens": {},
+        "distinct": 240,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "act_arr_time": {
+        "storage_type": "string",
+        "empty": 382,
+        "literal_tokens": {},
+        "distinct": 329,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/toy/clean.csv": {
+    "rows": 6,
+    "columns": 3,
+    "schema": [
+      "ID",
+      "Lord",
+      "Kingdom"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "ID": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 6,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "Lord": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 6,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "Kingdom": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "N/A": 1
+        },
+        "distinct": 6,
+        "unique": true,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/toy/dirty.csv": {
+    "rows": 6,
+    "columns": 3,
+    "schema": [
+      "ID",
+      "Lord",
+      "Kingdom"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "ID": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 6,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "Lord": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 6,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "Kingdom": {
+        "storage_type": "string",
+        "empty": 2,
+        "literal_tokens": {},
+        "distinct": 5,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/hospital/clean.csv": {
+    "rows": 1000,
+    "columns": 20,
+    "schema": [
+      "index",
+      "ProviderNumber",
+      "HospitalName",
+      "Address1",
+      "Address2",
+      "Address3",
+      "City",
+      "State",
+      "ZipCode",
+      "CountyName",
+      "PhoneNumber",
+      "HospitalType",
+      "HospitalOwner",
+      "EmergencyService",
+      "Condition",
+      "MeasureCode",
+      "MeasureName",
+      "Score",
+      "Sample",
+      "Stateavg"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "index": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1000,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "ProviderNumber": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 45,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "HospitalName": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 45,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Address1": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 45,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Address2": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Address3": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "City": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 39,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "State": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "ZipCode": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 44,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "CountyName": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 33,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "PhoneNumber": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 45,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "HospitalType": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "HospitalOwner": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 8,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "EmergencyService": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Condition": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 5,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "MeasureCode": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 28,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "MeasureName": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 28,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Score": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 57,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Sample": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 309,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Stateavg": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 48,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/hospital/dirty.csv": {
+    "rows": 1000,
+    "columns": 20,
+    "schema": [
+      "index",
+      "provider_number",
+      "name",
+      "address_1",
+      "address_2",
+      "address_3",
+      "city",
+      "state",
+      "zip",
+      "county",
+      "phone",
+      "type",
+      "owner",
+      "emergency_service",
+      "condition",
+      "measure_code",
+      "measure_name",
+      "score",
+      "sample",
+      "state_average"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "index": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1000,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "provider_number": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 72,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 69,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "address_1": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 76,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "address_2": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "address_3": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "city": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 72,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "state": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 4,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "zip": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 71,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "county": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 65,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "phone": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 74,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "type": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 13,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "owner": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 27,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "emergency_service": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 6,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "condition": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 28,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "measure_code": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 54,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "measure_name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 64,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "score": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 69,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "sample": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 334,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "state_average": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 74,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/tax/clean.csv": {
+    "rows": 200000,
+    "columns": 15,
+    "schema": [
+      "f_name",
+      "l_name",
+      "gender",
+      "area_code",
+      "phone",
+      "city",
+      "state",
+      "zip",
+      "marital_status",
+      "has_child",
+      "salary",
+      "rate",
+      "single_exemp",
+      "married_exemp",
+      "child_exemp"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "f_name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 10000,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "l_name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 10000,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "gender": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "area_code": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 273,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "phone": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 197555,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "city": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 17829,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "state": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 52,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "zip": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 39069,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "marital_status": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "has_child": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "salary": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 20,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "rate": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 279,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "single_exemp": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 28,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "married_exemp": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 28,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "child_exemp": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 26,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/tax/dirty.csv": {
+    "rows": 200000,
+    "columns": 15,
+    "schema": [
+      "f_name",
+      "l_name",
+      "gender",
+      "area_code",
+      "phone",
+      "city",
+      "state",
+      "zip",
+      "marital_status",
+      "has_child",
+      "salary",
+      "rate",
+      "single_exemp",
+      "married_exemp",
+      "child_exemp"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "f_name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 10000,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "l_name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 10000,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "gender": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "area_code": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 273,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "phone": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 197555,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "city": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 17858,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "state": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 53,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "zip": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 39062,
+        "unique": false,
+        "leading_zero_count": 31311
+      },
+      "marital_status": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "has_child": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "salary": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 20,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "rate": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 279,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "single_exemp": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 29,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "married_exemp": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 28,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "child_exemp": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 27,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/rayyan/clean.csv": {
+    "rows": 1000,
+    "columns": 11,
+    "schema": [
+      "id",
+      "article_title",
+      "article_language",
+      "journal_title",
+      "jounral_abbreviation",
+      "journal_issn",
+      "article_jvolumn",
+      "article_jissue",
+      "article_jcreated_at",
+      "article_pagination",
+      "author_list"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1000,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "article_title": {
+        "storage_type": "string",
+        "empty": 1,
+        "literal_tokens": {},
+        "distinct": 1000,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "article_language": {
+        "storage_type": "string",
+        "empty": 358,
+        "literal_tokens": {},
+        "distinct": 34,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "journal_title": {
+        "storage_type": "string",
+        "empty": 208,
+        "literal_tokens": {},
+        "distinct": 718,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "jounral_abbreviation": {
+        "storage_type": "string",
+        "empty": 529,
+        "literal_tokens": {},
+        "distinct": 423,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "journal_issn": {
+        "storage_type": "string",
+        "empty": 316,
+        "literal_tokens": {},
+        "distinct": 616,
+        "unique": false,
+        "leading_zero_count": 241
+      },
+      "article_jvolumn": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "-1": 20
+        },
+        "distinct": 189,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "article_jissue": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "-1": 50
+        },
+        "distinct": 41,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "article_jcreated_at": {
+        "storage_type": "string",
+        "empty": 87,
+        "literal_tokens": {},
+        "distinct": 262,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "article_pagination": {
+        "storage_type": "string",
+        "empty": 108,
+        "literal_tokens": {},
+        "distinct": 871,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "author_list": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 937,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/rayyan/dirty.csv": {
+    "rows": 1000,
+    "columns": 11,
+    "schema": [
+      "id",
+      "article_title",
+      "article_language",
+      "journal_title",
+      "jounral_abbreviation",
+      "journal_issn",
+      "article_jvolumn",
+      "article_jissue",
+      "article_jcreated_at",
+      "article_pagination",
+      "author_list"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1000,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "article_title": {
+        "storage_type": "string",
+        "empty": 1,
+        "literal_tokens": {},
+        "distinct": 1000,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "article_language": {
+        "storage_type": "string",
+        "empty": 358,
+        "literal_tokens": {},
+        "distinct": 34,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "journal_title": {
+        "storage_type": "string",
+        "empty": 208,
+        "literal_tokens": {},
+        "distinct": 718,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "jounral_abbreviation": {
+        "storage_type": "string",
+        "empty": 529,
+        "literal_tokens": {},
+        "distinct": 423,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "journal_issn": {
+        "storage_type": "string",
+        "empty": 316,
+        "literal_tokens": {},
+        "distinct": 616,
+        "unique": false,
+        "leading_zero_count": 241
+      },
+      "article_jvolumn": {
+        "storage_type": "string",
+        "empty": 22,
+        "literal_tokens": {},
+        "distinct": 189,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "article_jissue": {
+        "storage_type": "string",
+        "empty": 53,
+        "literal_tokens": {},
+        "distinct": 41,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "article_jcreated_at": {
+        "storage_type": "string",
+        "empty": 87,
+        "literal_tokens": {},
+        "distinct": 263,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "article_pagination": {
+        "storage_type": "string",
+        "empty": 108,
+        "literal_tokens": {},
+        "distinct": 872,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "author_list": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 937,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/movies_1/clean.csv": {
+    "rows": 7390,
+    "columns": 17,
+    "schema": [
+      "Id",
+      "Name",
+      "Year",
+      "Release Date",
+      "Director",
+      "Creator",
+      "Actors",
+      "Cast",
+      "Language",
+      "Country",
+      "Duration",
+      "RatingValue",
+      "RatingCount",
+      "ReviewCount",
+      "Genre",
+      "Filming Locations",
+      "Description"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "Id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 7390,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "Name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 7198,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Year": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 107,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Release Date": {
+        "storage_type": "string",
+        "empty": 128,
+        "literal_tokens": {},
+        "distinct": 4796,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Director": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 3723,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Creator": {
+        "storage_type": "string",
+        "empty": 216,
+        "literal_tokens": {},
+        "distinct": 6171,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Actors": {
+        "storage_type": "string",
+        "empty": 75,
+        "literal_tokens": {},
+        "distinct": 7214,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Cast": {
+        "storage_type": "string",
+        "empty": 75,
+        "literal_tokens": {},
+        "distinct": 7308,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Language": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 502,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Country": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 400,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Duration": {
+        "storage_type": "string",
+        "empty": 302,
+        "literal_tokens": {},
+        "distinct": 163,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "RatingValue": {
+        "storage_type": "string",
+        "empty": 232,
+        "literal_tokens": {},
+        "distinct": 83,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "RatingCount": {
+        "storage_type": "string",
+        "empty": 232,
+        "literal_tokens": {},
+        "distinct": 5903,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "ReviewCount": {
+        "storage_type": "string",
+        "empty": 356,
+        "literal_tokens": {},
+        "distinct": 5293,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Genre": {
+        "storage_type": "string",
+        "empty": 18,
+        "literal_tokens": {},
+        "distinct": 637,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Filming Locations": {
+        "storage_type": "string",
+        "empty": 1046,
+        "literal_tokens": {},
+        "distinct": 3191,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Description": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 7261,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/BigDaMa__raha/datasets/movies_1/dirty.csv": {
+    "rows": 7390,
+    "columns": 17,
+    "schema": [
+      "id",
+      "name",
+      "year",
+      "release_date",
+      "director",
+      "creator",
+      "actors",
+      "full_cast",
+      "language",
+      "country",
+      "duration",
+      "rating_value",
+      "rating_count",
+      "review_count",
+      "genre",
+      "filming_locations",
+      "description"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "id": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 7390,
+        "unique": true,
+        "leading_zero_count": 0
+      },
+      "name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 7199,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "year": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 167,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "release_date": {
+        "storage_type": "string",
+        "empty": 128,
+        "literal_tokens": {},
+        "distinct": 4900,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "director": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 3746,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "creator": {
+        "storage_type": "string",
+        "empty": 221,
+        "literal_tokens": {},
+        "distinct": 6174,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "actors": {
+        "storage_type": "string",
+        "empty": 75,
+        "literal_tokens": {},
+        "distinct": 7214,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "full_cast": {
+        "storage_type": "string",
+        "empty": 75,
+        "literal_tokens": {},
+        "distinct": 7308,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "language": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 502,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "country": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 400,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "duration": {
+        "storage_type": "string",
+        "empty": 382,
+        "literal_tokens": {},
+        "distinct": 214,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "rating_value": {
+        "storage_type": "string",
+        "empty": 254,
+        "literal_tokens": {},
+        "distinct": 228,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "rating_count": {
+        "storage_type": "string",
+        "empty": 232,
+        "literal_tokens": {},
+        "distinct": 5903,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "review_count": {
+        "storage_type": "string",
+        "empty": 356,
+        "literal_tokens": {},
+        "distinct": 5293,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "genre": {
+        "storage_type": "string",
+        "empty": 18,
+        "literal_tokens": {},
+        "distinct": 717,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "filming_locations": {
+        "storage_type": "string",
+        "empty": 1046,
+        "literal_tokens": {},
+        "distinct": 3191,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "description": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 7263,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/HoloClean__holoclean/testdata/hospital.csv": {
+    "rows": 1000,
+    "columns": 19,
+    "schema": [
+      "ProviderNumber",
+      "HospitalName",
+      "Address1",
+      "Address2",
+      "Address3",
+      "City",
+      "State",
+      "ZipCode",
+      "CountyName",
+      "PhoneNumber",
+      "HospitalType",
+      "HospitalOwner",
+      "EmergencyService",
+      "Condition",
+      "MeasureCode",
+      "MeasureName",
+      "Score",
+      "Sample",
+      "Stateavg"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "ProviderNumber": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 72,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "HospitalName": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 69,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Address1": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 76,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Address2": {
+        "storage_type": "string",
+        "empty": 1000,
+        "literal_tokens": {},
+        "distinct": 1,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Address3": {
+        "storage_type": "string",
+        "empty": 1000,
+        "literal_tokens": {},
+        "distinct": 1,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "City": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 72,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "State": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 4,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "ZipCode": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 71,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "CountyName": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 65,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "PhoneNumber": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 74,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "HospitalType": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 13,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "HospitalOwner": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 27,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "EmergencyService": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 6,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Condition": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 28,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "MeasureCode": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 54,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "MeasureName": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 64,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Score": {
+        "storage_type": "string",
+        "empty": 167,
+        "literal_tokens": {},
+        "distinct": 69,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Sample": {
+        "storage_type": "string",
+        "empty": 60,
+        "literal_tokens": {},
+        "distinct": 334,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Stateavg": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 74,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/HoloClean__holoclean/testdata/hospital_clean.csv": {
+    "rows": 19000,
+    "columns": 3,
+    "schema": [
+      "tid",
+      "attribute",
+      "correct_val"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "tid": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 1000,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "attribute": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 19,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "correct_val": {
+        "storage_type": "string",
+        "empty": 2227,
+        "literal_tokens": {},
+        "distinct": 777,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/HoloClean__holoclean/testdata/flight.csv": {
+    "rows": 57246,
+    "columns": 8,
+    "schema": [
+      "src",
+      "flight",
+      "scheduled_dept",
+      "actual_dept",
+      "dept_gate",
+      "scheduled_arrival",
+      "actual_arrival",
+      "arrival_gate"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "src": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 37,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "flight": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2314,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "scheduled_dept": {
+        "storage_type": "string",
+        "empty": 18146,
+        "literal_tokens": {},
+        "distinct": 12648,
+        "unique": false,
+        "leading_zero_count": 3351
+      },
+      "actual_dept": {
+        "storage_type": "string",
+        "empty": 7116,
+        "literal_tokens": {},
+        "distinct": 17477,
+        "unique": false,
+        "leading_zero_count": 2907
+      },
+      "dept_gate": {
+        "storage_type": "string",
+        "empty": 33144,
+        "literal_tokens": {},
+        "distinct": 1253,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "scheduled_arrival": {
+        "storage_type": "string",
+        "empty": 17793,
+        "literal_tokens": {},
+        "distinct": 14962,
+        "unique": false,
+        "leading_zero_count": 3282
+      },
+      "actual_arrival": {
+        "storage_type": "string",
+        "empty": 7183,
+        "literal_tokens": {},
+        "distinct": 19012,
+        "unique": false,
+        "leading_zero_count": 2976
+      },
+      "arrival_gate": {
+        "storage_type": "string",
+        "empty": 33006,
+        "literal_tokens": {},
+        "distinct": 1282,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/HoloClean__holoclean/testdata/flight_clean.csv": {
+    "rows": 13884,
+    "columns": 3,
+    "schema": [
+      "tid",
+      "attribute",
+      "correct_val"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "tid": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 2314,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "attribute": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 6,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "correct_val": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 8172,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/calgo-lab__error-paper/data/restaurant/clean.csv": {
+    "rows": 864,
+    "columns": 6,
+    "schema": [
+      "name",
+      "addr",
+      "city",
+      "phone",
+      "type",
+      "class"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 776,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "addr": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 772,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "city": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 49,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "phone": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 857,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "type": {
+        "storage_type": "string",
+        "empty": 1,
+        "literal_tokens": {},
+        "distinct": 84,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "class": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 752,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/calgo-lab__error-paper/data/restaurant/restaurant_3_1.csv": {
+    "rows": 864,
+    "columns": 6,
+    "schema": [
+      "name",
+      "addr",
+      "city",
+      "phone",
+      "type",
+      "class"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "name": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 776,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "addr": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 772,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "city": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 32
+        },
+        "distinct": 50,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "phone": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 39
+        },
+        "distinct": 821,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "type": {
+        "storage_type": "string",
+        "empty": 1,
+        "literal_tokens": {
+          "?": 54
+        },
+        "distinct": 80,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "class": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 30
+        },
+        "distinct": 730,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/calgo-lab__error-paper/data/cars/clean.csv": {
+    "rows": 406,
+    "columns": 9,
+    "schema": [
+      "Car",
+      "MPG",
+      "Cylinders",
+      "Displacement",
+      "Horsepower",
+      "Weight",
+      "Acceleration",
+      "Model",
+      "Origin"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "Car": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 308,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "MPG": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 130,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Cylinders": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 5,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Displacement": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 83,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Horsepower": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 94,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Weight": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 356,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Acceleration": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 96,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Model": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 13,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Origin": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 3,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  },
+  "data/raw/calgo-lab__error-paper/data/cars/cars_3_1.csv": {
+    "rows": 406,
+    "columns": 9,
+    "schema": [
+      "Car",
+      "MPG",
+      "Cylinders",
+      "Displacement",
+      "Horsepower",
+      "Weight",
+      "Acceleration",
+      "Model",
+      "Origin"
+    ],
+    "duplicate_rows": 0,
+    "fields": {
+      "Car": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 308,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "MPG": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {},
+        "distinct": 130,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Cylinders": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 16
+        },
+        "distinct": 6,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Displacement": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 16
+        },
+        "distinct": 82,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Horsepower": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 18
+        },
+        "distinct": 94,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Weight": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 15
+        },
+        "distinct": 346,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Acceleration": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 12
+        },
+        "distinct": 96,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Model": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 16
+        },
+        "distinct": 14,
+        "unique": false,
+        "leading_zero_count": 0
+      },
+      "Origin": {
+        "storage_type": "string",
+        "empty": 0,
+        "literal_tokens": {
+          "?": 17
+        },
+        "distinct": 4,
+        "unique": false,
+        "leading_zero_count": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "repository": "oosterbaanvu/masterthesis2",
+    "branch": "codex/thesis-integrated-research-pilot",
+    "sha": "0dcf2c3cb7f0c1ddb0666ebd83e70fb255946af6",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/oosterbaanvu__masterthesis2'...\n",
+    "path": "/workspace/research_sources/oosterbaanvu__masterthesis2"
+  },
+  {
+    "repository": "oosterbaanvu/masterthesis3",
+    "branch": null,
+    "sha": "a59b684617981285a4a8d2ad992e403e5217a601",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/oosterbaanvu__masterthesis3'...\n",
+    "path": "/workspace/research_sources/oosterbaanvu__masterthesis3"
+  },
+  {
+    "repository": "oosterbaanvu/masterthesis",
+    "branch": null,
+    "sha": "5a088ccaaa8812e9f672d5b6bd9a96e5265ff243",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/oosterbaanvu__masterthesis'...\n",
+    "path": "/workspace/research_sources/oosterbaanvu__masterthesis"
+  },
+  {
+    "repository": "oosterbaanvu/masterthesis_direction2_pilot",
+    "branch": "codex/free-model-execution",
+    "sha": "81941d94a07bb70bf47478c6dfb85b062888551e",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/oosterbaanvu__masterthesis_direction2_pilot'...\n",
+    "path": "/workspace/research_sources/oosterbaanvu__masterthesis_direction2_pilot"
+  },
+  {
+    "repository": "BigDaMa/raha",
+    "branch": null,
+    "sha": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "returncode": 0,
+    "log": " (1059/2206)\nUpdating files:  49% (1081/2206)\nUpdating files:  50% (1103/2206)\nUpdating files:  50% (1122/2206)\nUpdating files:  51% (1126/2206)\nUpdating files:  52% (1148/2206)\nUpdating files:  53% (1170/2206)\nUpdating files:  54% (1192/2206)\nUpdating files:  55% (1214/2206)\nUpdating files:  56% (1236/2206)\nUpdating files:  57% (1258/2206)\nUpdating files:  58% (1280/2206)\nUpdating files:  59% (1302/2206)\nUpdating files:  59% (1323/2206)\nUpdating files:  60% (1324/2206)\nUpdating files:  61% (1346/2206)\nUpdating files:  62% (1368/2206)\nUpdating files:  62% (1374/2206)\nUpdating files:  63% (1390/2206)\nUpdating files:  64% (1412/2206)\nUpdating files:  65% (1434/2206)\nUpdating files:  66% (1456/2206)\nUpdating files:  67% (1479/2206)\nUpdating files:  68% (1501/2206)\nUpdating files:  69% (1523/2206)\nUpdating files:  70% (1545/2206)\nUpdating files:  71% (1567/2206)\nUpdating files:  72% (1589/2206)\nUpdating files:  73% (1611/2206)\nUpdating files:  74% (1633/2206)\nUpdating files:  75% (1655/2206)\nUpdating files:  76% (1677/2206)\nUpdating files:  77% (1699/2206)\nUpdating files:  77% (1716/2206)\nUpdating files:  78% (1721/2206)\nUpdating files:  79% (1743/2206)\nUpdating files:  80% (1765/2206)\nUpdating files:  81% (1787/2206)\nUpdating files:  82% (1809/2206)\nUpdating files:  83% (1831/2206)\nUpdating files:  84% (1854/2206)\nUpdating files:  85% (1876/2206)\nUpdating files:  86% (1898/2206)\nUpdating files:  87% (1920/2206)\nUpdating files:  88% (1942/2206)\nUpdating files:  89% (1964/2206)\nUpdating files:  89% (1977/2206)\nUpdating files:  90% (1986/2206)\nUpdating files:  91% (2008/2206)\nUpdating files:  91% (2018/2206)\nUpdating files:  92% (2030/2206)\nUpdating files:  93% (2052/2206)\nUpdating files:  94% (2074/2206)\nUpdating files:  95% (2096/2206)\nUpdating files:  96% (2118/2206)\nUpdating files:  97% (2140/2206)\nUpdating files:  98% (2162/2206)\nUpdating files:  99% (2184/2206)\nUpdating files:  99% (2198/2206)\nUpdating files: 100% (2206/2206)\nUpdating files: 100% (2206/2206), done.\n",
+    "path": "/workspace/research_sources/BigDaMa__raha"
+  },
+  {
+    "repository": "HoloClean/holoclean",
+    "branch": null,
+    "sha": "d4f5929a8e4d92d4f41eb058c04c96cdcb0af767",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/HoloClean__holoclean'...\n",
+    "path": "/workspace/research_sources/HoloClean__holoclean"
+  },
+  {
+    "repository": "qixuchen/AutoTest",
+    "branch": null,
+    "sha": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+    "returncode": 0,
+    "log": "104/273)\nUpdating files:  39% (107/273)\nUpdating files:  40% (110/273)\nUpdating files:  41% (112/273)\nUpdating files:  42% (115/273)\nUpdating files:  43% (118/273)\nUpdating files:  44% (121/273)\nUpdating files:  45% (123/273)\nUpdating files:  46% (126/273)\nUpdating files:  47% (129/273)\nUpdating files:  48% (132/273)\nUpdating files:  49% (134/273)\nUpdating files:  50% (137/273)\nUpdating files:  51% (140/273)\nUpdating files:  52% (142/273)\nUpdating files:  53% (145/273)\nUpdating files:  54% (148/273)\nUpdating files:  55% (151/273)\nUpdating files:  56% (153/273)\nUpdating files:  57% (156/273)\nUpdating files:  58% (159/273)\nUpdating files:  59% (162/273)\nUpdating files:  60% (164/273)\nUpdating files:  61% (167/273)\nUpdating files:  62% (170/273)\nUpdating files:  63% (172/273)\nUpdating files:  64% (175/273)\nUpdating files:  65% (178/273)\nUpdating files:  66% (181/273)\nUpdating files:  67% (183/273)\nUpdating files:  68% (186/273)\nUpdating files:  69% (189/273)\nUpdating files:  70% (192/273)\nUpdating files:  71% (194/273)\nUpdating files:  72% (197/273)\nUpdating files:  73% (200/273)\nUpdating files:  74% (203/273)\nUpdating files:  75% (205/273)\nUpdating files:  76% (208/273)\nUpdating files:  77% (211/273)\nUpdating files:  78% (213/273)\nUpdating files:  79% (216/273)\nUpdating files:  80% (219/273)\nUpdating files:  81% (222/273)\nUpdating files:  82% (224/273)\nUpdating files:  83% (227/273)\nUpdating files:  84% (230/273)\nUpdating files:  85% (233/273)\nUpdating files:  85% (234/273)\nUpdating files:  86% (235/273)\nUpdating files:  87% (238/273)\nUpdating files:  88% (241/273)\nUpdating files:  89% (243/273)\nUpdating files:  90% (246/273)\nUpdating files:  91% (249/273)\nUpdating files:  92% (252/273)\nUpdating files:  93% (254/273)\nUpdating files:  94% (257/273)\nUpdating files:  95% (260/273)\nUpdating files:  96% (263/273)\nUpdating files:  97% (265/273)\nUpdating files:  98% (268/273)\nUpdating files:  99% (271/273)\nUpdating files: 100% (273/273)\nUpdating files: 100% (273/273), done.\n",
+    "path": "/workspace/research_sources/qixuchen__AutoTest"
+  },
+  {
+    "repository": "mohamedyd/rein-benchmark",
+    "branch": null,
+    "sha": "b8a0727fdeb6d295eb88c702a344093a1d9096d1",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/mohamedyd__rein-benchmark'...\n",
+    "path": "/workspace/research_sources/mohamedyd__rein-benchmark"
+  },
+  {
+    "repository": "se-jaeger/conformal-data-cleaning",
+    "branch": null,
+    "sha": "fd8a2126c9626099f3d45511fd05d30af8de6b64",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/se-jaeger__conformal-data-cleaning'...\n",
+    "path": "/workspace/research_sources/se-jaeger__conformal-data-cleaning"
+  },
+  {
+    "repository": "cpitclaudel/dBoost",
+    "branch": null,
+    "sha": "a47cb564e900c3e5220413f810e810b00046d561",
+    "returncode": 0,
+    "log": "Cloning into '/workspace/research_sources/cpitclaudel__dBoost'...\n",
+    "path": "/workspace/research_sources/cpitclaudel__dBoost"
+  }
+]

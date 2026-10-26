@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://archive.ics.uci.edu/static/public/350/default+of+credit+card+clients.zip",
+    "bytes": 5539494,
+    "path": "data/recovery_downloads/default+of+credit+card+clients.zip"
+  },
+  {
+    "url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+    "bytes": 1023843,
+    "path": "data/recovery_downloads/bank+marketing.zip"
+  },
+  {
+    "url": "https://www.researchgate.net/publication/382496079_Datasets_of_REIN_Benchmark",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

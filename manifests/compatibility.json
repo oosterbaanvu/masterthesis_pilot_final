@@ -1,0 +1,682 @@
+[
+  {
+    "dataset": "raha_beers",
+    "label_type": "published_reference_exploratory",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "raha_beers",
+    "label_type": "published_reference_exploratory",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "raha_beers",
+    "label_type": "published_reference_exploratory",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "raha_beers",
+    "label_type": "published_reference_exploratory",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_beers",
+    "label_type": "published_reference_exploratory",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_flights",
+    "label_type": "published_reference_exploratory",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "raha_flights",
+    "label_type": "published_reference_exploratory",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "raha_flights",
+    "label_type": "published_reference_exploratory",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "raha_flights",
+    "label_type": "published_reference_exploratory",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_flights",
+    "label_type": "published_reference_exploratory",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_hospital",
+    "label_type": "synthetic_secondary",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "raha_hospital",
+    "label_type": "synthetic_secondary",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "raha_hospital",
+    "label_type": "synthetic_secondary",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "raha_hospital",
+    "label_type": "synthetic_secondary",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_hospital",
+    "label_type": "synthetic_secondary",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_movies_1",
+    "label_type": "published_reference_exploratory",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "raha_movies_1",
+    "label_type": "published_reference_exploratory",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "raha_movies_1",
+    "label_type": "published_reference_exploratory",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "raha_movies_1",
+    "label_type": "published_reference_exploratory",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_movies_1",
+    "label_type": "published_reference_exploratory",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_rayyan",
+    "label_type": "published_reference_exploratory",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "raha_rayyan",
+    "label_type": "published_reference_exploratory",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "raha_rayyan",
+    "label_type": "published_reference_exploratory",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "raha_rayyan",
+    "label_type": "published_reference_exploratory",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_rayyan",
+    "label_type": "published_reference_exploratory",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_tax",
+    "label_type": "synthetic_secondary",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "raha_tax",
+    "label_type": "synthetic_secondary",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "raha_tax",
+    "label_type": "synthetic_secondary",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "raha_tax",
+    "label_type": "synthetic_secondary",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_tax",
+    "label_type": "synthetic_secondary",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_toy",
+    "label_type": "published_reference_exploratory",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "raha_toy",
+    "label_type": "published_reference_exploratory",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "raha_toy",
+    "label_type": "published_reference_exploratory",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "raha_toy",
+    "label_type": "published_reference_exploratory",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "raha_toy",
+    "label_type": "published_reference_exploratory",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "cars",
+    "label_type": "synthetic_secondary",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "cars",
+    "label_type": "synthetic_secondary",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "cars",
+    "label_type": "synthetic_secondary",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "cars",
+    "label_type": "synthetic_secondary",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "cars",
+    "label_type": "synthetic_secondary",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "restaurant",
+    "label_type": "synthetic_secondary",
+    "method": "cdc",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Clean historical training/calibration required for published guarantees, not supplied by these pairs; not executable fairly on dirty-only track"
+  },
+  {
+    "dataset": "restaurant",
+    "label_type": "synthetic_secondary",
+    "method": "dboost",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Dirty transductive fit possible; native minimal CLI only outputs row IDs; validated cell adapter required"
+  },
+  {
+    "dataset": "restaurant",
+    "label_type": "synthetic_secondary",
+    "method": "raha",
+    "status": "CONDITIONAL",
+    "target_unit": "cell",
+    "reason": "Separate labelled-reference budget; no evaluator clean-path shortcut permitted"
+  },
+  {
+    "dataset": "restaurant",
+    "label_type": "synthetic_secondary",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "restaurant",
+    "label_type": "synthetic_secondary",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rt_bench",
+    "label_type": "published_column_value",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rt_bench",
+    "label_type": "published_column_value",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rt_bench",
+    "label_type": "published_column_value",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rt_bench",
+    "label_type": "published_column_value",
+    "method": "autotest_sdc",
+    "status": "CONDITIONAL",
+    "target_unit": "column_value",
+    "reason": "Pretrained artefact and dependency/runtime provenance, rights and contamination audit required"
+  },
+  {
+    "dataset": "rt_bench",
+    "label_type": "published_column_value",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "st_bench",
+    "label_type": "published_column_value",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "st_bench",
+    "label_type": "published_column_value",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "st_bench",
+    "label_type": "published_column_value",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "st_bench",
+    "label_type": "published_column_value",
+    "method": "autotest_sdc",
+    "status": "CONDITIONAL",
+    "target_unit": "column_value",
+    "reason": "Pretrained artefact and dependency/runtime provenance, rights and contamination audit required"
+  },
+  {
+    "dataset": "st_bench",
+    "label_type": "published_column_value",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "column_value",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_credit",
+    "label_type": "controlled_injection_only",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_credit",
+    "label_type": "controlled_injection_only",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_credit",
+    "label_type": "controlled_injection_only",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_credit",
+    "label_type": "controlled_injection_only",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_credit",
+    "label_type": "controlled_injection_only",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_bank",
+    "label_type": "controlled_injection_only",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_bank",
+    "label_type": "controlled_injection_only",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_bank",
+    "label_type": "controlled_injection_only",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_bank",
+    "label_type": "controlled_injection_only",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "uci_bank",
+    "label_type": "controlled_injection_only",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "cell after future logged injections",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_hospital",
+    "label_type": "unresolved",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_hospital",
+    "label_type": "unresolved",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_hospital",
+    "label_type": "unresolved",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_hospital",
+    "label_type": "unresolved",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_hospital",
+    "label_type": "unresolved",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_flight",
+    "label_type": "unresolved",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_flight",
+    "label_type": "unresolved",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_flight",
+    "label_type": "unresolved",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_flight",
+    "label_type": "unresolved",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_flight",
+    "label_type": "unresolved",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rein_14_datasets",
+    "label_type": "unresolved",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rein_14_datasets",
+    "label_type": "unresolved",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rein_14_datasets",
+    "label_type": "unresolved",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rein_14_datasets",
+    "label_type": "unresolved",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "rein_14_datasets",
+    "label_type": "unresolved",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_food_physicians",
+    "label_type": "unresolved",
+    "method": "cdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_food_physicians",
+    "label_type": "unresolved",
+    "method": "dboost",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_food_physicians",
+    "label_type": "unresolved",
+    "method": "raha",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_food_physicians",
+    "label_type": "unresolved",
+    "method": "autotest_sdc",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  },
+  {
+    "dataset": "holoclean_food_physicians",
+    "label_type": "unresolved",
+    "method": "isolation_forest",
+    "status": "INCOMPATIBLE",
+    "target_unit": "unresolved",
+    "reason": "Unqualified source or mismatched prediction unit"
+  }
+]

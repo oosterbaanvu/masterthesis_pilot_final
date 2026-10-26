@@ -1,0 +1,428 @@
+[
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/beers/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/beers/dirty.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/flights/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/flights/dirty.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/toy/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/toy/dirty.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/hospital/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/hospital/dirty.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/tax/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/tax/dirty.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/rayyan/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/rayyan/dirty.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/movies_1/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/BigDaMa__raha/datasets/movies_1/dirty.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/HoloClean__holoclean/testdata/hospital.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/HoloClean__holoclean/testdata/hospital_clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/HoloClean__holoclean/testdata/flight.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/HoloClean__holoclean/testdata/flight_clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/HoloClean__holoclean/testdata/hospital_constraints.txt",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/qixuchen__AutoTest/benchmarks/st_bench.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/qixuchen__AutoTest/benchmarks/rt_bench.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/qixuchen__AutoTest/benchmarks/benchmark_readme.md",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/calgo-lab__error-paper/README.md",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/calgo-lab__error-paper/data/restaurant/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/calgo-lab__error-paper/data/restaurant/restaurant_3_1.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/calgo-lab__error-paper/data/cars/clean.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/raw/calgo-lab__error-paper/data/cars/cars_3_1.csv",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/recovery_downloads/default+of+credit+card+clients.zip",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "integrity:data/recovery_downloads/bank+marketing.zip",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:raha_beers",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:raha_beers",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:raha_beers",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:raha_beers",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:raha_beers",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:raha_flights",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:raha_flights",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:raha_flights",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:raha_flights",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:raha_flights",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:raha_hospital",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:raha_hospital",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:raha_hospital",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:raha_hospital",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:raha_hospital",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:raha_movies_1",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:raha_movies_1",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:raha_movies_1",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:raha_movies_1",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:raha_movies_1",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:raha_rayyan",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:raha_rayyan",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:raha_rayyan",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:raha_rayyan",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:raha_rayyan",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:raha_tax",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:raha_tax",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:raha_tax",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:raha_tax",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:raha_tax",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:raha_toy",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:raha_toy",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:raha_toy",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:raha_toy",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:raha_toy",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:cars",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:cars",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:cars",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:cars",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:cars",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "raw_difference_recount:restaurant",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_conservation:restaurant",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "label_artifact_recount:restaurant",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_unearned_semantic_certification:restaurant",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "audit_sample_coordinates:restaurant",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "independent_column_recount:rt_bench",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "exact_exclusions:rt_bench",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "independent_column_recount:st_bench",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "exact_exclusions:st_bench",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "cross_benchmark_exact_header_value_overlap",
+    "status": "OBSERVED",
+    "details": 2,
+    "limitation": "Cannot check table identity or hidden training corpora using these fingerprints"
+  },
+  {
+    "check": "no_unqualified_primary_admission",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "matrix_complete",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "no_multicolumn_on_invented_rt_st_rows",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "experiment_hard_gate_closed",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "report_numbers:rt_bench",
+    "status": "PASSED",
+    "details": null
+  },
+  {
+    "check": "report_numbers:st_bench",
+    "status": "PASSED",
+    "details": null
+  }
+]

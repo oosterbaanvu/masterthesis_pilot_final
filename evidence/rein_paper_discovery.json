@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://openproceedings.org/2023/conf/edbt/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://openproceedings.org/2023/conf/edbt/edbt2023.html",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

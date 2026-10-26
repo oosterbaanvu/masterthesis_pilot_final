@@ -1,0 +1,166 @@
+{
+  "default+of+credit+card+clients.zip": {
+    "members": [
+      "default of credit card clients.xls"
+    ],
+    "archive_sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+    "error_labels": "NONE; outcome not DQ label",
+    "shape": [
+      30000,
+      25
+    ],
+    "columns": [
+      "ID",
+      "LIMIT_BAL",
+      "SEX",
+      "EDUCATION",
+      "MARRIAGE",
+      "AGE",
+      "PAY_0",
+      "PAY_2",
+      "PAY_3",
+      "PAY_4",
+      "PAY_5",
+      "PAY_6",
+      "BILL_AMT1",
+      "BILL_AMT2",
+      "BILL_AMT3",
+      "BILL_AMT4",
+      "BILL_AMT5",
+      "BILL_AMT6",
+      "PAY_AMT1",
+      "PAY_AMT2",
+      "PAY_AMT3",
+      "PAY_AMT4",
+      "PAY_AMT5",
+      "PAY_AMT6",
+      "default payment next month"
+    ],
+    "id_unique": true,
+    "duplicate_feature_rows": 56,
+    "empty_cells": 0,
+    "sheet": "Data",
+    "member": "default of credit card clients.xls",
+    "member_sha256": "30c6be3abd8dcfd3e6096c828bad8c2f011238620f5369220bd60cfc82700933"
+  },
+  "bank+marketing.zip": {
+    "members": [
+      "bank.zip",
+      "bank-additional.zip"
+    ],
+    "archive_sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+    "error_labels": "NONE; outcome not DQ label",
+    "shape": [
+      41188,
+      21
+    ],
+    "columns": [
+      "age",
+      "job",
+      "marital",
+      "education",
+      "default",
+      "housing",
+      "loan",
+      "contact",
+      "month",
+      "day_of_week",
+      "duration",
+      "campaign",
+      "pdays",
+      "previous",
+      "poutcome",
+      "emp.var.rate",
+      "cons.price.idx",
+      "cons.conf.idx",
+      "euribor3m",
+      "nr.employed",
+      "y"
+    ],
+    "duplicate_feature_rows": 12,
+    "empty_cells": 0,
+    "literal_unknown": 12718,
+    "member": "bank-additional.zip!bank-additional/bank-additional-full.csv",
+    "member_sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8"
+  },
+  "holoclean_hospital": {
+    "dirty_shape": [
+      1000,
+      19
+    ],
+    "reference_shape": [
+      19000,
+      3
+    ],
+    "reference_schema": [
+      "tid",
+      "attribute",
+      "correct_val"
+    ],
+    "dirty_schema": [
+      "ProviderNumber",
+      "HospitalName",
+      "Address1",
+      "Address2",
+      "Address3",
+      "City",
+      "State",
+      "ZipCode",
+      "CountyName",
+      "PhoneNumber",
+      "HospitalType",
+      "HospitalOwner",
+      "EmergencyService",
+      "Condition",
+      "MeasureCode",
+      "MeasureName",
+      "Score",
+      "Sample",
+      "Stateavg"
+    ],
+    "duplicate_reference_keys": 0,
+    "unknown_attributes": [],
+    "key_type": "zero-based row tid + attribute",
+    "tid_range": [
+      0,
+      999
+    ],
+    "coverage": 1.0,
+    "raha_dirty_equal_ignoring_index": false,
+    "raha_dirty_equal_after_explicit_empty_sentinel_mapping": true,
+    "raha_clean_matching_after_empty_mapping": 19000,
+    "raha_clean_matching_cells": 16773
+  },
+  "holoclean_flight": {
+    "dirty_shape": [
+      57246,
+      8
+    ],
+    "reference_shape": [
+      13884,
+      3
+    ],
+    "reference_schema": [
+      "tid",
+      "attribute",
+      "correct_val"
+    ],
+    "dirty_schema": [
+      "src",
+      "flight",
+      "scheduled_dept",
+      "actual_dept",
+      "dept_gate",
+      "scheduled_arrival",
+      "actual_arrival",
+      "arrival_gate"
+    ],
+    "duplicate_reference_keys": 0,
+    "unknown_attributes": [],
+    "key_type": "flight entity identifier + attribute, NOT integer row tid",
+    "entity_count": 2314,
+    "reference_entities": 2314,
+    "reference_entities_absent_from_dirty": 0,
+    "alignment_status": "ENTITY_JOIN_REQUIRED; not interchangeable with Raha row reference"
+  }
+}

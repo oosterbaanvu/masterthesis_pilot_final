@@ -1,0 +1,215 @@
+{
+  "pairs": [
+    {
+      "name": "raha_beers",
+      "shape": [
+        2410,
+        11
+      ],
+      "raw_differences": 4362,
+      "alignment_status": "POSITIONAL_WITH_ANCHORS"
+    },
+    {
+      "name": "raha_flights",
+      "shape": [
+        2376,
+        7
+      ],
+      "raw_differences": 4920,
+      "alignment_status": "POSITIONAL_WITH_ANCHORS"
+    },
+    {
+      "name": "raha_hospital",
+      "shape": [
+        1000,
+        20
+      ],
+      "raw_differences": 509,
+      "alignment_status": "POSITIONAL_WITH_ANCHORS"
+    },
+    {
+      "name": "raha_movies_1",
+      "shape": [
+        7390,
+        17
+      ],
+      "raw_differences": 7675,
+      "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN"
+    },
+    {
+      "name": "raha_rayyan",
+      "shape": [
+        1000,
+        11
+      ],
+      "raw_differences": 948,
+      "alignment_status": "POSITIONAL_WITH_ANCHORS"
+    },
+    {
+      "name": "raha_tax",
+      "shape": [
+        200000,
+        15
+      ],
+      "raw_differences": 121219,
+      "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN"
+    },
+    {
+      "name": "raha_toy",
+      "shape": [
+        6,
+        3
+      ],
+      "raw_differences": 4,
+      "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN"
+    },
+    {
+      "name": "cars",
+      "shape": [
+        406,
+        9
+      ],
+      "raw_differences": 820,
+      "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN"
+    },
+    {
+      "name": "restaurant",
+      "shape": [
+        864,
+        6
+      ],
+      "raw_differences": 155,
+      "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN"
+    }
+  ],
+  "columns": [
+    {
+      "name": "rt_bench",
+      "counts": {
+        "physical_records": 1048575,
+        "nonempty_columns": 1200,
+        "parsed_values_all_columns": 93291,
+        "published_positive_all_parsed": 41,
+        "debatable_all_parsed": 35,
+        "eligible_columns": 1194,
+        "eligible_values": 90934,
+        "published_positive": 41,
+        "published_debatable": 35,
+        "excluded_columns": 6,
+        "fully_empty_records": 1047375
+      },
+      "issues": [
+        {
+          "record_position": 97,
+          "index": "98",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 408,
+          "index": "409",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 622,
+          "index": "623",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 801,
+          "index": "802",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 1036,
+          "index": "1037",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 1187,
+          "index": "1188",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        }
+      ],
+      "duplicate_content_columns": 28
+    },
+    {
+      "name": "st_bench",
+      "counts": {
+        "physical_records": 1200,
+        "nonempty_columns": 1200,
+        "parsed_values_all_columns": 73096,
+        "published_positive_all_parsed": 47,
+        "debatable_all_parsed": 77,
+        "eligible_columns": 1193,
+        "eligible_values": 71719,
+        "published_positive": 45,
+        "published_debatable": 77,
+        "excluded_columns": 7
+      },
+      "issues": [
+        {
+          "record_position": 1001,
+          "index": "1002",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 1064,
+          "index": "1065",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 1082,
+          "index": "1083",
+          "problems": [
+            "dist_val: Missing list is unknown, not []"
+          ]
+        },
+        {
+          "record_position": 1132,
+          "index": "1133",
+          "problems": [
+            "ground_truth: Invalid list literal"
+          ]
+        },
+        {
+          "record_position": 1143,
+          "index": "1144",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        },
+        {
+          "record_position": 1164,
+          "index": "1165",
+          "problems": [
+            "dist_val: Missing list is unknown, not []"
+          ]
+        },
+        {
+          "record_position": 1177,
+          "index": "1178",
+          "problems": [
+            "DISTINCT_COUNT_MISMATCH"
+          ]
+        }
+      ],
+      "duplicate_content_columns": 12
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+[
+  {
+    "name": "raha_beers",
+    "shape": [
+      2410,
+      11
+    ],
+    "raw_differences": 4362,
+    "counts": {
+      "NOT_AN_ERROR": 22148,
+      "DEBATABLE_OR_UNCERTAIN": 4362
+    },
+    "differences_by_column": {
+      "ounces": {
+        "DEBATABLE_OR_UNCERTAIN": 2410
+      },
+      "ibu": {
+        "DEBATABLE_OR_UNCERTAIN": 1005
+      },
+      "abv": {
+        "DEBATABLE_OR_UNCERTAIN": 693
+      },
+      "city": {
+        "DEBATABLE_OR_UNCERTAIN": 127
+      },
+      "state": {
+        "DEBATABLE_OR_UNCERTAIN": 127
+      }
+    },
+    "identity": {
+      "index": {
+        "dirty_unique": true,
+        "reference_unique": true,
+        "positional_equal": true,
+        "changed": 0
+      },
+      "id": {
+        "dirty_unique": true,
+        "reference_unique": true,
+        "positional_equal": true,
+        "changed": 0
+      }
+    },
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 0,
+    "alignment_status": "POSITIONAL_WITH_ANCHORS",
+    "sample_count": 15,
+    "labels_sha256": "ed5cd70cdd7b1a954af725dbfc80fc5d3d7e92fef80c065af0b57a2bf2112577"
+  },
+  {
+    "name": "raha_flights",
+    "shape": [
+      2376,
+      7
+    ],
+    "raw_differences": 4920,
+    "counts": {
+      "NOT_AN_ERROR": 11712,
+      "DEBATABLE_OR_UNCERTAIN": 4920
+    },
+    "differences_by_column": {
+      "act_arr_time": {
+        "DEBATABLE_OR_UNCERTAIN": 1351
+      },
+      "act_dep_time": {
+        "DEBATABLE_OR_UNCERTAIN": 1558
+      },
+      "sched_arr_time": {
+        "DEBATABLE_OR_UNCERTAIN": 1100
+      },
+      "sched_dep_time": {
+        "DEBATABLE_OR_UNCERTAIN": 911
+      }
+    },
+    "identity": {
+      "tuple_id": {
+        "dirty_unique": true,
+        "reference_unique": true,
+        "positional_equal": true,
+        "changed": 0
+      }
+    },
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 0,
+    "alignment_status": "POSITIONAL_WITH_ANCHORS",
+    "sample_count": 12,
+    "labels_sha256": "c3cdca15b74a46095e61cf1142a1d479ca46a6203d87894224b1e658c86a42a7"
+  },
+  {
+    "name": "raha_hospital",
+    "shape": [
+      1000,
+      20
+    ],
+    "raw_differences": 509,
+    "counts": {
+      "NOT_AN_ERROR": 19491,
+      "DEBATABLE_OR_UNCERTAIN": 509
+    },
+    "differences_by_column": {
+      "measure_name": {
+        "DEBATABLE_OR_UNCERTAIN": 36
+      },
+      "city": {
+        "DEBATABLE_OR_UNCERTAIN": 33
+      },
+      "provider_number": {
+        "DEBATABLE_OR_UNCERTAIN": 28
+      },
+      "type": {
+        "DEBATABLE_OR_UNCERTAIN": 32
+      },
+      "sample": {
+        "DEBATABLE_OR_UNCERTAIN": 31
+      },
+      "condition": {
+        "DEBATABLE_OR_UNCERTAIN": 32
+      },
+      "owner": {
+        "DEBATABLE_OR_UNCERTAIN": 27
+      },
+      "phone": {
+        "DEBATABLE_OR_UNCERTAIN": 34
+      },
+      "emergency_service": {
+        "DEBATABLE_OR_UNCERTAIN": 27
+      },
+      "name": {
+        "DEBATABLE_OR_UNCERTAIN": 24
+      },
+      "state": {
+        "DEBATABLE_OR_UNCERTAIN": 26
+      },
+      "zip": {
+        "DEBATABLE_OR_UNCERTAIN": 30
+      },
+      "state_average": {
+        "DEBATABLE_OR_UNCERTAIN": 27
+      },
+      "address_1": {
+        "DEBATABLE_OR_UNCERTAIN": 31
+      },
+      "county": {
+        "DEBATABLE_OR_UNCERTAIN": 39
+      },
+      "measure_code": {
+        "DEBATABLE_OR_UNCERTAIN": 29
+      },
+      "score": {
+        "DEBATABLE_OR_UNCERTAIN": 23
+      }
+    },
+    "identity": {
+      "index": {
+        "dirty_unique": true,
+        "reference_unique": true,
+        "positional_equal": true,
+        "changed": 0
+      },
+      "name": {
+        "dirty_unique": false,
+        "reference_unique": false,
+        "positional_equal": false,
+        "changed": 24
+      }
+    },
+    "x_substitution_candidates": 508,
+    "generated_missingness_candidates": 0,
+    "alignment_status": "POSITIONAL_WITH_ANCHORS",
+    "sample_count": 51,
+    "labels_sha256": "bb6b40a9f51037186d2ad0f68d220681364e9fd035047b9c08b39a7ea8fde142"
+  },
+  {
+    "name": "raha_movies_1",
+    "shape": [
+      7390,
+      17
+    ],
+    "raw_differences": 7675,
+    "counts": {
+      "NOT_AN_ERROR": 117955,
+      "DEBATABLE_OR_UNCERTAIN": 7006,
+      "REPRESENTATION_ONLY": 669
+    },
+    "differences_by_column": {
+      "rating_count": {
+        "DEBATABLE_OR_UNCERTAIN": 5505
+      },
+      "rating_value": {
+        "REPRESENTATION_ONLY": 669,
+        "DEBATABLE_OR_UNCERTAIN": 187
+      },
+      "id": {
+        "DEBATABLE_OR_UNCERTAIN": 190
+      },
+      "year": {
+        "DEBATABLE_OR_UNCERTAIN": 190
+      },
+      "release_date": {
+        "DEBATABLE_OR_UNCERTAIN": 190
+      },
+      "director": {
+        "DEBATABLE_OR_UNCERTAIN": 43
+      },
+      "creator": {
+        "DEBATABLE_OR_UNCERTAIN": 129
+      },
+      "duration": {
+        "DEBATABLE_OR_UNCERTAIN": 187
+      },
+      "genre": {
+        "DEBATABLE_OR_UNCERTAIN": 180
+      },
+      "description": {
+        "DEBATABLE_OR_UNCERTAIN": 188
+      },
+      "name": {
+        "DEBATABLE_OR_UNCERTAIN": 17
+      }
+    },
+    "identity": {
+      "id": {
+        "dirty_unique": true,
+        "reference_unique": true,
+        "positional_equal": false,
+        "changed": 190
+      },
+      "name": {
+        "dirty_unique": false,
+        "reference_unique": false,
+        "positional_equal": false,
+        "changed": 17
+      }
+    },
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 0,
+    "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN",
+    "sample_count": 36,
+    "labels_sha256": "3012d850466d9fe977a3324d67885cb6bb0d939f03ac6cf5597943b4851cd86d"
+  },
+  {
+    "name": "raha_rayyan",
+    "shape": [
+      1000,
+      11
+    ],
+    "raw_differences": 948,
+    "counts": {
+      "NOT_AN_ERROR": 10052,
+      "DEBATABLE_OR_UNCERTAIN": 948
+    },
+    "differences_by_column": {
+      "article_jvolumn": {
+        "DEBATABLE_OR_UNCERTAIN": 22
+      },
+      "article_jissue": {
+        "DEBATABLE_OR_UNCERTAIN": 53
+      },
+      "article_jcreated_at": {
+        "DEBATABLE_OR_UNCERTAIN": 722
+      },
+      "author_list": {
+        "DEBATABLE_OR_UNCERTAIN": 84
+      },
+      "article_pagination": {
+        "DEBATABLE_OR_UNCERTAIN": 32
+      },
+      "journal_issn": {
+        "DEBATABLE_OR_UNCERTAIN": 12
+      },
+      "article_title": {
+        "DEBATABLE_OR_UNCERTAIN": 14
+      },
+      "journal_title": {
+        "DEBATABLE_OR_UNCERTAIN": 9
+      }
+    },
+    "identity": {
+      "id": {
+        "dirty_unique": true,
+        "reference_unique": true,
+        "positional_equal": true,
+        "changed": 0
+      }
+    },
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 0,
+    "alignment_status": "POSITIONAL_WITH_ANCHORS",
+    "sample_count": 24,
+    "labels_sha256": "edb10367c6885cd75b864b68d2f6ca6eeb2a843c93b49dc98dcd37d1b6085016"
+  },
+  {
+    "name": "raha_tax",
+    "shape": [
+      200000,
+      15
+    ],
+    "raw_differences": 121219,
+    "counts": {
+      "NOT_AN_ERROR": 2878781,
+      "DEBATABLE_OR_UNCERTAIN": 33877,
+      "REPRESENTATION_ONLY": 87342
+    },
+    "differences_by_column": {
+      "zip": {
+        "DEBATABLE_OR_UNCERTAIN": 31311
+      },
+      "rate": {
+        "REPRESENTATION_ONLY": 87342
+      },
+      "l_name": {
+        "DEBATABLE_OR_UNCERTAIN": 694
+      },
+      "f_name": {
+        "DEBATABLE_OR_UNCERTAIN": 272
+      },
+      "city": {
+        "DEBATABLE_OR_UNCERTAIN": 200
+      },
+      "has_child": {
+        "DEBATABLE_OR_UNCERTAIN": 200
+      },
+      "state": {
+        "DEBATABLE_OR_UNCERTAIN": 600
+      },
+      "marital_status": {
+        "DEBATABLE_OR_UNCERTAIN": 200
+      },
+      "child_exemp": {
+        "DEBATABLE_OR_UNCERTAIN": 200
+      },
+      "single_exemp": {
+        "DEBATABLE_OR_UNCERTAIN": 200
+      }
+    },
+    "identity": {},
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 0,
+    "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN",
+    "sample_count": 30,
+    "labels_sha256": "df6ca126803ae9d863593800aeee7c103a6a64f25e181d3ff6c5428c4c7b1c19"
+  },
+  {
+    "name": "raha_toy",
+    "shape": [
+      6,
+      3
+    ],
+    "raw_differences": 4,
+    "counts": {
+      "NOT_AN_ERROR": 14,
+      "DEBATABLE_OR_UNCERTAIN": 4
+    },
+    "differences_by_column": {
+      "Kingdom": {
+        "DEBATABLE_OR_UNCERTAIN": 4
+      }
+    },
+    "identity": {},
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 0,
+    "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN",
+    "sample_count": 3,
+    "labels_sha256": "bcff63374e88d5b74e5b00fd2f43820469a3e14c64228b39bd599ee24b638dbc"
+  },
+  {
+    "name": "cars",
+    "shape": [
+      406,
+      9
+    ],
+    "raw_differences": 820,
+    "counts": {
+      "NOT_AN_ERROR": 2834,
+      "REPRESENTATION_ONLY": 710,
+      "DEBATABLE_OR_UNCERTAIN": 110
+    },
+    "differences_by_column": {
+      "Weight": {
+        "REPRESENTATION_ONLY": 391,
+        "DEBATABLE_OR_UNCERTAIN": 15
+      },
+      "Acceleration": {
+        "DEBATABLE_OR_UNCERTAIN": 12,
+        "REPRESENTATION_ONLY": 1
+      },
+      "Horsepower": {
+        "REPRESENTATION_ONLY": 222,
+        "DEBATABLE_OR_UNCERTAIN": 18
+      },
+      "Model": {
+        "DEBATABLE_OR_UNCERTAIN": 16
+      },
+      "Origin": {
+        "DEBATABLE_OR_UNCERTAIN": 17
+      },
+      "Cylinders": {
+        "DEBATABLE_OR_UNCERTAIN": 16
+      },
+      "Displacement": {
+        "REPRESENTATION_ONLY": 96,
+        "DEBATABLE_OR_UNCERTAIN": 16
+      }
+    },
+    "identity": {
+      "Car": {
+        "dirty_unique": false,
+        "reference_unique": false,
+        "positional_equal": true,
+        "changed": 0
+      }
+    },
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 110,
+    "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN",
+    "sample_count": 31,
+    "labels_sha256": "94ba1014dc3f891129509e430d9c80a7c5ea7a742fc773f179c7ad65dfd16ddb"
+  },
+  {
+    "name": "restaurant",
+    "shape": [
+      864,
+      6
+    ],
+    "raw_differences": 155,
+    "counts": {
+      "NOT_AN_ERROR": 5029,
+      "DEBATABLE_OR_UNCERTAIN": 155
+    },
+    "differences_by_column": {
+      "class": {
+        "DEBATABLE_OR_UNCERTAIN": 30
+      },
+      "phone": {
+        "DEBATABLE_OR_UNCERTAIN": 39
+      },
+      "city": {
+        "DEBATABLE_OR_UNCERTAIN": 32
+      },
+      "type": {
+        "DEBATABLE_OR_UNCERTAIN": 54
+      }
+    },
+    "identity": {
+      "name": {
+        "dirty_unique": false,
+        "reference_unique": false,
+        "positional_equal": true,
+        "changed": 0
+      }
+    },
+    "x_substitution_candidates": 0,
+    "generated_missingness_candidates": 155,
+    "alignment_status": "POSITIONAL_ONLY_NOT_PROVEN",
+    "sample_count": 12,
+    "labels_sha256": "b040c0dcce1032d839a0f38fdd4c1845eea1b9c22ca9069d737d2e96969a7e34"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "repository": "calgo-lab/error-paper",
+    "revision": "b8950a91ba0d1488c4e3b053fdccde154644ddd6",
+    "source_path": "README.md",
+    "path": "data/raw/calgo-lab__error-paper/README.md",
+    "url": "https://raw.githubusercontent.com/calgo-lab/error-paper/b8950a91ba0d1488c4e3b053fdccde154644ddd6/README.md",
+    "bytes": 1767,
+    "sha256": "e9cd262eac69d8be384ed817fdcdcfcb71e2ed3feb6289062b81cde763d983b0",
+    "state": "FULL_FILE_ACQUIRED",
+    "rights": "Local audit only; upstream rights unresolved"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/calgo-lab/error-paper/b8950a91ba0d1488c4e3b053fdccde154644ddd6/LICENSE",
+    "state": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "calgo-lab/error-paper",
+    "revision": "b8950a91ba0d1488c4e3b053fdccde154644ddd6",
+    "source_path": "data/restaurant/clean.csv",
+    "path": "data/raw/calgo-lab__error-paper/data/restaurant/clean.csv",
+    "url": "https://raw.githubusercontent.com/calgo-lab/error-paper/b8950a91ba0d1488c4e3b053fdccde154644ddd6/data/restaurant/clean.csv",
+    "bytes": 63454,
+    "sha256": "4273d92fb4246732fabdc13b449786458d97995cd179780b6f7c6a756351d953",
+    "state": "FULL_FILE_ACQUIRED",
+    "rights": "Local audit only; upstream rights unresolved"
+  },
+  {
+    "repository": "calgo-lab/error-paper",
+    "revision": "b8950a91ba0d1488c4e3b053fdccde154644ddd6",
+    "source_path": "data/restaurant/restaurant_3_1.csv",
+    "path": "data/raw/calgo-lab__error-paper/data/restaurant/restaurant_3_1.csv",
+    "url": "https://raw.githubusercontent.com/calgo-lab/error-paper/b8950a91ba0d1488c4e3b053fdccde154644ddd6/data/restaurant/restaurant_3_1.csv",
+    "bytes": 62251,
+    "sha256": "13285f246daed35bffa7f1abf5cfcdc1069a4d73b196af017ffe2d3822191760",
+    "state": "FULL_FILE_ACQUIRED",
+    "rights": "Local audit only; upstream rights unresolved"
+  },
+  {
+    "repository": "calgo-lab/error-paper",
+    "revision": "b8950a91ba0d1488c4e3b053fdccde154644ddd6",
+    "source_path": "data/cars/clean.csv",
+    "path": "data/raw/calgo-lab__error-paper/data/cars/clean.csv",
+    "url": "https://raw.githubusercontent.com/calgo-lab/error-paper/b8950a91ba0d1488c4e3b053fdccde154644ddd6/data/cars/clean.csv",
+    "bytes": 22312,
+    "sha256": "29d0feff7af38acaea5a96d225fa4a213a057ed8f03614881be6abd42d1b553b",
+    "state": "FULL_FILE_ACQUIRED",
+    "rights": "Local audit only; upstream rights unresolved"
+  },
+  {
+    "repository": "calgo-lab/error-paper",
+    "revision": "b8950a91ba0d1488c4e3b053fdccde154644ddd6",
+    "source_path": "data/cars/cars_3_1.csv",
+    "path": "data/raw/calgo-lab__error-paper/data/cars/cars_3_1.csv",
+    "url": "https://raw.githubusercontent.com/calgo-lab/error-paper/b8950a91ba0d1488c4e3b053fdccde154644ddd6/data/cars/cars_3_1.csv",
+    "bytes": 21936,
+    "sha256": "c803f870e22539a69250ee36c79e91364217f32c07bbb53f289952d8e9be9ff7",
+    "state": "FULL_FILE_ACQUIRED",
+    "rights": "Local audit only; upstream rights unresolved"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "version": "0.1-audit-only",
+  "state": "PROVISIONAL_NOT_CONFIRMATORY",
+  "execution_allowed": false,
+  "gate_B": "NO_PRIMARY_PORTFOLIO_QUALIFIED",
+  "gate_C": "EXTENDED_BASELINE_AND_INFORMATION_PARITY_UNRESOLVED",
+  "gate_D": "NOVELTY_NOT_ESTABLISHED",
+  "primary_population": "Published unambiguous column-value labels, conditional on rights and eligibility; excludes debatable values from scoring but not review cost",
+  "primary_datasets": [],
+  "conditional_candidates": [
+    "rt_bench",
+    "st_bench"
+  ],
+  "seed": 20261026,
+  "budgets_per_1000_distinct_values": [
+    5,
+    10,
+    25
+  ],
+  "baseline_strengths": [
+    "basic_authoritative_schema",
+    "extended_training_only_statistical"
+  ],
+  "final_holdout": "NONE CLAIMED: public datasets already explored; acquire new source-held-out columns for confirmation",
+  "metrics": [
+    "precision_reference_relative",
+    "recall_reference_relative",
+    "f1",
+    "additional_reference_hits",
+    "additional_alerts",
+    "marginal_precision",
+    "lost_hits_at_equal_total_review_budget"
+  ],
+  "inference": "No cell or seed independence assumption; source/group cluster uncertainty only if source grouping is known",
+  "no_effect_is_valid": true
+}
