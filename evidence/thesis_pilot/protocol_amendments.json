@@ -1,0 +1,7 @@
+[
+  {
+    "version": "1.1",
+    "reason": "Declared four-field common modelling/evaluation scope, explicit Wine operational bounds, provenance and invalid-target abstentions. No thresholds or model choices changed after smoke outcomes.",
+    "invalidated": "Smoke scenarios superseded for full-grid claims; preserved under results/thesis_pilot/attempts/smoke_v1. Author-example parity retained."
+  }
+]

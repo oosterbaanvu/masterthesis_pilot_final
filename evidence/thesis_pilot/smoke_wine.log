@@ -1,0 +1,6 @@
+wine fitted dboost_text_original 1.01 seconds
+wine fitted dboost_numeric_original 1.1 seconds
+wine fitted lucario_original_history 3.76 seconds
+wine fitted contextual_extra_trees 0.55 seconds
+wine fitted cdc_original 11.33 seconds
+wine COMPLETED 12

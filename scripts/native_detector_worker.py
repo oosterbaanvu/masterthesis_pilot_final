@@ -89,10 +89,11 @@ def dispatch(req):
   return {'flags':flags.tolist(),'shape':list(flags.shape),'binary_only':True}
  raise ValueError(op)
 
-for line in sys.stdin:
- try:
-  req=json.loads(line)
-  with contextlib.redirect_stdout(sys.stderr):result=dispatch(req)
-  print(json.dumps({'ok':True,'result':result},allow_nan=False,default=lambda x:x.item() if hasattr(x,'item') else str(x)),flush=True)
- except Exception as e:
-  traceback.print_exc(file=sys.stderr);print(json.dumps({'ok':False,'error':repr(e)}),flush=True)
+if __name__=='__main__':
+ for line in sys.stdin:
+  try:
+   req=json.loads(line)
+   with contextlib.redirect_stdout(sys.stderr):result=dispatch(req)
+   print(json.dumps({'ok':True,'result':result},allow_nan=False,default=lambda x:x.item() if hasattr(x,'item') else str(x)),flush=True)
+  except Exception as e:
+   traceback.print_exc(file=sys.stderr);print(json.dumps({'ok':False,'error':repr(e)}),flush=True)

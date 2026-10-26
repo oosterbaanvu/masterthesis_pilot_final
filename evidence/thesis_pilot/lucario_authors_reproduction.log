@@ -1,0 +1,3 @@
+Constraint inference time for hospital: 0.342s
+hospital: 0.66 1.00 0.80
+{'source_revision': '3664bfa830b7b13f8a08cc7dd960c871c56aaeeb', 'dataset': 'authors released Hospital', 'shape': [1000, 20], 'cell_flags_equal': True, 'disagreements': 0, 'full_regex_inference_executed': True, 'type_categorical_numeric_application_executed': True, 'limitation': 'single fixture parity, no universal fidelity or data rights assertion'}

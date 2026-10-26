@@ -60,7 +60,7 @@ def run_dataset(name,smoke=False,selected=None):
       logpath=raw/(sid+'.json');logpath.write_text(json.dumps(logs,indent=2))
       recordmeta={'scenario':sid,'dataset':name,'family':case[0],'mechanism':mechanism,'rate':rate,'seed':seed,'target':case[1],'label_status':case[3]}
       metrics=evaluate_all(preds,original,truth,list(batch.index),targets,recordmeta)
-      saved={**recordmeta,'protocol_sha256':proto_hash,'code_sha256':codehash,'diagnostics':diagnostics,'predictions_sha256':shash(npz),'injection_log_sha256':shash(logpath),'injection_log':str(logpath.relative_to(ROOT)),'timing':times,'failures':failures,'seconds':time.perf_counter()-t,'metrics':metrics}
+      saved={**recordmeta,'protocol_sha256':proto_hash,'code_sha256':codehash,'diagnostics':diagnostics,'predictions_sha256':shash(npz),'injection_log_sha256':shash(logpath),'injection_log':str(logpath.relative_to(ROOT)),'timing':times,'failures':failures,'seconds':time.perf_counter()-t,'contextual_numeric_target_abstentions':int(sum(pd.to_numeric(changed[c],errors='coerce').isna().sum() for c in targets if c not in cat)),'metrics':metrics}
       result.write_text(json.dumps(saved,indent=2));count+=1
       if count%15==0:print(name,count,'scenarios completed',round(saved['seconds'],2),'sec latest',flush=True)
  finally:

@@ -1,15 +1,48 @@
 {
- "version":"1.0-exploratory", "frozen_before_results":true,
- "datasets":["credit","bank","wine"], "rates":[0.01,0.05,0.10],
- "mechanisms":["ECAR","EAR","ENAR"],"seeds":[101,202,303,404,505],
- "history_cap":2400,"evaluation_cap":800,
- "evaluated_target_columns":"four predeclared fields per source, models may use other approved source features",
- "methods":["dboost_text_original","dboost_numeric_original","lucario_original_history","contextual_extra_trees","cdc_original"],
- "scope":"source-group-disjoint exploratory, not new-source confirmatory",
- "budget_unit":"cell reviews; 10/25/50 cell reviews per 1000 batch rows; not row localization",
- "budget_policies":["control_first","equal_share"],
- "binary_ties":"fixed SHA-256 order of source row identity and target column, no labels",
- "precision_target":"reference-alteration precision among changed cells, never semantic false-positive rate on untouched cells",
- "no_op_rejected":true,"counterfactual_untouched_predictions":true,
- "policy":"No original outcome or clean-reference values in feature matrices; no tuning from evaluation injections. Unknown source correctness retained."
+  "version": "1.1-full-grid-after-engineering-smoke",
+  "frozen_before_results": true,
+  "datasets": [
+    "credit",
+    "bank",
+    "wine"
+  ],
+  "rates": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "mechanisms": [
+    "ECAR",
+    "EAR",
+    "ENAR"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "history_cap": 2400,
+  "evaluation_cap": 800,
+  "evaluated_target_columns": "four predeclared fields per source, models may use other approved source features",
+  "methods": [
+    "dboost_text_original",
+    "dboost_numeric_original",
+    "lucario_original_history",
+    "contextual_extra_trees",
+    "cdc_original"
+  ],
+  "scope": "source-group-disjoint exploratory, not new-source confirmatory",
+  "budget_unit": "cell reviews; 10/25/50 cell reviews per 1000 batch rows; not row localization",
+  "budget_policies": [
+    "control_first",
+    "equal_share"
+  ],
+  "binary_ties": "fixed SHA-256 order of source row identity and target column, no labels",
+  "precision_target": "reference-alteration precision among changed cells, never semantic false-positive rate on untouched cells",
+  "no_op_rejected": true,
+  "counterfactual_untouched_predictions": true,
+  "policy": "No original outcome or clean-reference values in feature matrices; no tuning from evaluation injections. Unknown source correctness retained.",
+  "amendment": "Declared four-field common modelling/evaluation scope, explicit Wine operational bounds, provenance and invalid-target abstentions. No thresholds or model choices changed after smoke outcomes."
 }

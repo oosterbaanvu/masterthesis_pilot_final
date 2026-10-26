@@ -25,6 +25,9 @@ def load(name):
  else:
   p=ROOT/'data/pilot_sources/wine.zip'
   with zipfile.ZipFile(p) as z:df=pd.read_csv(io.BytesIO(z.read('winequality-white.csv')),sep=';').drop(columns=['quality'])
+ expected_files=json.loads((ROOT/'manifests/files.json').read_text());expected={x['path']:x['sha256'] for x in expected_files}
+ if name=='wine':expected[str(p.relative_to(ROOT))]='3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4'
+ if shash(p)!=expected[str(p.relative_to(ROOT))]:raise ValueError('Source hash mismatch')
  for c in df:
   if c in SPECS[name]['categorical']:
    df[c]=df[c].map(lambda x:str(int(x)) if isinstance(x,(int,float)) and float(x).is_integer() else str(x))
@@ -57,7 +60,7 @@ def contracts(name,history):
     domains={'job':['admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown'],'marital':['divorced','married','single','unknown'],'education':['basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown'],'default':['no','yes','unknown'],'housing':['no','yes','unknown'],'loan':['no','yes','unknown'],'contact':['cellular','telephone'],'month':['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'],'day_of_week':['mon','tue','wed','thu','fri'],'poutcome':['failure','nonexistent','success']}
     x['domain']=domains[c];x['provenance']='DOCUMENTED_SOURCE_CONTRACT';x['evidence']='bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.'
   elif name=='wine':
-   x['bounds']=[0,14] if c=='pH' else ([0,100] if c=='alcohol' else [0,None]);x['bounds_provenance']='DOCUMENTED_SOURCE_CONTRACT';x['bounds_evidence']='Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention).'
+   x['bounds']=[0,14] if c=='pH' else ([0,100] if c=='alcohol' else [0,None]);x['bounds_provenance']='EXPLICIT_STIPULATED_CONTRACT';x['bounds_evidence']='Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention).'
   elif c in ['AGE','age','duration','previous','campaign','pdays']:
    x['bounds']=[0,None];x['bounds_provenance']='EXPLICIT_STIPULATED_CONTRACT';x['bounds_evidence']='Nonnegative count/age/duration convention; no arbitrary upper bound.'
   contracts[c]=x
