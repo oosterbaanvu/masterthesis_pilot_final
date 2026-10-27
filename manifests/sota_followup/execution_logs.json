@@ -1,0 +1,530 @@
+[
+  {
+    "path": "evidence/sota_followup/acquisition_replay.log",
+    "bytes": 2771,
+    "sha256": "65760814e38f5c4addaea712bf18a30c5c902c3e37ef5afa1f88f1d39ffd2600",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/audit_only_setup.log",
+    "bytes": 2698,
+    "sha256": "9371981addaa790a5a4f6265119cd6e5df7af21a91ff294f8e6c0bddf31093f2",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/audit_only_tests.log",
+    "bytes": 110,
+    "sha256": "be5f6bca41c525f4d0ab832fd8a05786ee1e3746d848713df2c58e1b099a3104",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest37_dataprep.log",
+    "bytes": 26145,
+    "sha256": "55c268804f7256d7a43411efbfcb5a221fd695d4be395cc46add0901e434f015",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest37_dependencies.log",
+    "bytes": 8383,
+    "sha256": "46e7e60e1d73c05e4e3eee2ab40710971431740e590e4d45b5cf1214be7788e0",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest37_neural_dependencies.log",
+    "bytes": 12334,
+    "sha256": "1361fb6775d481b7655394af1f00adec690f21f6e3d83025c4e0cc7ea9d018b0",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest37_neural_retry.log",
+    "bytes": 10945,
+    "sha256": "457eefc1d134d07f561512be8ac720e65c9a0fcd11e17abb7acf2ff87419986a",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest37_numpy_compatibility.log",
+    "bytes": 345,
+    "sha256": "98e9f373012ef33fef4c656676389111dcd25d2e212f57af3a7e5fc9de210f5c",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest37_offline_recovery.log",
+    "bytes": 408,
+    "sha256": "1b68e8cbcc3bdb8455bdb46e2904802edf72c21dfa59b3e83052ab3bbb1f0544",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest37_setup.log",
+    "bytes": 5868,
+    "sha256": "a4083658d066cfe693e577c369bcc00c5d16a3421a70bbaa3bd670ba5c4bf0a9",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_full_smoke.log",
+    "bytes": 20729,
+    "sha256": "c5bb675ea947818ace0dcdb6d850471d4d79564f6bec05190ce50e1960587880",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_full_smoke_attempt1.log",
+    "bytes": 22923,
+    "sha256": "101b6ee90a68b4b465bbed834f293a4d0b5714466ffce7109e07acdb019dd7e4",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_legacy_python_probe.log",
+    "bytes": 106,
+    "sha256": "7b655f12ba547c88160e62e182d0a0fef3cd6acd286aaa1d9a39141b5160ae61",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_raw_coordinate_audit.log",
+    "bytes": 151,
+    "sha256": "ac178af3ff2f41f4913bd28ba5e247c91eb94e2c2d15a9191c61a108ebc76e4a",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_rt_attempt_cache_alignment.log",
+    "bytes": 22276,
+    "sha256": "d9062a3837872c7e99ba263303d22db7ccfe0bee2308f41af36a61789b83ba01",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_rt_full.log",
+    "bytes": 29642,
+    "sha256": "75d4fd574751cff26bbfca5729d7e467c68da943617f41bc931e40a8645e7cf5",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_st_attempt_cache_cardinality.log",
+    "bytes": 630,
+    "sha256": "82b13a83219b2f86dcc5b75c0b2671b8e4c597ea6986ad864607a5ce5bea162e",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/autotest_st_full.log",
+    "bytes": 29623,
+    "sha256": "25744ce3cf486d89127ef25a56ce37be87948909591e9e55ebb2a6104efd32a3",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/baseline_smoke.log",
+    "bytes": 91,
+    "sha256": "a975ecae9f39c3988fc69ec26fef29aeed314faa1b6ffe9b12b281ebb3012b7b",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/benchmark_cli_smoke.log",
+    "bytes": 20326,
+    "sha256": "d267bcf90ce5c16506e850c0b9beed790084c51e70a4bc8536544e655a30e51b",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cache_integrity_extended.log",
+    "bytes": 2609,
+    "sha256": "ee5d02480df9d602699eef15953f2689b802340eb1897f43a89bde8f2e169dda",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cache_setup_replay.log",
+    "bytes": 44,
+    "sha256": "2ff9e353c16851e8d23cce51bf36741bd4c75d379836415257a5330d558421c2",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/categorical_baseline.log",
+    "bytes": 340,
+    "sha256": "7aaa5bb7a1e1d9731746baba59394165b87146ae34e95202c0e757bc5a4bb7d4",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cdc_boundary.log",
+    "bytes": 5593,
+    "sha256": "e664e43b91940054a5dbe909897bb12fc134d7937f6ce48e889d7712cce8e4bc",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cdc_boundary_index_sideeffect.log",
+    "bytes": 1884,
+    "sha256": "c40b051a82b43b631dfe660497ab2675abe2bf3f279fa0f356fc3ee4fcdfa1ae",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cdc_boundary_initial_import_failure.log",
+    "bytes": 337,
+    "sha256": "e760d053f0c28c61449de96a492febef223668d72c6b86a01875bfa093061aea",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cdc_boundary_initial_rng.log",
+    "bytes": 5595,
+    "sha256": "87e746266954f1006e44a4e725e56f82d94ab5c2f92e6bfbeaa2a7fff3c35b8e",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cdc_boundary_split_version_failure.log",
+    "bytes": 1229,
+    "sha256": "fafd6bb16c567f48a692481bf9df465edefd6d569f2fbf0198a9331177e44b9c",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/cli_demo.log",
+    "bytes": 5959,
+    "sha256": "1011d3c04efefdc6a4631943285c16c64cf7864cd88d38108551e74ddcf03959",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/diagnostic_analysis.log",
+    "bytes": 2086,
+    "sha256": "be4999698d489d3b093cfe973ef1426abb9e5602a0521c4a2bf0e3ac792f610b",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/final_verification.log",
+    "bytes": 485,
+    "sha256": "8ffd09346313c1ac41b218d084b578d10d0d300d03de9d15b24d1b271c8e9c9a",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/final_verification_attempt1.log",
+    "bytes": 2480,
+    "sha256": "8c233146b66ced9605122c6c7a25b76a09f4ed798804ea707da03298b49f7717",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/historical_retaxonomy.log",
+    "bytes": 167,
+    "sha256": "20259bab4e5a38e6528a8c01c5f0a0b8297818cde97b20cc685a8c161c25bbd7",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_analysis.log",
+    "bytes": 579,
+    "sha256": "2684a907258e7a62122bb35880aaff5ccb25d2146650345c6f4a06b023cdf950",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_bank_full_cdc_original.log",
+    "bytes": 945,
+    "sha256": "818c3b2f08b60567a13080873714b4dcd3473370f164a03e9947926eda5b3258",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_bank_full_dboost_text_original.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_bank_full_lucario_original_history.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_bank_narrow_cdc_original.log",
+    "bytes": 945,
+    "sha256": "bd684498eaa3e849048c9816499eb20c77f5c1e8ec3fcd1881a143586d4005f6",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_bank_narrow_dboost_text_original.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_bank_narrow_lucario_original_history.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_credit_full_cdc_original.log",
+    "bytes": 945,
+    "sha256": "4c51e6d4e53d3f7ebe76e9c8280e8b3edcf163f726b5b9636617e9dfad39d2ea",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_credit_full_dboost_text_original.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_credit_full_lucario_original_history.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_credit_narrow_cdc_original.log",
+    "bytes": 945,
+    "sha256": "2b640b2f7a6d4a5f180d954aa7537c153d304d4a7fe102fbffaf707a8bd340cf",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_credit_narrow_dboost_text_original.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_credit_narrow_lucario_original_history.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_grid.log",
+    "bytes": 1310,
+    "sha256": "ba402cd23945900fe844ec455e4d14e6e567bf69891cfeef760ceffb9a9ae4bd",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_smoke.log",
+    "bytes": 40,
+    "sha256": "398215cc6f226f12c0c3fb3623b2a2b52bc072472718ebcab679e81cbc5d98d2",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_smoke_verification.log",
+    "bytes": 190,
+    "sha256": "dd344f819001a5e2b4194560e8c3832d4e6af252df64ea41c7b42701e1c3276a",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_verification.log",
+    "bytes": 196,
+    "sha256": "8e61bfa52faa0d8f0df7491e3f7dd86fc66e1b8656df7c803cec364325d49926",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_wine_full_cdc_original.log",
+    "bytes": 945,
+    "sha256": "c4c9742d9e755ca09e615476f35a6d0d13c8ebe3683802d0a9b5cd80aef24ea2",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_wine_full_dboost_text_original.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_wine_full_lucario_original_history.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_wine_narrow_cdc_original.log",
+    "bytes": 945,
+    "sha256": "f919f2fafe870f018525a8fc639b731564d8e8d160fcc962c622b6e1f9e6a71e",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_wine_narrow_dboost_text_original.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/ingest_wine_narrow_lucario_original_history.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/lucario_alignment.log",
+    "bytes": 4530,
+    "sha256": "a95367874c96b30a26c341a4952b6f68e99d15b8ce9f53492721f5b56d051cea",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/lucario_transductive_worker.log",
+    "bytes": 518901,
+    "sha256": "87e0a29877911bca0e8ff33bd78cf7beed44ff14293a6afbc907e2e8cbf61413",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/native_parser_dependency.log",
+    "bytes": 242,
+    "sha256": "2608aa58463c40e86378cbcdd0be1b9c87747ef56987b647bbd1452d74f551e2",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/native_reproduction_wrapper.log",
+    "bytes": 44,
+    "sha256": "2ff9e353c16851e8d23cce51bf36741bd4c75d379836415257a5330d558421c2",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/pattern_ingest.log",
+    "bytes": 80,
+    "sha256": "b78fdcbf7e1f2ad0549f375ddbfd152ad9106d50e6ee22c0aa399ef769669e8a",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/pattern_ingest_v2_inherited_hash.log",
+    "bytes": 80,
+    "sha256": "b78fdcbf7e1f2ad0549f375ddbfd152ad9106d50e6ee22c0aa399ef769669e8a",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/pattern_native.log",
+    "bytes": 124,
+    "sha256": "7635d619463371cb5095a366eb12330f8ec6a47f54d26744b1ab099c28ca42b6",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/pattern_untouched.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/reusable_setup.log",
+    "bytes": 35915,
+    "sha256": "da8864c23e90d103a19952c27b5b6fdc6a80e48b728e37ead09192e9cef1020c",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/reusable_setup_attempt1.log",
+    "bytes": 36197,
+    "sha256": "2de2f99b12191321225759125d36b6f5a5cca2c8393644050c4ff39e515e6035",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/reusable_setup_final.log",
+    "bytes": 35958,
+    "sha256": "24515a5d5386ef753b528901caf9d74bdc3aebe2281a282472b9a4e38ab4878c",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/riolu_authors_parity.log",
+    "bytes": 762,
+    "sha256": "3a4b1e358dc30a07bfc0ee17f9be35b07c7dc4c4c1cd0e880e982595063ddcaa",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/riolu_original_worker.log",
+    "bytes": 2504,
+    "sha256": "064273b6ac968c10e63e2791728552734cb664121d8447cd59a485d0ba26b2fc",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/riolu_parity_initial_import_failure.log",
+    "bytes": 864,
+    "sha256": "8386f4aad98de458dda730583a35650197dc93b0268e7d82af76e8a882fb388c",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/riolu_small_sample_worker.log",
+    "bytes": 448970,
+    "sha256": "8371cdf6be24ba0495b2441a5b4a721293338bcc9e143f183fc7c90d6b381600",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/saged_original_attempt.log",
+    "bytes": 170,
+    "sha256": "d9b4f7c860cbfcd0e70142d22e57bc075d7aea892bcceb3e0da8b2e5f3194a61",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/sota_env_install.log",
+    "bytes": 1148,
+    "sha256": "e3b8a6de6c5cf1afcd84de7ff1847a2ff070e33edc0e9d4fe5eb901b5db845b6",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/supplementary_verification.log",
+    "bytes": 88,
+    "sha256": "68b0ce03ca88ec4fd9a4eda38d1f6b9373f149bb85c679ae6a9f2848a6fcd529",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/tab_err_paper_access.log",
+    "bytes": 366,
+    "sha256": "5f6ec8d937329c287b9b25242ee50cc5f2ee19399b8b12c4221d12a96a5df447",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/tests.log",
+    "bytes": 99,
+    "sha256": "9570ffbec5cb7aa5d6eb972fc934c1bb90947112f05d24d04e74758216161a03",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/value_analysis.log",
+    "bytes": 2616,
+    "sha256": "7b3ebffe1e0d2ac5ea924488590c8a214df3412df9a27863cbdfa7dda3c2d976",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/value_patterns.log",
+    "bytes": 570,
+    "sha256": "2ffbf801157b515507797b9dacb2bae693b09c4facb3af45f10ae2145602de30",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/value_patterns_attempt_unbounded.log",
+    "bytes": 96,
+    "sha256": "715c28b114055d14cc21cb11f029e880bb356649431466437ea31ec5866cc4b9",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/value_patterns_v2_inherited_hash.log",
+    "bytes": 570,
+    "sha256": "2ffbf801157b515507797b9dacb2bae693b09c4facb3af45f10ae2145602de30",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/value_smoke.log",
+    "bytes": 32,
+    "sha256": "069f1dbbb77be80048f9d33ce8c620b3685bff629d945bcc601f49de0c87d1bd",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/value_smoke_attempt1.log",
+    "bytes": 993,
+    "sha256": "3953640e50dc9ba6396b6a916439d5132f600bb903c7fa8f8441de08f5853610",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/value_smoke_attempt2.log",
+    "bytes": 1062,
+    "sha256": "63feb6f5caeb513b464bea308dc730a828ec006faef8044305e534ea989e7987",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/zeroed_fasttext_repair.log",
+    "bytes": 269,
+    "sha256": "2a80646a3a01fdd33a7454381d122ae42b7585f0999e20bc6c49f5c74c21fb58",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/zeroed_legacy_attempt.log",
+    "bytes": 242,
+    "sha256": "7dc66832a356d681085c7ad035770145bbebf555610b5a03e2179aceb833d771",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/zeroed_local.log",
+    "bytes": 2476,
+    "sha256": "d1e04e8a460503e3658051da3928b2849f17a34083d8b0a4e6826c49e3959762",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/zeroed_local_v2.log",
+    "bytes": 2725,
+    "sha256": "3380d8ee39af95a1de3d3cae16709f641b26c925f4c67ae56d631ccac668e66e",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  },
+  {
+    "path": "evidence/sota_followup/zeroed_original_import_attempt.log",
+    "bytes": 253,
+    "sha256": "0b090cbbb7f9633bd0fedea8918669382735c4d0da7a69d97e7aa111227c4f05",
+    "retention": "Original log preserved locally; redistribution-safe installation/test/verification transcripts selected for Git. Native stdout may include third-party source values."
+  }
+]

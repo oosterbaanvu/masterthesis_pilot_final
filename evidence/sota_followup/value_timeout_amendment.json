@@ -1,0 +1,10 @@
+{
+  "reason": "A native RIOLU-small-sample regular expression used unbounded CPU; stop the uncommitted attempt. Replace worker transport with explicit 10-second per-column bound, arity verification and fresh worker after timeout to prevent a late response mapping to the next column. No successful final value metrics from this attempt retained.",
+  "pids_stopped": [
+    19230,
+    19231,
+    19232,
+    18789
+  ],
+  "thresholds_or_labels_changed": false
+}

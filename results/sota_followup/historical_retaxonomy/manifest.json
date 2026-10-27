@@ -1,0 +1,13 @@
+{
+  "status": "EXECUTED_POSTHOC_ANALYSIS",
+  "historical_cases": {
+    "credit": 225,
+    "bank": 225,
+    "wine": 180
+  },
+  "metric_rows": 111240,
+  "old_A_equals_R_and_old_B_equals_RSM": true,
+  "new_detector_executions": 0,
+  "new_layer": "RS exposes the original univariate profile without Ridge",
+  "historical_results_preserved": true
+}

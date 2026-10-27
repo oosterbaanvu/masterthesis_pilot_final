@@ -1,0 +1,8 @@
+{
+  "source_path": "code/doduo-materials/model/sato0_mosato_bert_bert-base-uncased-bs16-ml-32__sato0-1.00_best_micro_f1.pt",
+  "id": "1kLLnGgT1GGIQMaKYf74TeRdrldz5frMl",
+  "local_path": "data/sota_followup/autotest_materials/code/doduo-materials/model/sato0_mosato_bert_bert-base-uncased-bs16-ml-32__sato0-1.00_best_micro_f1.pt",
+  "bytes": 438258249,
+  "sha256": "b7180f8a10df2479a442b7df54a96a2e75fed0bab629db85af730b9c92719ddc",
+  "rights": "Author linked checkpoint retained locally; no redistribution"
+}

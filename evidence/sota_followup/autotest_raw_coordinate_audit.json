@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "benchmark": "rt",
+      "native_outliers": 35,
+      "coordinate_disagreements": 0
+    },
+    {
+      "benchmark": "st",
+      "native_outliers": 23,
+      "coordinate_disagreements": 0
+    }
+  ],
+  "scope": "Independent mapping of original raw outputs to distinct value coordinates; not semantic adjudication"
+}

@@ -1,0 +1,25 @@
+{
+  "version": "2.1-fixed-native-hash-seed",
+  "unit": "distinct value within eligible published column",
+  "sources": [
+    "pinned original Auto-Test rt_bench.csv",
+    "pinned original Auto-Test st_bench.csv"
+  ],
+  "eligibility": "verify original exact structural checks and annotation containment; preserve ambiguous labels in review burden, exclude from binary denominators",
+  "models": [
+    "original RIOLU default: at least385 values",
+    "RIOLU-small-sample: explicit supported sampling_size=min(385,n) adaptation",
+    "native LUCARIO on same distinct values",
+    "AutoTest pattern-only rt_train and st_train, all released pattern rules retained",
+    "full original Auto-Test if all required components pass fidelity checks"
+  ],
+  "R": "no independent source-column contract is supplied; hard validity is unavailable, not fabricated",
+  "RS": "fixed transductive numeric dominance .95 and .005/.995 quantile/3IQR or coarse-shape rarity .005; experimental heuristic, not business truth",
+  "RSM": "NOT_APPLICABLE: distinct lists lack relational rows",
+  "budgets": "10/25/50 total distinct-value reviews per1000 eligible distinct values, per benchmark; fixed hash ordering for binary flags; hard contract first and equal share; confidences only where native",
+  "scope": "publisher labels, no independently adjudicated semantic gold; sources already inspected exploratory",
+  "failure_policy": "null predictions plus explicit software/domain failure status; matched comparison excludes method-ineligible columns with denominators reported",
+  "pretraining": "Auto-Test U2 externalcorpus identity and source table overlap not established from release; separate from U0",
+  "protocol_amendment": "Before final inference aggregation, make subprocess Python hash seed0 explicit (NumPy seed42 unchanged), preserve prior outputs, and rerun pattern cohorts. No model threshold, field eligibility, source values or reference labels selected for favourable results.",
+  "prior_outputs": "results/sota_followup/attempts/value_v2_inherited_hash"
+}

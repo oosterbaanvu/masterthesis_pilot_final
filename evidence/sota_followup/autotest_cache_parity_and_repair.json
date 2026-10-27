@@ -1,0 +1,23 @@
+[
+  {
+    "benchmark": "rt",
+    "preselected_probe_column": 0,
+    "probe_values": 3,
+    "max_absolute_embedding_difference": 1.1175870895385742e-07,
+    "cache_parity_atol_1e-5": true,
+    "mismatched_columns": []
+  },
+  {
+    "benchmark": "st",
+    "preselected_probe_column": 0,
+    "probe_values": 3,
+    "max_absolute_embedding_difference": 0.0,
+    "cache_parity_atol_1e-5": true,
+    "mismatched_columns": [
+      858
+    ],
+    "repair": "Recompute original SBERT preprocessing for cardinality-mismatched input only, before evaluating predictions; no labels used",
+    "original_cache_sha256": "f0d0fb27a77e27dc2178970a017b8a4d7253c739885101fc0c9a053d9687b522",
+    "repaired_cache_sha256": "77ee5c8ed06b989def5bc1a47473830745f0364ce4356af328ed2bf39d660201"
+  }
+]

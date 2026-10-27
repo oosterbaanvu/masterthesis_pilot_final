@@ -1,0 +1,29 @@
+[
+  {
+    "dataset": "credit",
+    "sha256": "80e9aad8709b47552d4d7747dcefd8b0d9a1fc421abdb6de04310684a77d0d2d",
+    "source_sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+    "history_rows": 2399,
+    "evaluation_rows": 800,
+    "main_pandas": "2.3.3",
+    "labels": "No error labels or outcome fields; immutable source IDs kept outside model arrays"
+  },
+  {
+    "dataset": "bank",
+    "sha256": "b2b2e27399060f530994b875be72b3b9bd8853b17eaee6795707f37efef67368",
+    "source_sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+    "history_rows": 2400,
+    "evaluation_rows": 800,
+    "main_pandas": "2.3.3",
+    "labels": "No error labels or outcome fields; immutable source IDs kept outside model arrays"
+  },
+  {
+    "dataset": "wine",
+    "sha256": "120dadf50d53727f73db8923edecbe13073d159145e87fd7fae1157531868fed",
+    "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+    "history_rows": 1954,
+    "evaluation_rows": 800,
+    "main_pandas": "2.3.3",
+    "labels": "No error labels or outcome fields; immutable source IDs kept outside model arrays"
+  }
+]

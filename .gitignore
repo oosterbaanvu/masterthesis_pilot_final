@@ -3,3 +3,6 @@ data/
 __pycache__/
 .pytest_cache/
 *.egg-info/
+
+# Native execution stdout may contain third-party source values. Hash inventory is tracked.
+evidence/sota_followup/*.log

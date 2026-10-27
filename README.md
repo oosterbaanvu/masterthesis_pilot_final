@@ -1,3 +1,33 @@
+# SOTA and nontrivial error extension — executed exploratory thesis pilot
+
+The new follow-up is on **research/sota-dataset-extension**. Start with the [thesis decision](reports/sota_followup/11_thesis_decision.md), [review-budget results](reports/sota_followup/07_incremental_value_and_shared_review_budget.md) and [execution/reproduction manifest](reports/sota_followup/00_execution_manifest.md). The twelve follow-up reports are in [reports/sota_followup](reports/sota_followup/).
+
+| New executed work | Scope |
+| --- | --- |
+| Source-relative interventions | 360 logical numeric/category cases × two feature views = 720 cases; another 135 lexical occurrence cases |
+| Original Auto-Test | Fresh authors online demo; full released RT/ST inference with 505/509 SDCs, 35/23 native outliers; benchmark neural caches reused with audited input repair |
+| Original RIOLU | 2997 author-example flags match; publisher/P5 experiments; default 385-value applicability separated from small-sample adaptation |
+| Stronger controls | R / R+S / R+S+M separated; cheap categorical classifier sensitivity; shared review capacity and displacement |
+| Decision | **CONDITIONAL GO** for a bounded empirical thesis; novelty and bank production benefit not established |
+
+At 25 distinct-value reviews, full Auto-Test adds 5 RT / 4 ST publisher-positive hits beyond generic profiles under equal-share scheduling. A stronger same-corpus pattern-first comparator reduces that to **3 RT / 1 ST**. Control-first scheduling yields no increment at that capacity. Numeric CDC's larger unconstrained unions often add hundreds of alerts, with little or negative reviewed net value; cheap categorical controls remove some apparent gains. Injected changes establish source alteration, not natural semantic errors. No global detector leaderboard across incompatible units/information regimes.
+
+```bash
+bash scripts/setup_sota_followup.sh             # pinned environments and checksum-verified public artifacts
+bash scripts/verify_sota_followup.sh            # independent replay of saved predictions + software tests
+PYTHONPATH=src data/envs/sota/bin/python scripts/sota_service_demo.py
+bash scripts/reproduce_sota_native.sh --cache-check
+# For fresh native execution in a separate output checkout:
+bash scripts/reproduce_sota_native.sh --authors-demo
+bash scripts/reproduce_sota_native.sh --benchmarks
+```
+
+The CLI adds `pattern-scan` (original RIOLU, small-sample RIOLU, native LUCARIO, AutoTest-pattern-only) and `sota-benchmark` (full original pretrained Auto-Test). Scanning is separate from oracle evaluation; incompatible inputs return NOT_APPLICABLE/null. Model/source/data rights and deviations are in [method registry](manifests/sota_followup/method_registry.json) and [compatibility matrix](manifests/sota_followup/compatibility_matrix.json). No raw datasets, weights or third-party source copies are committed. No paid API is needed. Original ZeroED/SAGED remain unexecuted; the separate local ZeroED structural adaptation actually runs its MLP but contributes zero hits beyond its synthetic hard controls. Full primary-paper novelty review is incomplete for LUCARIO and tab_err.
+
+The complete preceding pilot remains preserved below and under `reports/thesis_pilot` / `results/thesis_pilot`. Its statements describe that earlier stage; the follow-up above supersedes earlier full-Auto-Test feasibility status. Current-instance setup was replayed; a fresh cloud snapshot restoration has not been independently verified.
+
+---
+
 # Incremental data-quality detection — executed MSc AI research pilot
 
 **Current status: substantial exploratory pilot executed; CONDITIONAL GO for a focused thesis, no production adoption claim.** This research branch extends the preserved original dataset audit with actual models, interventions, review budgets, external-reference checks and a working local CLI.

@@ -1,0 +1,21 @@
+{
+  "version": "2.0-exploratory-gap-sensitivity",
+  "motivation": "RSM inherited from old B has conditional Ridge only for numeric targets; do not interpret categorical gains as beating a cheap classifier without this sensitivity.",
+  "models": "LogisticRegression C1 lbfgs max_iter500 seed42; same source-only history75/25 split and approved other fields",
+  "thresholds": [
+    0.95,
+    0.995
+  ],
+  "selection": "both fixed from nativeCDC nominal95% and historicalM99.5%, not selecting best test result",
+  "scopes": [
+    "narrow",
+    "full"
+  ],
+  "datasets": [
+    "credit",
+    "bank"
+  ],
+  "wine": "no categorical targets; augmented comparator equals RSM",
+  "detector_outputs": "cached original720 matched predictions reused, no new advanced detector inference",
+  "claim": "post hoc exploratory sensitivity, not confirmatory"
+}

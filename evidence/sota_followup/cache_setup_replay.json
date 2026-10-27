@@ -1,0 +1,42 @@
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "benchmark": "rt",
+      "feature": "sbert",
+      "fresh_columns_this_invocation": [],
+      "all_selected_cardinalities_match": true,
+      "original_sha256": "b75aed6f71864a9648384220cb6d53dda2c51d5e1b3971337c9222a917c75f47",
+      "effective_sha256": "b75aed6f71864a9648384220cb6d53dda2c51d5e1b3971337c9222a917c75f47",
+      "labels_used": 0
+    },
+    {
+      "benchmark": "rt",
+      "feature": "doduo",
+      "fresh_columns_this_invocation": [],
+      "all_selected_cardinalities_match": true,
+      "original_sha256": "1bc419004cb95c171c74c122a12db3760efcaa49e0ff72fa9a658339471b350e",
+      "effective_sha256": "1bc419004cb95c171c74c122a12db3760efcaa49e0ff72fa9a658339471b350e",
+      "labels_used": 0
+    },
+    {
+      "benchmark": "st",
+      "feature": "sbert",
+      "fresh_columns_this_invocation": [],
+      "all_selected_cardinalities_match": true,
+      "original_sha256": "f0d0fb27a77e27dc2178970a017b8a4d7253c739885101fc0c9a053d9687b522",
+      "effective_sha256": "77ee5c8ed06b989def5bc1a47473830745f0364ce4356af328ed2bf39d660201",
+      "labels_used": 0
+    },
+    {
+      "benchmark": "st",
+      "feature": "doduo",
+      "fresh_columns_this_invocation": [],
+      "all_selected_cardinalities_match": true,
+      "original_sha256": "5e23d1517f832eab503a1d7df65346f656b83e181c053d2a05adce0f4a156b2f",
+      "effective_sha256": "09c7d3ab0df434c3ca8598f23d797394d6783839e62d5895eca0f1b7ad74941b",
+      "labels_used": 0
+    }
+  ],
+  "scope": "Reuse pinned original feature caches with one exact-input structural preprocessing repair; no all-feature-fresh claim"
+}

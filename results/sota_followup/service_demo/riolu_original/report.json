@@ -1,0 +1,42 @@
+{
+  "source": "sota_pattern_demo",
+  "source_sha256": "0725e462a99fb603fa89364bbff819b0e9a29e6149640cb9efb148ea1eb84a52",
+  "source_unchanged": true,
+  "adapter": {
+    "citation": "Qin et al., ICSE2025, arXiv:2412.05240",
+    "commit": "df3f7dc7673fda3f02d147fdf4c539a2bf3cc4d5",
+    "license": "MIT code; data rights separate",
+    "status": "ORIGINAL_REPRODUCED",
+    "pretraining": "none",
+    "assumptions": "at least385 supplied values; auto coverage5rounds; default385 sample",
+    "unit": "actual source value occurrence, never invented row context",
+    "supported_types": [
+      "text",
+      "identifier",
+      "category"
+    ],
+    "history": "not required; U0 for RIOLU/LUCARIO, U2 for pretrained Auto-Test subset",
+    "labels_consumed": 0,
+    "output": "binary suspicious coordinates; semantic correctness unknown",
+    "runtime_limit": "10s per column for native pattern worker; explicit resource failure, no zero score",
+    "business_rule_promotion": "NONE"
+  },
+  "column_status": [
+    {
+      "column": "invoice_code",
+      "status": "ORIGINAL_REPRODUCED",
+      "coverage_estimate": 0.975,
+      "patterns": 1,
+      "pattern_sha256": "9b7a6b41625354a12de19f35f7bf136e7d20e7fd545ce571f0e8b83160d4eb56",
+      "seconds": 0.15006096999968577,
+      "labels_used": 0,
+      "unit": "input value occurrence, or distinct value when caller supplies unique values",
+      "python_hash_seed": 0
+    }
+  ],
+  "eligible_columns": 1,
+  "alerts": 10,
+  "seconds": 1.2600193560010666,
+  "recommendation": "INSUFFICIENT_EVIDENCE",
+  "reason": "Source scan has no oracle labels. No operational adoption from suspicious-pattern counts."
+}

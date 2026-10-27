@@ -1,0 +1,11 @@
+{
+  "LUCARIO": "Full original code/author parity/metadata; fullPDF not obtained legitimately",
+  "tab_err": {
+    "doi": "10.1145/3774914",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3774914",
+    "status": "HTTP403",
+    "semantic_scholar": "Only same publisher PDF listed; no arXiv exact-title result",
+    "source_code": "Exact pinned mechanisms executed and independently verified"
+  },
+  "claim": "Full primary-paper novelty audit remains incomplete; no novelty confirmation"
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "source": "credit",
+    "domain": "consumer credit",
+    "unit": "cell in complete row",
+    "regime": "U1",
+    "targets": 4,
+    "history_rows": 2399,
+    "evaluation_rows": 800,
+    "context_features": 23,
+    "truth": "B_SOURCE_RELATIVE",
+    "CDC": "APPLICABLE_HISTORY_UNCERTIFIED_CLEAN",
+    "LUCARIO": "HISTORY_ADAPTATION",
+    "RIOLU": "NOT_APPLICABLE_NUMERIC_OR_CONTEXTUAL_TARGET",
+    "AutoTest": "NOT_FORCED_ON_NUMERIC_RELATIONAL_TASK",
+    "simple_M": "numeric Ridge plus declared categorical LR sensitivity"
+  },
+  {
+    "source": "bank",
+    "domain": "marketing contacts",
+    "unit": "cell in complete row",
+    "regime": "U1",
+    "targets": 4,
+    "history_rows": 2400,
+    "evaluation_rows": 800,
+    "context_features": 20,
+    "truth": "B_SOURCE_RELATIVE",
+    "CDC": "APPLICABLE_HISTORY_UNCERTIFIED_CLEAN",
+    "LUCARIO": "HISTORY_ADAPTATION",
+    "RIOLU": "NOT_APPLICABLE_NUMERIC_OR_CONTEXTUAL_TARGET",
+    "AutoTest": "NOT_FORCED_ON_NUMERIC_RELATIONAL_TASK",
+    "simple_M": "numeric Ridge plus declared categorical LR sensitivity"
+  },
+  {
+    "source": "wine",
+    "domain": "wine chemistry",
+    "unit": "cell in complete row",
+    "regime": "U1",
+    "targets": 4,
+    "history_rows": 1954,
+    "evaluation_rows": 800,
+    "context_features": 11,
+    "truth": "B_SOURCE_RELATIVE",
+    "CDC": "APPLICABLE_HISTORY_UNCERTIFIED_CLEAN",
+    "LUCARIO": "HISTORY_ADAPTATION",
+    "RIOLU": "NOT_APPLICABLE_NUMERIC_OR_CONTEXTUAL_TARGET",
+    "AutoTest": "NOT_FORCED_ON_NUMERIC_RELATIONAL_TASK",
+    "simple_M": "numeric Ridge plus declared categorical LR sensitivity"
+  },
+  {
+    "source": "RT",
+    "unit": "distinct value within published column",
+    "regime": "U0 versus U2 reported separately",
+    "columns": 1194,
+    "values": 90934,
+    "publisher_positive": 41,
+    "ambiguous": 35,
+    "RIOLU_default": "Only populations >=385; method failures/nulls retained",
+    "RIOLU_small_sample": "EXPLICIT_ADAPTATION",
+    "LUCARIO": "native transductive; failed columns null",
+    "AutoTest": "all released corpus SDCs, native one-outlier policy",
+    "CDC_RSM": "NOT_APPLICABLE_NO_RELATIONAL_ROWS",
+    "pretraining_overlap": "UNKNOWN at original source-table level"
+  },
+  {
+    "source": "ST",
+    "unit": "distinct value within published column",
+    "regime": "U0 versus U2 reported separately",
+    "columns": 1193,
+    "values": 71719,
+    "publisher_positive": 45,
+    "ambiguous": 77,
+    "RIOLU_default": "Only populations >=385; method failures/nulls retained",
+    "RIOLU_small_sample": "EXPLICIT_ADAPTATION",
+    "LUCARIO": "native transductive; failed columns null",
+    "AutoTest": "all released corpus SDCs, native one-outlier policy",
+    "CDC_RSM": "NOT_APPLICABLE_NO_RELATIONAL_ROWS",
+    "pretraining_overlap": "UNKNOWN at original source-table level"
+  },
+  {
+    "source": "DOMAINS dates",
+    "unit": "actual source value occurrence",
+    "regime": "U0/U2-pattern-only",
+    "rows": 800,
+    "truth": "B_SOURCE_RELATIVE",
+    "meaning": "Single field collection, not a new full table",
+    "RSM_CDC": "NOT_APPLICABLE_NO_ROW_CONTEXT"
+  },
+  {
+    "source": "DOMAINS ipv4",
+    "unit": "actual source value occurrence",
+    "regime": "U0/U2-pattern-only",
+    "rows": 800,
+    "truth": "B_SOURCE_RELATIVE",
+    "meaning": "Single field collection, not a new full table",
+    "RSM_CDC": "NOT_APPLICABLE_NO_ROW_CONTEXT"
+  },
+  {
+    "source": "DOMAINS codes",
+    "unit": "actual source value occurrence",
+    "regime": "U0/U2-pattern-only",
+    "rows": 800,
+    "truth": "B_SOURCE_RELATIVE",
+    "meaning": "Single field collection, not a new full table",
+    "RSM_CDC": "NOT_APPLICABLE_NO_ROW_CONTEXT"
+  },
+  {
+    "source": "Auto-Detect Wikipedia",
+    "unit": "sampled incompatible pair candidate",
+    "regime": "released publisher labels; not training labels here",
+    "observations": 4339,
+    "distinct_candidates": 4006,
+    "allowed_metrics": "sampled stratum precision excluding label1; no unconditional recall"
+  },
+  {
+    "source": "Hospital / Beers",
+    "unit": "row-cell reference agreement",
+    "status": "Historical secondary outputs reused; no new benchmark executions claimed",
+    "caveat": "Hospital patterned x substitutions; Beers representation and unit differences; lineage overlaps RIOLU Hospital"
+  },
+  {
+    "source": "linked financial fixture",
+    "unit": "stipulated cell/row/cross-table finding",
+    "status": "Historical engineering fixture preserved; synthetic"
+  }
+]

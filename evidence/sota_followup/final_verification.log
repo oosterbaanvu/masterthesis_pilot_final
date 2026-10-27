@@ -1,0 +1,11 @@
+All855 context/occurrence transformation logs verified or exactly restored
+{"status": "PASSED", "context_cases": 720, "logical_cases": 360, "assertions": 310561, "limitation": "Independent arithmetic and source-alteration evidence, not independent semantic annotation."}
+publisher passed
+patterns passed
+categorical passed
+boundary passed
+local passed
+extra_sensitivities passed
+964539
+....................................................                     [100%]
+52 passed in 5.08s

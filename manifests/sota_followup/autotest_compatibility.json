@@ -1,0 +1,14 @@
+[
+  {
+    "file": "demo/demo_utils/demo_util.py",
+    "transformation": "supported n_proc arguments 48/32/15/8 -> 2; no inference/rule logic changes",
+    "before_sha256": "5d480f1e520b743f720ff7d658580fd8be0265b6ee78f914ea91e27275297142",
+    "after_sha256": "e92f852bd2d9ecdd63d7edc76b26759782c2a3662e21a228a5d85932fe4d6c49"
+  },
+  {
+    "file": "STEP3_SDC_application.py",
+    "transformation": "supported n_proc arguments 48/32/15/8 -> 2; no inference/rule logic changes",
+    "before_sha256": "d861655b0dfdd6f6dd74ed08afb3c6e6732d026a7687203cf6f7dcbd65932b92",
+    "after_sha256": "dedb9442e3966ba9c65c1a687dc01156be5ef35a6bb56deb85c74900e3d395e2"
+  }
+]

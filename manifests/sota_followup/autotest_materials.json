@@ -1,0 +1,74 @@
+[
+  {
+    "id": "16PHXK_jBYjfRUCotpIxAuMy56dJSJlPP",
+    "source_path": "code/AutoTest/sherlock-project/sherlock/features/glove.6B.50d.txt",
+    "local_path": "data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/glove.6B.50d.txt",
+    "bytes": 171350079,
+    "sha256": "d8f717f8dd4b545cb7f418ef9f3d0c3e6e68a6f48b97d32f8b7aae40cb31f96f",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; retrieved from linked author folder"
+  },
+  {
+    "id": "1kdCvwdHhVevqpFYme5y5SeLW3gD5VTBx",
+    "source_path": "code/sherlock-materials/model_files/classes_sherlock.npy",
+    "local_path": "data/sota_followup/autotest_materials/code/sherlock-materials/model_files/classes_sherlock.npy",
+    "bytes": 1405,
+    "sha256": "0bb18ba9dd97e124c8956f0abb1e8ff3a5aeabe619a3c38852d85ea0ec876c4a",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; retrieved from linked author folder"
+  },
+  {
+    "id": "12PCJJ_hgxh7tJ3WPIOI7zLFlzyTKTCE_",
+    "source_path": "code/sherlock-materials/model_files/sherlock_model.json",
+    "local_path": "data/sota_followup/autotest_materials/code/sherlock-materials/model_files/sherlock_model.json",
+    "bytes": 21821,
+    "sha256": "f61872eca2659f1f3a948840db1860f4c40ac715859d9d13a6bd45b68e5d916e",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; retrieved from linked author folder"
+  },
+  {
+    "id": "11aKmOm_I2XRKnX1LaCovezBONPQAwbki",
+    "source_path": "code/sherlock-materials/model_files/sherlock_weights.h5",
+    "local_path": "data/sota_followup/autotest_materials/code/sherlock-materials/model_files/sherlock_weights.h5",
+    "bytes": 6233880,
+    "sha256": "e5fbf0176e4f5c379d32e789babca2d789ff4900de856fb01cb0537d69ffaee4",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; retrieved from linked author folder"
+  },
+  {
+    "id": "15mZr1BetWOFDgmQJLsU7-U7d2dJXEI2Q",
+    "source_path": "code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl",
+    "local_path": "data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl",
+    "bytes": 26531740,
+    "sha256": "2017cba9c9226cadce9848e6fa916ca70a6c2b8e762004d4bd5ce6602980acd1",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; original author-linked folder"
+  },
+  {
+    "id": "1epiDN4GLTPOzwwe3tnH2cmfFPZ4wtF2d",
+    "source_path": "code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.docvecs.vectors_docs.npy",
+    "local_path": "data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.docvecs.vectors_docs.npy",
+    "bytes": 659294528,
+    "sha256": "023dd0b084be9dfa614c27f4b57208d08487174ed5bfd7a27ce604a82ceec797",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; original author-linked folder"
+  },
+  {
+    "id": "175e4cqAbatub5V_xhngGNp7E-WaSd09X",
+    "source_path": "code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.trainables.syn1neg.npy",
+    "local_path": "data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.trainables.syn1neg.npy",
+    "bytes": 595870528,
+    "sha256": "8d0028858480d338d586b194f5b0ba09084ca49b3544acdbf0d6e1dcac8adefb",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; original author-linked folder"
+  },
+  {
+    "id": "1mMcKJT9BWSAlTUoGO-oomrcJz82mbQSd",
+    "source_path": "code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.wv.vectors.npy",
+    "local_path": "data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.wv.vectors.npy",
+    "bytes": 595870528,
+    "sha256": "9a538da7458473eae66d5bf9f2c595ebf197417cba29c86f2511ef19cf043ab3",
+    "state": "DOWNLOADED_PINNED_LOCAL",
+    "upstream_digest": "not separately published; original author-linked folder"
+  }
+]

@@ -1,0 +1,7 @@
+benchmark,policy,capacity,baseline_hits,union_hits,net_hits,extra_hits,lost_hits,reviewed,ambiguous_reviews,status,information
+rt,pretrained_pattern_first_equal_share,25,3,6,3,3,0,25,5,POSTHOC_EXPLORATORY_PRIORITY_SENSITIVITY,Both comparator and advanced system have same released corpus pattern constraints; not hard business contracts
+rt,pretrained_pattern_first_equal_share,50,3,9,6,6,0,50,9,POSTHOC_EXPLORATORY_PRIORITY_SENSITIVITY,Both comparator and advanced system have same released corpus pattern constraints; not hard business contracts
+rt,pretrained_pattern_first_equal_share,100,3,10,7,7,0,100,10,POSTHOC_EXPLORATORY_PRIORITY_SENSITIVITY,Both comparator and advanced system have same released corpus pattern constraints; not hard business contracts
+st,pretrained_pattern_first_equal_share,25,4,5,1,1,0,25,8,POSTHOC_EXPLORATORY_PRIORITY_SENSITIVITY,Both comparator and advanced system have same released corpus pattern constraints; not hard business contracts
+st,pretrained_pattern_first_equal_share,50,4,6,2,2,0,50,8,POSTHOC_EXPLORATORY_PRIORITY_SENSITIVITY,Both comparator and advanced system have same released corpus pattern constraints; not hard business contracts
+st,pretrained_pattern_first_equal_share,100,4,6,2,2,0,100,8,POSTHOC_EXPLORATORY_PRIORITY_SENSITIVITY,Both comparator and advanced system have same released corpus pattern constraints; not hard business contracts

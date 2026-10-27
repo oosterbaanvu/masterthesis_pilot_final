@@ -1,0 +1,6 @@
+{
+  "status": "PASSED",
+  "tested_original_logs": 6,
+  "method": "Frozen original inject function and exact original JSON serialization; SHA equality required before creating any missing log",
+  "detector_reruns": 0
+}

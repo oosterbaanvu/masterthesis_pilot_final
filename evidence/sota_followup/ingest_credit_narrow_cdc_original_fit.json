@@ -1,0 +1,11 @@
+{
+  "native_categorical": [
+    "AGE",
+    "LIMIT_BAL",
+    "EDUCATION"
+  ],
+  "native_numerical": [
+    "BILL_AMT1"
+  ],
+  "regime": "untouched-source-history assumed usable, not independently clean; original guarantees not asserted"
+}

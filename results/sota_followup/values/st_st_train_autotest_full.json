@@ -1,0 +1,47 @@
+{
+  "status": "ORIGINAL_LIMITED",
+  "original_pipeline": "author demo_util.apply_sdc; all released SDC families; benchmark precomputed SBERT/Doduo features reused, not freshly recomputed",
+  "benchmark": "st",
+  "corpus": "st_train",
+  "columns": 1193,
+  "values": 71719,
+  "rules": 509,
+  "families": {
+    "sbert": 69,
+    "doduo": 27,
+    "pattern": 29,
+    "embed": 366,
+    "pyfunc": 4,
+    "cta": 14
+  },
+  "cache_checks": {
+    "sbert": {
+      "sha256": "77ee5c8ed06b989def5bc1a47473830745f0364ce4356af328ed2bf39d660201",
+      "all_selected_value_counts_equal": true,
+      "cached_columns": 1200
+    },
+    "doduo": {
+      "sha256": "09c7d3ab0df434c3ca8598f23d797394d6783839e62d5895eca0f1b7ad74941b",
+      "all_selected_value_counts_equal": true,
+      "cached_columns": 1200
+    }
+  },
+  "labels_consumed": 0,
+  "regime": "U2 external pretrained corpora and published benchmark features; source-table overlap unknown",
+  "output": "original one lowest-FPR outlier per column, mapped to actual distinct-value coordinates",
+  "alerts": 23,
+  "wall_seconds": 289.3819972960009,
+  "parent_max_rss_kib": 1114004,
+  "child_max_rss_kib": 3120992,
+  "raw_native_log_sha256": "a7ec5cf339a4218073947404d142b150b2f1ac47265a3a64682b836c87380bfe",
+  "raw_native_artifacts": "ignored local files, no restricted data/model redistribution",
+  "deviations": [
+    "Writable path configuration",
+    "Two workers instead of author defaults up to48",
+    "Python3.7.16 with pinned compatibility dependencies; original TF/NumPy requirements conflict disclosed",
+    "NLTK writable cache path only",
+    "Slice precomputed feature Series to the structural-eligible input index before parallel slicing.",
+    "Original SBERT/Doduo preprocessing recomputed for ST column858 because published caches held5 values but canonical column has159; no labels used."
+  ],
+  "paper_metric_reproduction": "NOT_CLAIMED: native paper helper mixes column positives with extra outlier negatives; this study uses consistent distinct-value units"
+}

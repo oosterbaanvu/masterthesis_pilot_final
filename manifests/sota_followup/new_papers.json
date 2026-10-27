@@ -1,0 +1,19 @@
+[
+  {
+    "name": "SAGED",
+    "url": "https://openproceedings.org/2024/conf/edbt/paper-95.pdf",
+    "bytes": 1510990,
+    "sha256": "2b9b11e1513421da4c3c6416f802145e42ff5e26acdadd9056ca8e5e51ac395d"
+  },
+  {
+    "name": "Auto-Detect",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2018/04/AutoDetect.pdf",
+    "bytes": 1571857,
+    "sha256": "9662679e7537727dfaff535c74dcd9fae0785d3dbec06255860bb8abdc8e5499"
+  },
+  {
+    "name": "RIOLU",
+    "url": "https://arxiv.org/pdf/2412.05240",
+    "sha256": "3e14caf944bfedf8879d063245d0cbe241c1c51e26c5a59fae818a6374137e05"
+  }
+]

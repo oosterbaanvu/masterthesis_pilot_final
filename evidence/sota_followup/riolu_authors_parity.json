@@ -1,0 +1,19 @@
+{
+  "status": "PASSED",
+  "source_revision": "df3f7dc7673fda3f02d147fdf4c539a2bf3cc4d5",
+  "fixture": "authors modified Hospital1k",
+  "shape": [
+    999,
+    3
+  ],
+  "compared_nonmissing_flags": 2997,
+  "native_missing_abstentions": 0,
+  "disagreements": 0,
+  "harness_changes": [
+    "select hosp_1k fixture",
+    "explicit NumPy seed42 per column; Python hashseed0"
+  ],
+  "oracle_column_selection": "Original authors harness selects columns from ground-truth header. Used only for fidelity fixture, never new comparison column selection.",
+  "flag_file_sha256": "f61b4939afda847fa6c253f9908197b1c9d752dbf9be682e14fed3048ae92f04",
+  "scope": "one fixture application parity, not paper-score reproduction or new independent dataset"
+}

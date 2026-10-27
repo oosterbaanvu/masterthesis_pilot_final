@@ -26,5 +26,26 @@
     "source_license_files": [],
     "data_rights": "Separate provenance required; no raw redistribution inferred from code license",
     "role": "separate supervised-history qualification"
+  },
+  {
+    "repository": "qixuchen/AutoTest",
+    "revision": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+    "method_status": "ORIGINAL_REPRODUCED_AUTHOR_DEMO_AND_ORIGINAL_LIMITED_RT_ST_BENCHMARK",
+    "legitimate_original_components": "all seven released SDC families, author GLoVe50, Sherlock model/Doc2vec, original SBERT/Doduo benchmark features",
+    "rights": "No top-level license located; original implementation/models remain ignored, no redistribution inferred",
+    "compatibility_repairs": [
+      "Python3.7.16 installed from SHA-verified official Miniconda; offline transaction resumed because home registry unwritable",
+      "gdown use_cookies=False for public author files: home cookie cache not writable",
+      "safetensors0.3.1 pin avoids unsupported modern build backend",
+      "Original dependency conflict TF1.15.5 NumPy<1.19 vs author np1.21.6/dataprep>=1.21: empirical np1.21.6 compatibility environment, no guarantee from metadata",
+      "NLTK and model caches use writable task directories",
+      "Resolve Git LFS pointer files against author oids before unpickling"
+    ],
+    "additional_repairs": [
+      "Exact eligible-index feature alignment",
+      "ST858 original preprocessing recomputation",
+      "Pinned local BERT path; same checkpoint",
+      "No reference labels used inference"
+    ]
   }
 ]

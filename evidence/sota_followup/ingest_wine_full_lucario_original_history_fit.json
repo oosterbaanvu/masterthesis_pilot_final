@@ -1,0 +1,11 @@
+{
+  "mode": "original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change",
+  "constraints_sha256": "9fea0209f9d1a7608be3c734f2564769442c6f70390ed3db6b51f2b6d923c01f",
+  "constraint_columns": [
+    "alcohol",
+    "density",
+    "pH",
+    "sulphates"
+  ],
+  "raw_constraints_retained_locally": true
+}

@@ -1,0 +1,35 @@
+{
+  "source": "sota_pattern_demo",
+  "source_sha256": "0725e462a99fb603fa89364bbff819b0e9a29e6149640cb9efb148ea1eb84a52",
+  "source_unchanged": true,
+  "adapter": {
+    "citation": "Chen et al., SIGMOD2025, DOI10.1145/3725396",
+    "commit": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+    "license": "No top-level license located; source/SDCs retained locally",
+    "status": "ORIGINAL_LIMITED_PATTERN_ABLATION",
+    "pretraining": "all60 published rt_train pattern SDCs; external corpus/source overlap not established",
+    "assumptions": "restricted original pattern preconditions and all-outlier reporting; not full Auto-Test",
+    "unit": "actual source value occurrence, never invented row context",
+    "supported_types": [
+      "text",
+      "identifier",
+      "category"
+    ],
+    "history": "not required; U0 for RIOLU/LUCARIO, U2 for pretrained Auto-Test subset",
+    "labels_consumed": 0,
+    "output": "binary suspicious coordinates; semantic correctness unknown",
+    "runtime_limit": "10s per column for native pattern worker; explicit resource failure, no zero score",
+    "business_rule_promotion": "NONE"
+  },
+  "column_status": [
+    {
+      "column": "invoice_code",
+      "status": "ORIGINAL_LIMITED_PATTERN_ABLATION"
+    }
+  ],
+  "eligible_columns": 1,
+  "alerts": 10,
+  "seconds": 0.1107309860017267,
+  "recommendation": "INSUFFICIENT_EVIDENCE",
+  "reason": "Source scan has no oracle labels. No operational adoption from suspicious-pattern counts."
+}

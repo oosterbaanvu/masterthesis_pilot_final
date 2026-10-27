@@ -1,0 +1,43 @@
+{
+  "version": "2.1-fixed-native-hash-seed",
+  "datasets": [
+    "RIOLU DOMAINS dates",
+    "RIOLU DOMAINS ipv4",
+    "RIOLU DOMAINS codes"
+  ],
+  "source_records": 800,
+  "cases": 135,
+  "mechanisms": [
+    "ECAR",
+    "EAR",
+    "ENAR"
+  ],
+  "rates": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "type": "source-relative single-character transfer changes, never independently verified natural semantic errors",
+  "target_unit": "original value occurrence; not pooled with RT/ST distinct values",
+  "EAR": "original published list position as explicit auxiliary ingest-order condition; no relational context inferred",
+  "models": [
+    "original RIOLU default >=385",
+    "native transductive LUCARIO",
+    "Auto-Test rt_train pattern-only restricted family"
+  ],
+  "baselines": "R absent without supplied operational format contract; fixed transductive RS; RSM not applicable without row context",
+  "budgets": [
+    8,
+    20,
+    40
+  ],
+  "binary_priority": "hard-first then control_first/equal_share, fixed hash; no labels used",
+  "amendment": "Same transformations/locations/parameters, explicit subprocess PYTHONHASHSEED0; previous outputs preserved under attempts/pattern_ingest_v2_inherited_hash."
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASSED",
+  "actually_deleted_and_restored_logs": 6,
+  "all_byte_identical": true,
+  "scope": "Three main/P5 sources each; source data never removed"
+}

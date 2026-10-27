@@ -52,8 +52,16 @@ def main():
  p=sub.add_parser('scan');p.add_argument('--id',required=True);p.add_argument('--history',required=True);p.add_argument('--output',required=True);p.add_argument('--detector',choices=['none','contextual_extra_trees','dboost_text_original','lucario_original_history','cdc_original'],default='contextual_extra_trees');p.set_defaults(func=scan)
  p=sub.add_parser('experiment');p.add_argument('--id',required=True);p.add_argument('--history',required=True);p.add_argument('--output',required=True);p.add_argument('--target',required=True);p.add_argument('--family',choices=['missing','type','code','scale','substitution'],required=True);p.add_argument('--mechanism',choices=['ECAR','EAR','ENAR'],default='ECAR');p.add_argument('--condition');p.add_argument('--rate',type=float,default=.05);p.add_argument('--seed',type=int,default=42);p.add_argument('--factor',type=float,default=10);p.add_argument('--new-code',default='__INVALID_CODE__')
  p=sub.add_parser('pilot');p.add_argument('--datasets',nargs='+',default=['credit','bank','wine']);p.add_argument('--smoke',action='store_true')
+ p=sub.add_parser('pattern-scan');p.add_argument('--id',required=True);p.add_argument('--output',required=True);p.add_argument('--detector',choices=['riolu_original','riolu_small_sample','lucario_transductive','autotest_pattern_only'],default='riolu_original')
+ p=sub.add_parser('sota-benchmark');p.add_argument('--benchmark',choices=['rt','st'],required=True);p.add_argument('--corpus',choices=['rt_train','st_train','tablib'],default='rt_train');p.add_argument('--limit',type=int)
  args=parser.parse_args()
- if args.command=='experiment':
+ if args.command=='pattern-scan':
+  from sota_followup.cli import pattern_scan
+  pattern_scan(args)
+ elif args.command=='sota-benchmark':
+  from sota_followup.cli import benchmark_run
+  benchmark_run(args)
+ elif args.command=='experiment':
   from .intervene import experiment
   experiment(args,ROOT)
  elif args.command=='pilot':

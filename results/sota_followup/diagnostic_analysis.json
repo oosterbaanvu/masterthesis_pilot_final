@@ -1,0 +1,7 @@
+{
+  "status": "EXECUTED",
+  "shared_row_donor_value_identical_across_mechanisms": true,
+  "severity_design": "Scale .99/1.01 and fixed age+1 separate selection mechanism from fixed magnitude. Donor substitution severity depends on selected rows; not a fully crossed severity experiment.",
+  "counterpart_definition": "newly_triggered_extra_hits = truth AND advanced_changed AND NOT advanced_untouched AND NOT baseline_changed",
+  "canonical_CDC_native_parity": true
+}

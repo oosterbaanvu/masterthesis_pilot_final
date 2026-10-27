@@ -1,0 +1,11 @@
+benchmark,method,total_values,eligible_values,null_values,noncoverage_rate,meaning
+rt,riolu_original,90934,45136,45798,0.5036400026392769,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+rt,riolu_small_sample,90934,90656,278,0.0030571623375195197,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+rt,lucario_transductive,90934,89521,1413,0.015538742384586622,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+rt,AutoTest_pattern_native,90934,90934,0,0.0,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+rt,AutoTest_full,90934,90934,0,0.0,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+st,riolu_original,71719,29866,41853,0.5835692076018907,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+st,riolu_small_sample,71719,69790,1929,0.026896638268799063,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+st,lucario_transductive,71719,69902,1817,0.025334987939039863,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+st,AutoTest_pattern_native,71719,71719,0,0.0,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes
+st,AutoTest_full,71719,71719,0,0.0,Explicit inapplicability/software/resource exclusions combined; see per-column statuses for causes

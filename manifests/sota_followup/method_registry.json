@@ -1,0 +1,210 @@
+[
+  {
+    "id": "riolu_original",
+    "citation": "Qin et al., ICSE2025, arXiv:2412.05240",
+    "commit": "df3f7dc7673fda3f02d147fdf4c539a2bf3cc4d5",
+    "license": "MIT code; data rights separate",
+    "status": "ORIGINAL_REPRODUCED",
+    "pretraining": "none",
+    "assumptions": "at least385 supplied values; auto coverage5rounds; default385 sample",
+    "unit": "actual source value occurrence, never invented row context",
+    "supported_types": [
+      "text",
+      "identifier",
+      "category"
+    ],
+    "history": "not required; U0 for RIOLU/LUCARIO, U2 for pretrained Auto-Test subset",
+    "labels_consumed": 0,
+    "output": "binary suspicious coordinates; semantic correctness unknown",
+    "runtime_limit": "10s per column for native pattern worker; explicit resource failure, no zero score",
+    "business_rule_promotion": "NONE"
+  },
+  {
+    "id": "riolu_small_sample",
+    "citation": "RIOLU supported parameter adaptation",
+    "commit": "df3f7dc7673fda3f02d147fdf4c539a2bf3cc4d5",
+    "license": "MIT code; data rights separate",
+    "status": "EXPLICIT_ADAPTATION",
+    "pretraining": "none",
+    "assumptions": "sampling_size=min(385,n); all other original inference stages retained",
+    "unit": "actual source value occurrence, never invented row context",
+    "supported_types": [
+      "text",
+      "identifier",
+      "category"
+    ],
+    "history": "not required; U0 for RIOLU/LUCARIO, U2 for pretrained Auto-Test subset",
+    "labels_consumed": 0,
+    "output": "binary suspicious coordinates; semantic correctness unknown",
+    "runtime_limit": "10s per column for native pattern worker; explicit resource failure, no zero score",
+    "business_rule_promotion": "NONE"
+  },
+  {
+    "id": "lucario_transductive",
+    "citation": "Qin et al., DOI10.1016/j.infsof.2026.108035",
+    "commit": "3664bfa830b7b13f8a08cc7dd960c871c56aaeeb",
+    "license": "No top-level license located; fetched source only, no redistribution",
+    "status": "ORIGINAL_LIMITED",
+    "pretraining": "none",
+    "assumptions": "native dirty-batch inference; default95% healthy coverage; known native template crashes recorded",
+    "unit": "actual source value occurrence, never invented row context",
+    "supported_types": [
+      "text",
+      "identifier",
+      "category"
+    ],
+    "history": "not required; U0 for RIOLU/LUCARIO, U2 for pretrained Auto-Test subset",
+    "labels_consumed": 0,
+    "output": "binary suspicious coordinates; semantic correctness unknown",
+    "runtime_limit": "10s per column for native pattern worker; explicit resource failure, no zero score",
+    "business_rule_promotion": "NONE"
+  },
+  {
+    "id": "autotest_pattern_only",
+    "citation": "Chen et al., SIGMOD2025, DOI10.1145/3725396",
+    "commit": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+    "license": "No top-level license located; source/SDCs retained locally",
+    "status": "ORIGINAL_LIMITED_PATTERN_ABLATION",
+    "pretraining": "all60 published rt_train pattern SDCs; external corpus/source overlap not established",
+    "assumptions": "restricted original pattern preconditions and all-outlier reporting; not full Auto-Test",
+    "unit": "actual source value occurrence, never invented row context",
+    "supported_types": [
+      "text",
+      "identifier",
+      "category"
+    ],
+    "history": "not required; U0 for RIOLU/LUCARIO, U2 for pretrained Auto-Test subset",
+    "labels_consumed": 0,
+    "output": "binary suspicious coordinates; semantic correctness unknown",
+    "runtime_limit": "10s per column for native pattern worker; explicit resource failure, no zero score",
+    "business_rule_promotion": "NONE"
+  },
+  {
+    "id": "AutoTest_full_rt",
+    "commit": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+    "citation": "Chen et al. 2025 DOI10.1145/3725396",
+    "license": "No top-level license located; original materials not redistributed",
+    "input_granularity": "distinct values plus actual header, no invented rows",
+    "supported_field_types": "original semantic/domain/text constraints; native applicability preconditions",
+    "history": "External released pretrained SDCs/embeddings/models, U2",
+    "labels_consumed_online": 0,
+    "calibrated_thresholds": "Released original rules, unchanged; no local label tuning",
+    "status": "ORIGINAL_LIMITED",
+    "rules": 505,
+    "output_semantics": "original one lowest-FPR outlier per column, mapped to actual distinct-value coordinates",
+    "runtime_seconds": 245.35323270800018,
+    "parent_max_rss_kib": 1224256,
+    "child_max_rss_kib": 3186256,
+    "deviations": [
+      "Writable path configuration",
+      "Two workers instead of author defaults up to48",
+      "Python3.7.16 with pinned compatibility dependencies; original TF/NumPy requirements conflict disclosed",
+      "NLTK writable cache path only",
+      "Subset cached feature Series to the label-free structural-eligible input index before parallel slicing; preserve original feature order and inference rules.",
+      "Slice precomputed feature Series to the structural-eligible input index before parallel slicing."
+    ]
+  },
+  {
+    "id": "AutoTest_full_st",
+    "commit": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+    "citation": "Chen et al. 2025 DOI10.1145/3725396",
+    "license": "No top-level license located; original materials not redistributed",
+    "input_granularity": "distinct values plus actual header, no invented rows",
+    "supported_field_types": "original semantic/domain/text constraints; native applicability preconditions",
+    "history": "External released pretrained SDCs/embeddings/models, U2",
+    "labels_consumed_online": 0,
+    "calibrated_thresholds": "Released original rules, unchanged; no local label tuning",
+    "status": "ORIGINAL_LIMITED",
+    "rules": 509,
+    "output_semantics": "original one lowest-FPR outlier per column, mapped to actual distinct-value coordinates",
+    "runtime_seconds": 289.3819972960009,
+    "parent_max_rss_kib": 1114004,
+    "child_max_rss_kib": 3120992,
+    "deviations": [
+      "Writable path configuration",
+      "Two workers instead of author defaults up to48",
+      "Python3.7.16 with pinned compatibility dependencies; original TF/NumPy requirements conflict disclosed",
+      "NLTK writable cache path only",
+      "Slice precomputed feature Series to the structural-eligible input index before parallel slicing.",
+      "Original SBERT/Doduo preprocessing recomputed for ST column858 because published caches held5 values but canonical column has159; no labels used."
+    ]
+  },
+  {
+    "id": "cdc_original",
+    "commit": "fd8a2126c9626099f3d45511fd05d30af8de6b64",
+    "citation": "J\u00e4ger and Biessmann, AISTATS2024 PMLR238:3394\u20133402",
+    "license": "MIT code; conformal-inference Apache-2.0",
+    "status": "ORIGINAL_LIMITED_CLEAN_HISTORY_ASSUMPTION_UNCERTIFIED",
+    "unit": "row-cell",
+    "types": "numeric/category inferred by native code",
+    "regime": "U1",
+    "history": "Same unlabelled original history as baselines, not certified clean",
+    "fit": "RF40 plus XT40, 30sec/target, 1CPU, 25% calibration, .95 confidence, seed42",
+    "labels": "source target values; no error annotations",
+    "output": "binary native suspicious coordinate, empty prediction sets treated inlier",
+    "deviations": "Bounded model portfolio; original automatic dtype and endpoint predicate primary, separate diagnosed adaptations"
+  },
+  {
+    "id": "lucario_original_history",
+    "commit": "3664bfa830b7b13f8a08cc7dd960c871c56aaeeb",
+    "license": "No top-level license located",
+    "status": "EXPLICIT_HISTORY_ADAPTATION",
+    "unit": "row-cell",
+    "regime": "U1",
+    "fit": "Original complete inference learns on history, then fixed constraints applied to batch; default95% healthy coverage",
+    "labels_consumed": 0,
+    "output": "binary suspicious coordinate; no invented confidence"
+  },
+  {
+    "id": "dboost_text_original",
+    "commit": "a47cb564e900c3e5220413f810e810b00046d561",
+    "license": "GPL-3.0",
+    "status": "ORIGINAL_REPRODUCED_TEXT_INTERFACE",
+    "unit": "row-cell",
+    "regime": "U1",
+    "history": "same original reference, values serialized to text; native Gaussian tuple expansion",
+    "labels_consumed": 0,
+    "deviations": "Text/numeric interfaces one family; new follow-up uses text only"
+  },
+  {
+    "id": "contextual_extra_trees",
+    "status": "ENGINEERED_COMPARATOR",
+    "license": "our adapter; sklearn BSD-3-Clause",
+    "unit": "row-cell",
+    "regime": "U1",
+    "fit": "64trees, seed42; 75/25 history fit/calibration; .995 nonconformity quantile",
+    "labels": "source target values, not error labels",
+    "output": "binary conditional residual/nonconformity; invalid numeric abstention"
+  },
+  {
+    "id": "ZeroED-local-adaptation",
+    "commit": "2b84266e1d8b2014d36643d343429d9a20bd769e",
+    "status": "EXECUTED_STRUCTURAL_ADAPTATION",
+    "regime": "U4",
+    "unit": "synthetic cell",
+    "original_reproduced": false,
+    "labels": "Local Qwen0.6B pseudolabels; no source error annotations training",
+    "deviations": [
+      "Qwen3-0.6B replaces original large LLM",
+      "character TF-IDF replaces 300-d FastText representation",
+      "single-level KMeans replaces original hierarchical feature clustering",
+      "candidate JSON rules rather than executing LLM Python functions",
+      "synthetic schema-only engineering demonstration, not a published natural-error comparison"
+    ]
+  },
+  {
+    "id": "SAGED",
+    "commit": "1db0b3a44fc6f013dbb660413a592818ce6bde37",
+    "status": "NOT_EXECUTED_UNQUALIFIED_HISTORY_AND_SETUP",
+    "reason": "No qualified source-separated repaired-history/model portfolio established; native help also missing mlflow",
+    "regime": "U3, outside label-free comparison"
+  },
+  {
+    "id": "Auto-Detect",
+    "commit": "fdb40813eb426b776b4b74ed9335fa513d3d292a",
+    "status": "RELEASED_REFERENCE_OUTPUT_ONLY",
+    "original_method_executed": false,
+    "unit": "sampled incompatible value pair",
+    "license": "Microsoft Research noncommercial research terms; no raw redistribution"
+  }
+]

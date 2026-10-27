@@ -1,0 +1,31 @@
+{
+  "version": "2.0 plus explicitly posthoc LR sensitivity",
+  "R": {
+    "evidence": "Documented source category domains and separately stipulated requiredness/type/physical bounds",
+    "scope": "Source contracts from thesis_pilot.data.contracts, unchanged; linked synthetic financial contracts separate",
+    "no_claim": "Not mature bank/business semantic controls"
+  },
+  "RS": {
+    "numeric": "History .005/.995 quantiles OR3*IQR; values not promoted to hard-invalid",
+    "category": "History frequency<.005; legitimate unknown tokens retained"
+  },
+  "RSM": {
+    "numeric": "Ridge alpha10, same history75/25, .995 higher residual calibration",
+    "categorical": "Historical Ridge does not predict categories; no categorical-M claim"
+  },
+  "RSM_LR95_and_LR995": {
+    "algorithm": "LogisticRegression C1,max_iter500,seed42",
+    "history_split": "Same75/25; both .95/.995 higher calibration quantiles; no label selection",
+    "status": "Exploratory gap sensitivity, never renames old RSM"
+  },
+  "value_RS": "Dirty-column numeric .005/.995 and3*IQR or coarse shape frequency<.005; no hard domain invented",
+  "information_regimes": {
+    "U0": "Dirty batch only",
+    "U1": "Same unlabelled history and allowed context; not verified clean",
+    "U2": "Released external pretrained artifacts; corpus overlap unknown",
+    "U3": "Explicit human/publisher annotation budget; original SAGED not executed",
+    "U4": "Local LLM pseudo labels; synthetic architecture demo"
+  },
+  "upstream_available": "Deterministic original-versus-ingest equality detects all intended changes; own regime, available equally to controls/detectors",
+  "operational_priority": "Hard R first; control-first and hash equal-share schedules both reported; binary output no fabricated scores"
+}

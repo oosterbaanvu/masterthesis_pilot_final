@@ -1,0 +1,37 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "license": "apache-2.0",
+  "files": [
+    {
+      "file": "config.json",
+      "bytes": 570,
+      "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased/resolve/86b5e0934494bd15c9632b12f734a8a67f723594/config.json"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 48,
+      "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased/resolve/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer_config.json"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 466062,
+      "sha256": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased/resolve/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json"
+    },
+    {
+      "file": "vocab.txt",
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased/resolve/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt"
+    },
+    {
+      "file": "pytorch_model.bin",
+      "bytes": 440473133,
+      "sha256": "097417381d6c7230bd9e3557456d726de6e83245ec8b24f529f60198a67b203a",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased/resolve/86b5e0934494bd15c9632b12f734a8a67f723594/pytorch_model.bin"
+    }
+  ]
+}

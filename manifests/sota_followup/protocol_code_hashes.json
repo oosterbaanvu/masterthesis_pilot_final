@@ -1,0 +1,83 @@
+{
+  "status": "FINAL_ARCHIVED_INFERENCE_CODE",
+  "files": [
+    {
+      "path": "src/sota_followup/pattern_adapter.py",
+      "sha256": "ddfd1994f1fdfb1b0ee845ff542f6975f171c6cd606e3c5b3afd6735e829a511"
+    },
+    {
+      "path": "src/sota_followup/interventions.py",
+      "sha256": "3b98eaa0c14774063abfc887e75c7bb0c195c13291f0e6e5eb1d3ceafb0822c3"
+    },
+    {
+      "path": "src/sota_followup/__init__.py",
+      "sha256": "95bb712e28958b2441aa4778019670d6038fbba5f065803a5a5d58f31a1d9a08"
+    },
+    {
+      "path": "src/sota_followup/cli.py",
+      "sha256": "f189d9a87b9f9d4973c4b007ed08edbf5a7866a540dac1d5bef438937fbb8c17"
+    },
+    {
+      "path": "src/sota_followup/value_metrics.py",
+      "sha256": "10360eb71d0fe56fb2cb452e7b27a273e35b0d697e948f9be69fa7b93f4c7456"
+    },
+    {
+      "path": "src/sota_followup/metrics.py",
+      "sha256": "b5439a07ce498d2d24819c74f067546cfbc8b616f008c7e1cbafd2b1a59d45b4"
+    },
+    {
+      "path": "src/sota_followup/layers.py",
+      "sha256": "22fd9ac81eeb070caaf0858d8807cead537fd2662810e500b1925e92f3d9e101"
+    },
+    {
+      "path": "src/sota_followup/benchmarks.py",
+      "sha256": "cfe5293c8c7cd9e1297e48cb3ede09ff033aefc5029d07b02f121319534dc739"
+    },
+    {
+      "path": "src/sota_followup/models.py",
+      "sha256": "270b60820f391f41c5d4eeae7fffc7b548ef44fdafde82506b293eff32683e77"
+    },
+    {
+      "path": "scripts/sota_ingest.py",
+      "sha256": "d21a041fb94178fd55991cbaa96e277c0e0d8ee6e89a14499ad8cc1f58a41730"
+    },
+    {
+      "path": "scripts/sota_pattern_ingest.py",
+      "sha256": "274bfe85782eda110ed70c1620d19d78c4ea7f19bc3c22d044b19571c56b690f"
+    },
+    {
+      "path": "scripts/sota_pattern_worker.py",
+      "sha256": "abe3e94706eed4f5a1b0f829f2fbb879bbefd0602157b8a45ada2caa45fb16d4"
+    },
+    {
+      "path": "scripts/native_detector_worker.py",
+      "sha256": "0903971337743de720c0b3f80406a7d3684eadb1abc6d4cdf7db23c264c4dda4"
+    },
+    {
+      "path": "scripts/sota_autotest_full.py",
+      "sha256": "1b4770158c4a4761863af062aad1b7dcb0b65f436a541173df2c62b066a4d48c"
+    }
+  ],
+  "amendments": [
+    {
+      "track": "numeric ingest",
+      "version": "2.0",
+      "reason": "New nontrivial interventions and explicit R/RS/RSM; previous630 intact"
+    },
+    {
+      "track": "value and P5",
+      "version": "2.1",
+      "reason": "Explicit subprocess Python hashseed0; inherited-hash2.0 outputs retained under attempts/; no inference-family exclusion"
+    },
+    {
+      "track": "categorical cheap M",
+      "version": "2.0 exploratory sensitivity",
+      "reason": "Expose and test missing categorical prediction; both95/99.5% cuts retained, original RSM not renamed"
+    },
+    {
+      "track": "CDC diagnostic",
+      "version": "canonical-frame bridge amendment2",
+      "reason": "Legacy pandas reload produced different identities; export main canonical arrays, native parity now verified"
+    }
+  ]
+}

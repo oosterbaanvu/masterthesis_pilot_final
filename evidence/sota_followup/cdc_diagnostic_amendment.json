@@ -1,0 +1,12 @@
+{
+  "cause": "The diagnostic called the source split loader in legacy pandas1.5.3. Its full-feature object hashing differs from pinned main pandas2.3.3, so evaluation/history populations differed. Membership guard exposed this before any mini-case metrics were accepted.",
+  "repair": "Export exact approved source arrays and immutable IDs in the pinned main environment; pass row-aligned arrays to legacy inference and retain external source-ID-to-position map. All fit/predict calls operate on copies.",
+  "preserved_attempt": "results/sota_followup/attempts/cdc_boundary_predict_index_sideeffect",
+  "global_numpy_seed": "Explicit42 before each fit, matching primary worker.",
+  "parameter_tuning": "NONE",
+  "initial_hypothesis": "Predictor index mutation was initially suspected but not established. That hypothesis is withdrawn.",
+  "verified_root_cause": "The diagnostic called the source split loader in legacy pandas1.5.3. Its full-feature object hashing differs from pinned main pandas2.3.3, so evaluation/history populations differed. Membership guard exposed this before any mini-case metrics were accepted.",
+  "main_experiments": "Main720 and original630 already used the pinned main source producer and separate JSON IPC; unaffected.",
+  "withdrawn_cause_text": "Original conformal predictor.predict mutates passed DataFrame index. The diagnostic reused a source-indexed frame; subsequent .at source-ID edits grew it from800 to830. No new mini-case metrics were accepted. Main720 IPC-based cases unaffected.",
+  "revision": "2: replace withdrawn index-mutation hypothesis with observed library-dependent split mismatch"
+}

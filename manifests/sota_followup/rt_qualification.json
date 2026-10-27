@@ -1,0 +1,60 @@
+{
+  "benchmark": "rt",
+  "counts": {
+    "physical_records": 1048575,
+    "eligible_columns": 1194,
+    "distinct_values": 90934,
+    "positives": 41,
+    "ambiguous": 35,
+    "fully_empty": 1047375
+  },
+  "excluded": [
+    {
+      "position": 97,
+      "id": "98",
+      "issues": [
+        "COUNT_MISMATCH"
+      ]
+    },
+    {
+      "position": 408,
+      "id": "409",
+      "issues": [
+        "COUNT_MISMATCH"
+      ]
+    },
+    {
+      "position": 622,
+      "id": "623",
+      "issues": [
+        "COUNT_MISMATCH"
+      ]
+    },
+    {
+      "position": 801,
+      "id": "802",
+      "issues": [
+        "COUNT_MISMATCH"
+      ]
+    },
+    {
+      "position": 1036,
+      "id": "1037",
+      "issues": [
+        "COUNT_MISMATCH"
+      ]
+    },
+    {
+      "position": 1187,
+      "id": "1188",
+      "issues": [
+        "COUNT_MISMATCH"
+      ]
+    }
+  ],
+  "sha256": "57cc995d15275fced84d19abaaa46802dd990492052c08d0cbc7fe76b49cb623",
+  "unit": "distinct value within published column",
+  "truth": "C_PUBLISHER_REFERENCE",
+  "source_table_and_occurrence_frequencies": "NOT_PROVIDED",
+  "semantic_adjudication": "NOT_INDEPENDENTLY_VERIFIED"
+}

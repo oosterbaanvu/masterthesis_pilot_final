@@ -1,0 +1,11 @@
+{
+  "native_categorical": [
+    "alcohol",
+    "pH",
+    "sulphates"
+  ],
+  "native_numerical": [
+    "density"
+  ],
+  "regime": "untouched-source-history assumed usable, not independently clean; original guarantees not asserted"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "file": "config.py",
+    "upstream_sha256": "54b1cef1e928319892b0e2f865663264683ba365d84492ddf62292176ae6bbcd",
+    "working_sha256": "5f8c80c3a2fe13ab06b84175bc3517f0ec294e375d15e6ed7d0507e267277f0a"
+  },
+  {
+    "file": "STEP3_SDC_application.py",
+    "upstream_sha256": "d861655b0dfdd6f6dd74ed08afb3c6e6732d026a7687203cf6f7dcbd65932b92",
+    "working_sha256": "dedb9442e3966ba9c65c1a687dc01156be5ef35a6bb56deb85c74900e3d395e2"
+  },
+  {
+    "file": "demo/demo_utils/demo_util.py",
+    "upstream_sha256": "5d480f1e520b743f720ff7d658580fd8be0265b6ee78f914ea91e27275297142",
+    "working_sha256": "ad4241c392940e3e382feacfb0758854ea20257bbdd0c5fa6c2dd70b5e17efab"
+  },
+  {
+    "file": "sherlock-project/sherlock/features/paragraph_vectors.py",
+    "upstream_sha256": "5d71dfc3959c8a24fec53ac774a76230194cbdf82b69fd2b4bfc1bcef9a2a915",
+    "working_sha256": "be02feba03b0edca43bd57263790c0950cc352d3415820be6ca1f0c280428b52"
+  },
+  {
+    "file": "doduo-project/doduo/doduo.py",
+    "upstream_sha256": "a29e24785c15d9b4dbac3c5b3d8f3b844dc47420c4898b061843fa1213bc5be3",
+    "working_sha256": "192d3b5e6ddeac9bafe9db0dce1372df73a35eedfe9a68405ce1127f8eabe1a6"
+  }
+]

@@ -1,0 +1,23 @@
+# Primary-work novelty audit and semantic limits
+
+**Novelty is NOT ESTABLISHED.** Additional constraints, complementary detections and even human verification cost ordering already exist in prior work. A defensible thesis needs a narrowed empirical question, precise target truth and a claim bounded to the tested sources/information.
+
+| Work / verified source | Primary evidence inspected | Proposed claim and classification |
+| --- | --- | --- |
+| Auto-Test, Chen et al., DOI10.1145/3725396, arXiv2504.10762v1 | Fulltext §6.7 “Quality on data-cleaning benchmarks”, Tables9–11; §6.1/6.2 benchmark units | Complementing existing constraints with learned SDCs: **already established**, explicitly stated and evaluated |
+| Abedjan et al., PVLDB2016 DOI10.14778/2994509.2994518 | Fulltext §3.5.1 union/min-k; §3.5.2 precision-based ordering/cost model; §4.5 tool combinations | Combining tools and reducing manual verification: **already established**, not novel merely by adding fixed budgets |
+| REIN, Abdelaal et al., arXiv2302.04702v1 | Fulltext §2 benchmark overview, §5 data, §6 detector/repair experiments | Broad heterogeneous detector complementarity: **already established** |
+| Raha, SIGMOD2019 DOI10.1145/3299869.3324956 | Fulltext §4 algorithm configuration/clustering-based sampling/label propagation | Learning from a costed human-label budget: **already established**; U3 differs from U0/U1 |
+| RIOLU, arXiv2412.05240 / ICSE2025 DOI10.1109/ICSE55347.2025.00078 | Fulltext §III pattern generation/selection and Auto-RIOLU coverage estimation; §IV sensitivity | Automatically inferred healthy patterns and coverage sensitivity: **already established** |
+| CDC, AISTATS2024 PMLR238 | Fulltext §3.1–3.3 fit/calibration, §6.4 limitations; native source predicate | Conditional residual consistency/clean-history assumptions: **already established**; this pilot diagnoses its operational burden |
+| ZeroED, arXiv2504.05345 | Fulltext pipeline feature/representative pseudo-labelling, propagation and augmentation sections; original source | Local small rule generation alone would not reproduce the method; full architecture is prior work |
+| SAGED, EDBT2024 DOI10.48786/edbt.2024.34 | Fulltext §3 meta-learning/offline history and online feature/similarity stages | Reusing repaired historical datasets/learned portfolio is prior work and needs qualified histories |
+| Auto-Detect, SIGMOD2018 DOI10.1145/3183713.3196889 | Fulltext §3.1 distant supervision and §4.1–4.4 corpora, sample evaluation | Cross-corpus learned pattern compatibility and ranked candidate quality: **already established** |
+| LUCARIO2026 DOI10.1016/j.infsof.2026.108035 | Original complete source, author parity and publication metadata/abstract | Full article PDF unavailable through legitimate checked routes: **full-paper novelty audit incomplete** |
+| tab_err, Jung et al., DOI10.1145/3774914 | Official pinned implementation, source docs, verified ECAR/EAR/ENAR behavior; publication metadata | ACM fullPDF retrieval403; no alternate arXiv found: **full-paper novelty audit incomplete** |
+
+The executed evidence supports narrower observations: some large unconstrained increments collapse after simple contextual classification or shared review capacity; more fields do not ensure useful net increments; pretrained SDCs add a few reviewed publisher-positive values after same-corpus pattern controls; selection mechanism, source type and target truth change interpretation. These are pilot findings, not a demonstrated first-in-literature method or general banking benefit.
+
+Potential thesis contribution: a reproducible conditional **empirical analysis** of modern detector marginal value after explicit R/S/cheap numeric-and-category M, jointly varying nontrivial source-relative alteration, input context and shared review policy, with separately matched publisher-value validation. This claim is **plausibly useful but novelty unproven**. Because Abedjan already studies verification cost, “budget-aware complementarity” alone is insufficient. Complete the unavailable primary papers and a forward/backward citation audit (including later Auto-Test reproducibility work) before claiming originality; no paywall bypass.
+
+Long's practical motivation concerns existing schema/business/referential/reconciliation/monitoring controls and manual exceptions. This artifact exposes costed suspicious coordinates and assumptions; it does not establish that Long or the professors approved this exact design. Real-world correctness would require domain expert adjudication with independent evidence and disagreement handling. Public labels and injected changes do not supply it automatically.

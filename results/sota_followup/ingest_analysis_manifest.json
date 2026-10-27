@@ -1,0 +1,26 @@
+{
+  "context_cases": 720,
+  "logical_cases": 360,
+  "metric_rows": 120960,
+  "datasets": {
+    "bank": 270,
+    "credit": 180,
+    "wine": 270
+  },
+  "families": {
+    "P1_context_donor": 180,
+    "P4_valid_category": 180,
+    "P6_systematic_offset": 90,
+    "P2_wrong_period": 90,
+    "P3_scale_099": 90,
+    "P3_scale_101": 90
+  },
+  "mechanisms": {
+    "EAR": 240,
+    "ECAR": 240,
+    "ENAR": 240
+  },
+  "all_hard_target_errors": 0,
+  "source_reconciliation": "complete under separate upstream-available regime",
+  "interpretation": "matched exploratory source-relative effects, not semantic-error rates"
+}

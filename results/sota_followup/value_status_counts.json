@@ -1,0 +1,31 @@
+{
+  "rt": {
+    "riolu_original": {
+      "NOT_APPLICABLE": 1120,
+      "ORIGINAL_REPRODUCED": 74
+    },
+    "riolu_small_sample": {
+      "EXPLICIT_ADAPTATION": 1193,
+      "BLOCKED_RESOURCE": 1
+    },
+    "lucario_transductive": {
+      "ORIGINAL_REPRODUCED": 1156,
+      "BLOCKED_SOFTWARE": 38
+    }
+  },
+  "st": {
+    "riolu_original": {
+      "NOT_APPLICABLE": 1145,
+      "ORIGINAL_REPRODUCED": 46,
+      "BLOCKED_RESOURCE": 2
+    },
+    "riolu_small_sample": {
+      "EXPLICIT_ADAPTATION": 1187,
+      "BLOCKED_RESOURCE": 6
+    },
+    "lucario_transductive": {
+      "ORIGINAL_REPRODUCED": 1106,
+      "BLOCKED_SOFTWARE": 87
+    }
+  }
+}

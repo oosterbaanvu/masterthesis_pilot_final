@@ -1,0 +1,31 @@
+{
+  "status": "ORIGINAL_REPRODUCED_ON_AUTHOR_ONLINE_DEMO",
+  "entrypoint": "original online_detect.py",
+  "source_revision": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+  "input": "authors unit_test/example.csv",
+  "input_shape": [
+    7,
+    5
+  ],
+  "input_sha256": "34f16f61b55f948465f9ba01876bae9b783f8eb2a70519d6b4cb78558deb4409",
+  "released_rt_train_SDCs": 505,
+  "families": [
+    "pattern",
+    "sbert",
+    "embed",
+    "doduo",
+    "pyfunc",
+    "cta",
+    "validator"
+  ],
+  "output_rows": 4,
+  "fresh_preprocessing": "Original online path freshly computed MiniLM and Doduo for author input, then original matching and all-outlier applications; original Sherlock/GLoVe and released SDCs.",
+  "raw_output_sha256": "c609753240144a8a8bd87af9c7dd2def4a26ed128747f85b75abfa8299b1bd86",
+  "raw_log_sha256": "b86bc717c291593ea107983643dc779ee38029ac737bd11f2231b78029b40874",
+  "raw_files": "ignored data/sota_followup only",
+  "labels_used": 0,
+  "resource": "CPU only; two workers; no paid API",
+  "compatibility": "paths/cache dirs, pinned legacy environment, declared NumPy dependency compatibility; working directory must be author code root",
+  "paper_accuracy_reproduction": "NOT_CLAIMED",
+  "native_online_unit": "outlier value/list per column, not a supervised accuracy assertion"
+}

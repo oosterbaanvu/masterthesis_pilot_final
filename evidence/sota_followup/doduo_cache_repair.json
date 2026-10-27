@@ -1,0 +1,11 @@
+{
+  "column": 858,
+  "benchmark": "st",
+  "old_values": 5,
+  "new_values": 159,
+  "repair": "Original Doduo predict_multi_row on exact supplied input values, author VIZNET checkpoint and pinned BERT; no reference labels",
+  "sha256": "09c7d3ab0df434c3ca8598f23d797394d6783839e62d5895eca0f1b7ad74941b",
+  "model_revision": "author-linked sato0 checkpoint; strict load_state_dict applied",
+  "cache_type": "single-column preprocessing repair; original detection rules unchanged",
+  "previous_attempt_failure": "Inference succeeded but pandas1.3 scalar assignment broadcasted tuple; store in underlying object slot, preserve raw inference output."
+}

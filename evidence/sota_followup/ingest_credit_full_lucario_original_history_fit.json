@@ -1,0 +1,11 @@
+{
+  "mode": "original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change",
+  "constraints_sha256": "3b3b23aee905049f7f61af794c90332e02491f3cd27702a9660b84486ce371c7",
+  "constraint_columns": [
+    "AGE",
+    "LIMIT_BAL",
+    "BILL_AMT1",
+    "EDUCATION"
+  ],
+  "raw_constraints_retained_locally": true
+}

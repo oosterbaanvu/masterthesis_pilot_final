@@ -1,0 +1,250 @@
+cpitclaudel/dBoost a47cb564e900c3e5220413f810e810b00046d561
+mooselab/Detect-Cell-level-Data-Anomalies-With-LUCARIO 3664bfa830b7b13f8a08cc7dd960c871c56aaeeb
+calgo-lab/tab_err 4e5d348e442824f3c09ed462e37dbbe910ef330a
+se-jaeger/conformal-data-cleaning fd8a2126c9626099f3d45511fd05d30af8de6b64
+se-jaeger/conformal-inference e25cb5938808360033201afc2ae567e5de3ad6c0
+BigDaMa/raha 7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c
+qixuchen/AutoTest 4acf65cf37a506206bf2888dbd45f17e58dce2e2
+ZJU-Data-Governance-and-Services-Team/ZeroED 2b84266e1d8b2014d36643d343429d9a20bd769e
+ggml-org/llama.cpp 961c376a2daa42220ec09663b9bde32c5fba1f70
+Python 3.9 is already installed
+Using CPython 3.12.14 interpreter at: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12
+Creating virtual environment at: data/envs/sota
+Activate with: source data/envs/sota/bin/activate
+Using CPython 3.9.25 interpreter at: data/uv-python/cpython-3.9-linux-x86_64-gnu/bin/python3.9
+warning: The requested interpreter resolved to Python 3.9.25, which is incompatible with the project's Python requirement: `>=3.11` (from `project.requires-python`)
+Creating virtual environment at: data/envs/cdc
+Activate with: source data/envs/cdc/bin/activate
+Using CPython 3.9.25 interpreter at: data/uv-python/cpython-3.9-linux-x86_64-gnu/bin/python3.9
+warning: The requested interpreter resolved to Python 3.9.25, which is incompatible with the project's Python requirement: `>=3.11` (from `project.requires-python`)
+Creating virtual environment at: data/envs/lucario
+Activate with: source data/envs/lucario/bin/activate
+Using Python 3.12.14 environment at: data/envs/sota
+Resolved 44 packages in 41ms
+Checked 44 packages in 0.92ms
+Using Python 3.9.25 environment at: data/envs/cdc
+Resolved 44 packages in 39ms
+Checked 44 packages in 0.32ms
+Using Python 3.9.25 environment at: data/envs/lucario
+Checked 21 packages in 3ms
+Using Python 3.12.14 environment at: data/envs/sota
+Resolved 1 package in 5ms
+   Building thesis-audit @ file:///workspace/masterthesis_pilot_final
+      Built thesis-audit @ file:///workspace/masterthesis_pilot_final
+Prepared 1 package in 1.08s
+Uninstalled 1 package in 2ms
+Installed 1 package in 5ms
+ ~ thesis-audit==0.2.0 (from file:///workspace/masterthesis_pilot_final)
+{'path': 'data/recovery_downloads/default+of+credit+card+clients.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 5539494, 'sha256': '56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602'}
+{'path': 'data/recovery_downloads/bank+marketing.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 1023843, 'sha256': 'e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4'}
+{'path': 'data/pilot_sources/wine.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 91353, 'sha256': '3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4'}
+{'path': 'data/raw/BigDaMa__raha/datasets/beers/clean.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 233019, 'sha256': '373227df59ad197e154dd5149125789e415019535c7223355e9486ee1b3b93de'}
+{'path': 'data/raw/BigDaMa__raha/datasets/beers/dirty.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 255295, 'sha256': '7110bf4931a9445a1675e544d6c996817c739136239f8a2b02e088c7ec0a1f68'}
+{'path': 'data/raw/BigDaMa__raha/datasets/hospital/clean.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 303324, 'sha256': 'ea3ee44998455c0b491750c348509de176c758a3bbf58e4530c0a136bb248b4b'}
+{'path': 'data/raw/BigDaMa__raha/datasets/hospital/dirty.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 303306, 'sha256': 'dbc5575b915fe8b5e0ac6dc6172f38ba91e611fdb76d09a8f4a81cb7ea9925ac'}
+verified data/sota_followup/Miniconda3-py37_23.1.0-1-Linux-x86_64.sh
+verified data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/glove.6B.50d.txt
+verified data/sota_followup/autotest_materials/code/sherlock-materials/model_files/classes_sherlock.npy
+verified data/sota_followup/autotest_materials/code/sherlock-materials/model_files/sherlock_model.json
+verified data/sota_followup/autotest_materials/code/sherlock-materials/model_files/sherlock_weights.h5
+verified data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl
+verified data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.docvecs.vectors_docs.npy
+verified data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.trainables.syn1neg.npy
+verified data/sota_followup/autotest_materials/code/AutoTest/sherlock-project/sherlock/features/par_vec_trained_400.pkl.wv.vectors.npy
+verified data/sota_followup/autotest_materials/code/doduo-materials/model/sato0_mosato_bert_bert-base-uncased-bs16-ml-32__sato0-1.00_best_micro_f1.pt
+verified data/sota_followup/rt_bench_dist_val_embeddings.pkl
+verified data/sota_followup/st_bench_dist_val_embeddings.pkl
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/config.json
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/config_sentence_transformers.json
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/modules.json
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/sentence_bert_config.json
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/special_tokens_map.json
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/tokenizer.json
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/tokenizer_config.json
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/vocab.txt
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/pytorch_model.bin
+verified data/torch_cache/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2/1_Pooling/config.json
+verified data/sota_followup/bert_base_uncased/config.json
+verified data/sota_followup/bert_base_uncased/tokenizer_config.json
+verified data/sota_followup/bert_base_uncased/tokenizer.json
+verified data/sota_followup/bert_base_uncased/vocab.txt
+verified data/sota_followup/bert_base_uncased/pytorch_model.bin
+verified data/nltk_data/tokenizers/punkt.zip
+verified data/nltk_data/corpora/stopwords.zip
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cpu
+Requirement already satisfied: Flask==2.2.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 1)) (2.2.5)
+Requirement already satisfied: Flask-Cors==3.0.10 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 2)) (3.0.10)
+Requirement already satisfied: Keras-Applications==1.0.8 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 3)) (1.0.8)
+Requirement already satisfied: Keras-Preprocessing==1.1.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 4)) (1.1.2)
+Requirement already satisfied: Markdown==3.4.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 5)) (3.4.4)
+Requirement already satisfied: MarkupSafe==2.1.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 6)) (2.1.5)
+Requirement already satisfied: Metaphone==0.6 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 7)) (0.6)
+Requirement already satisfied: Pillow==9.5.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 8)) (9.5.0)
+Requirement already satisfied: PySocks==1.7.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 9)) (1.7.1)
+Requirement already satisfied: PyYAML==6.0.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 10)) (6.0.1)
+Requirement already satisfied: SQLAlchemy==1.4.54 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 11)) (1.4.54)
+Requirement already satisfied: Send2Trash==1.8.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 12)) (1.8.3)
+Requirement already satisfied: Werkzeug==2.2.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 13)) (2.2.3)
+Requirement already satisfied: absl-py==2.1.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 14)) (2.1.0)
+Requirement already satisfied: aiohttp==3.8.6 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 15)) (3.8.6)
+Requirement already satisfied: aiosignal==1.3.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 16)) (1.3.1)
+Requirement already satisfied: anyio==3.7.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 17)) (3.7.1)
+Requirement already satisfied: argon2-cffi==23.1.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 18)) (23.1.0)
+Requirement already satisfied: argon2-cffi-bindings==21.2.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 19)) (21.2.0)
+Requirement already satisfied: astor==0.8.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 20)) (0.8.1)
+Requirement already satisfied: asttokens==2.4.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 21)) (2.4.1)
+Requirement already satisfied: async-timeout==4.0.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 22)) (4.0.3)
+Requirement already satisfied: asynctest==0.13.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 23)) (0.13.0)
+Requirement already satisfied: attrs==24.2.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 24)) (24.2.0)
+Requirement already satisfied: backcall==0.2.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 25)) (0.2.0)
+Requirement already satisfied: beautifulsoup4==4.15.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 26)) (4.15.0)
+Requirement already satisfied: bleach==6.0.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 27)) (6.0.0)
+Requirement already satisfied: bokeh==2.4.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 28)) (2.4.3)
+Requirement already satisfied: certifi==2022.12.7 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 29)) (2022.12.7)
+Requirement already satisfied: cffi==1.15.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 30)) (1.15.1)
+Requirement already satisfied: charset-normalizer==2.0.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 31)) (2.0.4)
+Requirement already satisfied: click==8.1.8 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 32)) (8.1.8)
+Requirement already satisfied: cloudpickle==2.2.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 33)) (2.2.1)
+Requirement already satisfied: comm==0.1.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 34)) (0.1.4)
+Requirement already satisfied: cryptography==38.0.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 35)) (38.0.4)
+Requirement already satisfied: cycler==0.11.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 36)) (0.11.0)
+Requirement already satisfied: dask==2021.12.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 37)) (2021.12.0)
+Requirement already satisfied: dataprep==0.4.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 38)) (0.4.3)
+Requirement already satisfied: debugpy==1.7.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 39)) (1.7.0)
+Requirement already satisfied: decorator==5.1.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 40)) (5.1.1)
+Requirement already satisfied: defusedxml==0.7.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 41)) (0.7.1)
+Requirement already satisfied: dill==0.3.7 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 42)) (0.3.7)
+Requirement already satisfied: easydict==1.13 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 43)) (1.13)
+Requirement already satisfied: entrypoints==0.4.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 44)) (0.4.2)
+Requirement already satisfied: et-xmlfile==1.1.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 45)) (1.1.0)
+Requirement already satisfied: exceptiongroup==1.3.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 46)) (1.3.1)
+Requirement already satisfied: executing==0.8.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 47)) (0.8.3)
+Requirement already satisfied: fastjsonschema==2.21.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 48)) (2.21.2)
+Requirement already satisfied: filelock==3.12.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 49)) (3.12.2)
+Requirement already satisfied: flit-core==3.6.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 50)) (3.6.0)
+Requirement already satisfied: fonttools==4.38.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 51)) (4.38.0)
+Requirement already satisfied: frozenlist==1.3.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 52)) (1.3.3)
+Requirement already satisfied: fsspec==2023.1.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 53)) (2023.1.0)
+Requirement already satisfied: gast==0.2.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 54)) (0.2.2)
+Requirement already satisfied: gdown==4.3.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 55)) (4.3.0)
+Requirement already satisfied: gensim==3.8.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 56)) (3.8.3)
+Requirement already satisfied: google-pasta==0.2.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 57)) (0.2.0)
+Requirement already satisfied: greenlet==3.1.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 58)) (3.1.1)
+Requirement already satisfied: grpcio==1.62.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 59)) (1.62.3)
+Requirement already satisfied: h5py==2.10.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 60)) (2.10.0)
+Requirement already satisfied: huggingface-hub==0.16.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 61)) (0.16.4)
+Requirement already satisfied: idna==3.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 62)) (3.4)
+Requirement already satisfied: importlib-metadata==4.11.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 63)) (4.11.3)
+Requirement already satisfied: importlib-resources==5.12.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 64)) (5.12.0)
+Requirement already satisfied: ipykernel==6.16.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 65)) (6.16.2)
+Requirement already satisfied: ipython==7.34.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 66)) (7.34.0)
+Requirement already satisfied: ipython-genutils==0.2.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 67)) (0.2.0)
+Requirement already satisfied: ipywidgets==7.8.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 68)) (7.8.5)
+Requirement already satisfied: itsdangerous==2.1.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 69)) (2.1.2)
+Requirement already satisfied: jedi==0.19.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 70)) (0.19.2)
+Requirement already satisfied: jinja2==3.1.6 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 71)) (3.1.6)
+Requirement already satisfied: joblib==1.3.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 72)) (1.3.2)
+Requirement already satisfied: jsonpath-ng==1.8.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 73)) (1.8.0)
+Requirement already satisfied: jsonschema==4.17.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 74)) (4.17.3)
+Requirement already satisfied: jupyter-client==7.4.9 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 75)) (7.4.9)
+Requirement already satisfied: jupyter-core==4.12.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 76)) (4.12.0)
+Requirement already satisfied: jupyter-server==1.24.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 77)) (1.24.0)
+Requirement already satisfied: jupyterlab-pygments==0.2.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 78)) (0.2.2)
+Requirement already satisfied: jupyterlab-widgets==1.1.11 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 79)) (1.1.11)
+Requirement already satisfied: kiwisolver==1.4.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 80)) (1.4.5)
+Requirement already satisfied: locket==1.0.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 81)) (1.0.0)
+Requirement already satisfied: matplotlib==3.5.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 82)) (3.5.3)
+Requirement already satisfied: matplotlib-inline==0.1.6 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 83)) (0.1.6)
+Requirement already satisfied: mistune==3.0.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 84)) (3.0.2)
+Requirement already satisfied: multidict==6.0.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 85)) (6.0.5)
+Requirement already satisfied: nbclassic==1.2.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 86)) (1.2.0)
+Requirement already satisfied: nbclient==0.7.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 87)) (0.7.4)
+Requirement already satisfied: nbconvert==7.6.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 88)) (7.6.0)
+Requirement already satisfied: nbformat==5.8.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 89)) (5.8.0)
+Requirement already satisfied: nest-asyncio==1.6.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 90)) (1.6.0)
+Requirement already satisfied: nltk==3.8.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 91)) (3.8.1)
+Requirement already satisfied: notebook==6.5.7 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 92)) (6.5.7)
+Requirement already satisfied: notebook-shim==0.2.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 93)) (0.2.4)
+Requirement already satisfied: numpy==1.21.6 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 94)) (1.21.6)
+Requirement already satisfied: openpyxl==3.1.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 95)) (3.1.2)
+Requirement already satisfied: opt-einsum==3.3.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 96)) (3.3.0)
+Requirement already satisfied: packaging==24.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 97)) (24.0)
+Requirement already satisfied: pandas==1.3.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 98)) (1.3.5)
+Requirement already satisfied: pandocfilters==1.5.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 99)) (1.5.1)
+Requirement already satisfied: parso==0.8.7 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 100)) (0.8.7)
+Requirement already satisfied: partd==1.4.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 101)) (1.4.1)
+Requirement already satisfied: pexpect==4.9.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 102)) (4.9.0)
+Requirement already satisfied: pickleshare==0.7.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 103)) (0.7.5)
+Requirement already satisfied: pip==22.3.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 104)) (22.3.1)
+Requirement already satisfied: pkgutil-resolve-name==1.3.10 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 105)) (1.3.10)
+Requirement already satisfied: pluggy==1.0.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 106)) (1.0.0)
+Requirement already satisfied: prometheus-client==0.17.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 107)) (0.17.1)
+Requirement already satisfied: prompt-toolkit==3.0.48 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 108)) (3.0.48)
+Requirement already satisfied: protobuf==3.20.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 109)) (3.20.3)
+Requirement already satisfied: psutil==7.2.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 110)) (7.2.2)
+Requirement already satisfied: ptyprocess==0.7.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 111)) (0.7.0)
+Requirement already satisfied: pure-eval==0.2.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 112)) (0.2.4)
+Requirement already satisfied: pyOpenSSL==22.0.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 113)) (22.0.0)
+Requirement already satisfied: pyarrow==12.0.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 114)) (12.0.1)
+Requirement already satisfied: pycparser==2.21 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 115)) (2.21)
+Requirement already satisfied: pydantic==1.10.26 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 116)) (1.10.26)
+Requirement already satisfied: pyfunctional==1.4.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 117)) (1.4.3)
+Requirement already satisfied: pygments==2.17.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 118)) (2.17.2)
+Requirement already satisfied: pyparsing==3.1.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 119)) (3.1.4)
+Requirement already satisfied: pyrsistent==0.19.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 120)) (0.19.3)
+Requirement already satisfied: pystache==0.6.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 121)) (0.6.4)
+Requirement already satisfied: python-Levenshtein==0.12.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 122)) (0.12.2)
+Requirement already satisfied: python-crfsuite==0.9.10 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 123)) (0.9.10)
+Requirement already satisfied: python-dateutil==3.0.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 124)) (3.0.0)
+Requirement already satisfied: python-stdnum==1.20 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 125)) (1.20)
+Requirement already satisfied: pytz==2026.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 126)) (2026.5)
+Requirement already satisfied: pyzmq==26.2.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 127)) (26.2.1)
+Requirement already satisfied: regex==2021.11.10 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 128)) (2021.11.10)
+Requirement already satisfied: requests==2.28.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 129)) (2.28.1)
+Requirement already satisfied: ruamel.yaml==0.17.21 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 130)) (0.17.21)
+Requirement already satisfied: ruamel.yaml.clib==0.2.6 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 131)) (0.2.6)
+Requirement already satisfied: safetensors==0.3.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 132)) (0.3.1)
+Requirement already satisfied: scikit-learn==0.24.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 133)) (0.24.2)
+Requirement already satisfied: scipy==1.5.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 134)) (1.5.4)
+Requirement already satisfied: sentence-transformers==2.2.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 135)) (2.2.2)
+Requirement already satisfied: sentencepiece==0.2.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 136)) (0.2.0)
+Requirement already satisfied: setuptools==65.6.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 137)) (65.6.3)
+Requirement already satisfied: six==1.16.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 138)) (1.16.0)
+Requirement already satisfied: smart-open==7.1.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 139)) (7.1.0)
+Requirement already satisfied: sniffio==1.3.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 140)) (1.3.1)
+Requirement already satisfied: soupsieve==2.4.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 141)) (2.4.1)
+Requirement already satisfied: tabulate==0.9.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 142)) (0.9.0)
+Requirement already satisfied: tensorboard==1.15.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 143)) (1.15.0)
+Requirement already satisfied: tensorflow==1.15.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 144)) (1.15.5)
+Requirement already satisfied: tensorflow-estimator==1.15.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 145)) (1.15.1)
+Requirement already satisfied: termcolor==2.3.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 146)) (2.3.0)
+Requirement already satisfied: terminado==0.17.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 147)) (0.17.1)
+Requirement already satisfied: threadpoolctl==3.1.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 148)) (3.1.0)
+Requirement already satisfied: tinycss2==1.2.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 149)) (1.2.1)
+Requirement already satisfied: tokenizers==0.13.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 150)) (0.13.3)
+Requirement already satisfied: toolz==0.12.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 151)) (0.12.0)
+Requirement already satisfied: torch==1.13.1+cpu in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 152)) (1.13.1+cpu)
+Requirement already satisfied: torchvision==0.14.1+cpu in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 153)) (0.14.1+cpu)
+Requirement already satisfied: tornado==6.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 154)) (6.2)
+Requirement already satisfied: tqdm==4.64.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 155)) (4.64.1)
+Requirement already satisfied: traitlets==5.9.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 156)) (5.9.0)
+Requirement already satisfied: transformers==4.30.2 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 157)) (4.30.2)
+Requirement already satisfied: typing-extensions==4.7.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 158)) (4.7.1)
+Requirement already satisfied: tzdata==2026.5 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 159)) (2026.5)
+Requirement already satisfied: urllib3==1.26.14 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 160)) (1.26.14)
+Requirement already satisfied: validators==0.20.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 161)) (0.20.0)
+Requirement already satisfied: varname==0.8.3 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 162)) (0.8.3)
+Requirement already satisfied: wcwidth==0.2.14 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 163)) (0.2.14)
+Requirement already satisfied: webencodings==0.5.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 164)) (0.5.1)
+Requirement already satisfied: websocket-client==1.6.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 165)) (1.6.1)
+Requirement already satisfied: wheel==0.37.1 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 166)) (0.37.1)
+Requirement already satisfied: widgetsnbextension==3.6.10 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 167)) (3.6.10)
+Requirement already satisfied: wordcloud==1.9.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 168)) (1.9.4)
+Requirement already satisfied: wrapt==1.16.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 169)) (1.16.0)
+Requirement already satisfied: yarl==1.9.4 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 170)) (1.9.4)
+Requirement already satisfied: zipp==3.11.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 171)) (3.11.0)
+Requirement already satisfied: zstandard==0.18.0 in ./data/envs/autotest37/lib/python3.7/site-packages (from -r envs/sota_followup/autotest37.lock.txt (line 172)) (0.18.0)
+Working copy transformations and verified material paths ready
+All eligible cached feature entries aligned
+....................................................                     [100%]
+52 passed in 4.58s

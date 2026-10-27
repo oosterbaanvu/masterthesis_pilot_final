@@ -1,0 +1,11 @@
+{
+  "mode": "original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change",
+  "constraints_sha256": "fbf0a463be9ed3be111043bbe277600d5b6761d9caf687eab93f91fddf0aea27",
+  "constraint_columns": [
+    "age",
+    "duration",
+    "previous",
+    "job"
+  ],
+  "raw_constraints_retained_locally": true
+}

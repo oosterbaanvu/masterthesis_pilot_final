@@ -1,0 +1,31 @@
+{
+  "publisher_tracks": [
+    {
+      "benchmark": "rt",
+      "columns": 1194,
+      "values": 90934,
+      "positives": 41,
+      "ambiguous": 35,
+      "original_RIOLU_applicable_columns": 74,
+      "original_RIOLU_applicable_values": 45136,
+      "native_full_AutoTest_alerts": 35,
+      "RSM": "NOT_APPLICABLE without row context"
+    },
+    {
+      "benchmark": "st",
+      "columns": 1193,
+      "values": 71719,
+      "positives": 45,
+      "ambiguous": 77,
+      "original_RIOLU_applicable_columns": 46,
+      "original_RIOLU_applicable_values": 29866,
+      "native_full_AutoTest_alerts": 23,
+      "RSM": "NOT_APPLICABLE without row context"
+    }
+  ],
+  "pattern_transfer_scenarios": 135,
+  "pattern_transfer_metric_rows": 10800,
+  "original_RIOLU_coverage": "default385; small-sample adaptation separately identified",
+  "unknown_source_status": "off-transfer occurrence alerts are unknown burden, not true semantic false positives",
+  "pretraining_fairness": "U0 matched dirty-input comparisons; U2 full-vs-pattern native ablation; U2-vs-RS is heterogeneous operational increment, not same-information algorithm superiority"
+}

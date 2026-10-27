@@ -1,0 +1,18 @@
+[
+  {
+    "name": "rt",
+    "url": "https://media.githubusercontent.com/media/qixuchen/AutoTest/4acf65cf37a506206bf2888dbd45f17e58dce2e2/code/AutoTest/demo/cache/rt_bench_dist_val_embeddings.pkl",
+    "bytes": 135529147,
+    "sha256": "b75aed6f71864a9648384220cb6d53dda2c51d5e1b3971337c9222a917c75f47",
+    "verification": "Author Git LFS oid and size",
+    "local_path": "data/sota_followup/rt_bench_dist_val_embeddings.pkl"
+  },
+  {
+    "name": "st",
+    "url": "https://media.githubusercontent.com/media/qixuchen/AutoTest/4acf65cf37a506206bf2888dbd45f17e58dce2e2/code/AutoTest/demo/cache/st_bench_dist_val_embeddings.pkl",
+    "bytes": 113594095,
+    "sha256": "f0d0fb27a77e27dc2178970a017b8a4d7253c739885101fc0c9a053d9687b522",
+    "verification": "Author Git LFS oid and size",
+    "local_path": "data/sota_followup/st_bench_dist_val_embeddings.pkl"
+  }
+]

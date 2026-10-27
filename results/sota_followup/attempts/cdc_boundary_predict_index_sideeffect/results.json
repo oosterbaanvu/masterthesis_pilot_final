@@ -1,0 +1,260 @@
+[
+  {
+    "dataset": "credit",
+    "mode": "native_types",
+    "fields": [
+      {
+        "column": "AGE",
+        "native_type": "categorical",
+        "released_flags": 293,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 8,
+        "alerts_on_these_labels": 8
+      },
+      {
+        "column": "LIMIT_BAL",
+        "native_type": "categorical",
+        "released_flags": 282,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 16,
+        "alerts_on_these_labels": 7
+      },
+      {
+        "column": "BILL_AMT1",
+        "native_type": "numeric",
+        "released_flags": 46,
+        "exact_endpoint_ties": 20,
+        "inclusive_interval_flags": 26,
+        "zero_width_intervals": 7
+      },
+      {
+        "column": "EDUCATION",
+        "native_type": "categorical",
+        "released_flags": 84,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 2,
+        "alerts_on_these_labels": 1
+      }
+    ],
+    "released_total": 705,
+    "inclusive_total": 685,
+    "seconds": 9.304322857999068,
+    "source_history_cleanliness": "UNKNOWN",
+    "adaptation": "inclusive endpoints is separate sensitivity; original code/primary predictions preserved"
+  },
+  {
+    "dataset": "credit",
+    "mode": "declared_types",
+    "fields": [
+      {
+        "column": "AGE",
+        "native_type": "numeric",
+        "released_flags": 38,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 38,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "LIMIT_BAL",
+        "native_type": "numeric",
+        "released_flags": 44,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 44,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "BILL_AMT1",
+        "native_type": "numeric",
+        "released_flags": 44,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 44,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "EDUCATION",
+        "native_type": "categorical",
+        "released_flags": 85,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 2,
+        "alerts_on_these_labels": 1
+      }
+    ],
+    "released_total": 211,
+    "inclusive_total": 211,
+    "seconds": 10.713964411001143,
+    "source_history_cleanliness": "UNKNOWN",
+    "adaptation": "inclusive endpoints is separate sensitivity; original code/primary predictions preserved"
+  },
+  {
+    "dataset": "bank",
+    "mode": "native_types",
+    "fields": [
+      {
+        "column": "age",
+        "native_type": "categorical",
+        "released_flags": 348,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 19,
+        "alerts_on_these_labels": 13
+      },
+      {
+        "column": "duration",
+        "native_type": "numeric",
+        "released_flags": 53,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 53,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "previous",
+        "native_type": "categorical",
+        "released_flags": 21,
+        "empty_prediction_sets_treated_inlier": 94,
+        "history_labels_with_fewer_than5_examples": 2,
+        "alerts_on_these_labels": 1
+      },
+      {
+        "column": "job",
+        "native_type": "categorical",
+        "released_flags": 131,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 0,
+        "alerts_on_these_labels": 0
+      }
+    ],
+    "released_total": 553,
+    "inclusive_total": 553,
+    "seconds": 10.089419924999675,
+    "source_history_cleanliness": "UNKNOWN",
+    "adaptation": "inclusive endpoints is separate sensitivity; original code/primary predictions preserved"
+  },
+  {
+    "dataset": "bank",
+    "mode": "declared_types",
+    "fields": [
+      {
+        "column": "age",
+        "native_type": "numeric",
+        "released_flags": 33,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 33,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "duration",
+        "native_type": "numeric",
+        "released_flags": 47,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 47,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "previous",
+        "native_type": "numeric",
+        "released_flags": 791,
+        "exact_endpoint_ties": 785,
+        "inclusive_interval_flags": 6,
+        "zero_width_intervals": 740
+      },
+      {
+        "column": "job",
+        "native_type": "categorical",
+        "released_flags": 97,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 0,
+        "alerts_on_these_labels": 0
+      }
+    ],
+    "released_total": 968,
+    "inclusive_total": 183,
+    "seconds": 24.8881569389996,
+    "source_history_cleanliness": "UNKNOWN",
+    "adaptation": "inclusive endpoints is separate sensitivity; original code/primary predictions preserved"
+  },
+  {
+    "dataset": "wine",
+    "mode": "native_types",
+    "fields": [
+      {
+        "column": "alcohol",
+        "native_type": "categorical",
+        "released_flags": 249,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 30,
+        "alerts_on_these_labels": 7
+      },
+      {
+        "column": "density",
+        "native_type": "numeric",
+        "released_flags": 30,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 30,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "pH",
+        "native_type": "categorical",
+        "released_flags": 415,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 22,
+        "alerts_on_these_labels": 19
+      },
+      {
+        "column": "sulphates",
+        "native_type": "categorical",
+        "released_flags": 342,
+        "empty_prediction_sets_treated_inlier": 0,
+        "history_labels_with_fewer_than5_examples": 20,
+        "alerts_on_these_labels": 7
+      }
+    ],
+    "released_total": 1036,
+    "inclusive_total": 1036,
+    "seconds": 11.53618896899934,
+    "source_history_cleanliness": "UNKNOWN",
+    "adaptation": "inclusive endpoints is separate sensitivity; original code/primary predictions preserved"
+  },
+  {
+    "dataset": "wine",
+    "mode": "declared_types",
+    "fields": [
+      {
+        "column": "alcohol",
+        "native_type": "numeric",
+        "released_flags": 41,
+        "exact_endpoint_ties": 2,
+        "inclusive_interval_flags": 39,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "density",
+        "native_type": "numeric",
+        "released_flags": 44,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 44,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "pH",
+        "native_type": "numeric",
+        "released_flags": 25,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 25,
+        "zero_width_intervals": 0
+      },
+      {
+        "column": "sulphates",
+        "native_type": "numeric",
+        "released_flags": 52,
+        "exact_endpoint_ties": 0,
+        "inclusive_interval_flags": 52,
+        "zero_width_intervals": 0
+      }
+    ],
+    "released_total": 162,
+    "inclusive_total": 160,
+    "seconds": 10.944440362000023,
+    "source_history_cleanliness": "UNKNOWN",
+    "adaptation": "inclusive endpoints is separate sensitivity; original code/primary predictions preserved"
+  }
+]

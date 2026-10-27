@@ -1,0 +1,46 @@
+{
+  "status": "ORIGINAL_LIMITED",
+  "original_pipeline": "author demo_util.apply_sdc; all released SDC families; benchmark precomputed SBERT/Doduo features reused, not freshly recomputed",
+  "benchmark": "rt",
+  "corpus": "rt_train",
+  "columns": 20,
+  "values": 2312,
+  "rules": 505,
+  "families": {
+    "pattern": 60,
+    "sbert": 89,
+    "embed": 272,
+    "doduo": 25,
+    "pyfunc": 14,
+    "cta": 35,
+    "validator": 10
+  },
+  "cache_checks": {
+    "sbert": {
+      "sha256": "b75aed6f71864a9648384220cb6d53dda2c51d5e1b3971337c9222a917c75f47",
+      "all_selected_value_counts_equal": true,
+      "cached_columns": 1200
+    },
+    "doduo": {
+      "sha256": "1bc419004cb95c171c74c122a12db3760efcaa49e0ff72fa9a658339471b350e",
+      "all_selected_value_counts_equal": true,
+      "cached_columns": 1200
+    }
+  },
+  "labels_consumed": 0,
+  "regime": "U2 external pretrained corpora and published benchmark features; source-table overlap unknown",
+  "output": "original one lowest-FPR outlier per column, mapped to actual distinct-value coordinates",
+  "alerts": 2,
+  "wall_seconds": 68.35374452299948,
+  "parent_max_rss_kib": 886008,
+  "child_max_rss_kib": 2927504,
+  "raw_native_log_sha256": "fb54041c18190ed761b5150633703501b53c94bba8b5a86553353cd08e6ac1f0",
+  "raw_native_artifacts": "ignored local files, no restricted data/model redistribution",
+  "deviations": [
+    "Writable path configuration",
+    "Two workers instead of author defaults up to48",
+    "Python3.7.16 with pinned compatibility dependencies; original TF/NumPy requirements conflict disclosed",
+    "NLTK writable cache path only"
+  ],
+  "paper_metric_reproduction": "NOT_CLAIMED: native paper helper mixes column positives with extra outlier negatives; this study uses consistent distinct-value units"
+}

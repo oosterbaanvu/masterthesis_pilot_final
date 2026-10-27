@@ -1,0 +1,75 @@
+{
+  "status": "EXECUTED_EXPLORATORY_SENSITIVITY",
+  "models": [
+    {
+      "dataset": "credit",
+      "view": "narrow",
+      "target": "EDUCATION",
+      "algorithm": "LogisticRegression",
+      "C": 1,
+      "max_iter": 500,
+      "seed": 42,
+      "fit_rows": 1799,
+      "calibration_rows": 600,
+      "cuts": {
+        "0.95": 0.8750657657270635,
+        "0.995": 0.9852495257657166
+      },
+      "reference": "original source values, not verified-clean error labels",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL threshold; explicit learned comparator, not hard rule"
+    },
+    {
+      "dataset": "credit",
+      "view": "full",
+      "target": "EDUCATION",
+      "algorithm": "LogisticRegression",
+      "C": 1,
+      "max_iter": 500,
+      "seed": 42,
+      "fit_rows": 1799,
+      "calibration_rows": 600,
+      "cuts": {
+        "0.95": 0.8917051103502035,
+        "0.995": 0.9983730094365569
+      },
+      "reference": "original source values, not verified-clean error labels",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL threshold; explicit learned comparator, not hard rule"
+    },
+    {
+      "dataset": "bank",
+      "view": "narrow",
+      "target": "job",
+      "algorithm": "LogisticRegression",
+      "C": 1,
+      "max_iter": 500,
+      "seed": 42,
+      "fit_rows": 1800,
+      "calibration_rows": 600,
+      "cuts": {
+        "0.95": 0.9724932204326466,
+        "0.995": 0.9862146136624185
+      },
+      "reference": "original source values, not verified-clean error labels",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL threshold; explicit learned comparator, not hard rule"
+    },
+    {
+      "dataset": "bank",
+      "view": "full",
+      "target": "job",
+      "algorithm": "LogisticRegression",
+      "C": 1,
+      "max_iter": 500,
+      "seed": 42,
+      "fit_rows": 1800,
+      "calibration_rows": 600,
+      "cuts": {
+        "0.95": 0.9784445764665256,
+        "0.995": 0.9973976512502437
+      },
+      "reference": "original source values, not verified-clean error labels",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL threshold; explicit learned comparator, not hard rule"
+    }
+  ],
+  "reason": "Historical Ridge covers only numeric targets. Add explicit cheap categorical prediction without renaming old RSM or changing old detector flags.",
+  "operating_points": "Both95% and99.5% history-calibrated nonconformity cutoffs are reported; neither selected on test labels."
+}

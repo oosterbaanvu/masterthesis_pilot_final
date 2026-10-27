@@ -1,0 +1,7 @@
+{
+  "status": "PASSED",
+  "purpose": "Persist untouched comparator masks for independent counterfactual verification",
+  "metric_csv_byte_hash_before": "f23e483c48b1f7d48df698759422263248a88c33c28b99b6115167134c6bd6c3",
+  "after": "f23e483c48b1f7d48df698759422263248a88c33c28b99b6115167134c6bd6c3",
+  "all_old_metric_values_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASSED",
+  "context_cases": 720,
+  "logical_cases": 360,
+  "checks": {
+    "source_bytes_identity": 720,
+    "historical_and_scored_ids_disjoint": 720,
+    "unique_history_full_feature_vectors": 720,
+    "logged_values_hash": 720,
+    "saved_prediction_hash": 720,
+    "original_and_changed_values": 30360,
+    "exact_truth_coordinates": 720,
+    "nontrivial_changes_not_hard_contract_failures": 720,
+    "baseline_nesting": 720,
+    "independent_eligible_count": 720,
+    "independent_replacement_value": 30360,
+    "independent_mechanism_and_realized_count": 720,
+    "independent_unconstrained_increment": 30240,
+    "independent_new_triggered_hits": 30240,
+    "independent_review_capacity_and_hits": 90720,
+    "independent_net_gain_and_displacement": 90720,
+    "upstream_source_reconciliation_complete": 720,
+    "full_frozen_grid_count": 1
+  },
+  "assertions": 310561,
+  "limitation": "Independent arithmetic and source-alteration evidence, not independent semantic annotation."
+}

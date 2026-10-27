@@ -1,0 +1,203 @@
+{
+  "status": "EXPLICIT_COMPATIBILITY_ADAPTATION",
+  "cause": "Multiple equally frequent raw templates leave cut=-1. Released detect_templates retains accepted_templates but never fills delimiter_bags; match_into_templates then indexes an empty list.",
+  "repair": "After original selection, reconstruct each retained template's first observed delimiter bag using original Utils.record_info; do not remove records/templates or alter coverage parameters.",
+  "selection": "First20 RT columns and first5 software failures, selected without reference labels",
+  "cases": [
+    {
+      "column_position": 0,
+      "values": 4,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 1,
+      "values": 9,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 2,
+      "values": 8,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 3,
+      "values": 22,
+      "native": "BLOCKED_SOFTWARE",
+      "error": "IndexError('list index out of range')",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0
+    },
+    {
+      "column_position": 4,
+      "values": 4,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 5,
+      "values": 9,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 6,
+      "values": 103,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 103,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 7,
+      "values": 566,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 8,
+      "values": 12,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 9,
+      "values": 63,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 10,
+      "values": 12,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 11,
+      "values": 16,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 12,
+      "values": 907,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 13,
+      "values": 386,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 14,
+      "values": 6,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 15,
+      "values": 122,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 16,
+      "values": 7,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 17,
+      "values": 3,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 18,
+      "values": 20,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 19,
+      "values": 33,
+      "native": "EXECUTED",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0,
+      "unchanged_existing_flags": true
+    },
+    {
+      "column_position": 24,
+      "values": 5,
+      "native": "BLOCKED_SOFTWARE",
+      "error": "IndexError('list index out of range')",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0
+    },
+    {
+      "column_position": 31,
+      "values": 5,
+      "native": "BLOCKED_SOFTWARE",
+      "error": "IndexError('list index out of range')",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0
+    },
+    {
+      "column_position": 108,
+      "values": 43,
+      "native": "BLOCKED_SOFTWARE",
+      "error": "IndexError('list index out of range')",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0
+    },
+    {
+      "column_position": 111,
+      "values": 112,
+      "native": "BLOCKED_SOFTWARE",
+      "error": "IndexError('list index out of range')",
+      "compatibility": "EXECUTED",
+      "compatibility_alerts": 0
+    }
+  ],
+  "scope": "Limited diagnosis and compatibility probe, not replacement of primary native LUCARIO or full repaired benchmark execution",
+  "semantic_correctness": "NOT_ESTABLISHED",
+  "method_family": "same LUCARIO family, not a new detector"
+}

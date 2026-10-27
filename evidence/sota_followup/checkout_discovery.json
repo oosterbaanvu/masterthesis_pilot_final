@@ -1,0 +1,118 @@
+{
+  "status": "COMPLETE",
+  "traversal_errors": [],
+  "projects": [
+    {
+      "root": "/workspace/masterthesis_pilot_final",
+      "classification": "project",
+      "identity": "oosterbaanvu/masterthesis_pilot_final",
+      "host": "github.com",
+      "mount_path": "masterthesis_pilot_final",
+      "head": "8ffdb072235a0544735c16ed80cc2021d6087657"
+    }
+  ],
+  "excluded_roots": [
+    {
+      "root": "/workspace",
+      "classification": "platform workspace scaffold"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/Auto-Detect",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/RIOLU",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/SAGED",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/ZeroED",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/calgo-lab__tab_err",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/conformal-inference",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/cpitclaudel__dBoost",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/llama.cpp",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/sources/mooselab__Detect-Cell-level-Data-Anomalies-With-LUCARIO",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/uv-cache/git-v1/checkouts/06986c24a066de11/4e5d348",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/uv-cache/git-v1/checkouts/b59b2ef6a0bdbea4/e25cb59",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/uv-cache/git-v1/db/06986c24a066de11",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/uv-cache/git-v1/db/b59b2ef6a0bdbea4",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/masterthesis_pilot_final/data/uv-cache/sdists-v9",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/BigDaMa__raha",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/HoloClean__holoclean",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/cpitclaudel__dBoost",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/mohamedyd__rein-benchmark",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/oosterbaanvu__masterthesis",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/oosterbaanvu__masterthesis2",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/oosterbaanvu__masterthesis3",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/oosterbaanvu__masterthesis_direction2_pilot",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/qixuchen__AutoTest",
+      "classification": "dependency or historical investigation cache"
+    },
+    {
+      "root": "/workspace/research_sources/se-jaeger__conformal-data-cleaning",
+      "classification": "dependency or historical investigation cache"
+    }
+  ],
+  "symlinks": "Not traversed; all resolved declared project roots remain below workspace",
+  "purpose": "Classify source/env/dependency caches separately from development checkout for onboarding draft"
+}

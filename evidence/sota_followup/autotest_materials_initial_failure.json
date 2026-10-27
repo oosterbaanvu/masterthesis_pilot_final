@@ -1,0 +1,26 @@
+[
+  {
+    "id": "16PHXK_jBYjfRUCotpIxAuMy56dJSJlPP",
+    "source_path": "code/AutoTest/sherlock-project/sherlock/features/glove.6B.50d.txt",
+    "state": "BLOCKED",
+    "error": "[Errno 2] No such file or directory: '/home/agent/.cache/gdown/cookies.txt'"
+  },
+  {
+    "id": "1kdCvwdHhVevqpFYme5y5SeLW3gD5VTBx",
+    "source_path": "code/sherlock-materials/model_files/classes_sherlock.npy",
+    "state": "BLOCKED",
+    "error": "[Errno 2] No such file or directory: '/home/agent/.cache/gdown/cookies.txt'"
+  },
+  {
+    "id": "12PCJJ_hgxh7tJ3WPIOI7zLFlzyTKTCE_",
+    "source_path": "code/sherlock-materials/model_files/sherlock_model.json",
+    "state": "BLOCKED",
+    "error": "[Errno 2] No such file or directory: '/home/agent/.cache/gdown/cookies.txt'"
+  },
+  {
+    "id": "11aKmOm_I2XRKnX1LaCovezBONPQAwbki",
+    "source_path": "code/sherlock-materials/model_files/sherlock_weights.h5",
+    "state": "BLOCKED",
+    "error": "[Errno 2] No such file or directory: '/home/agent/.cache/gdown/cookies.txt'"
+  }
+]

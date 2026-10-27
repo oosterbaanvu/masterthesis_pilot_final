@@ -1,0 +1,12 @@
+{
+  "status": "PASSED",
+  "checks": 11009,
+  "numeric_mask_archives": 2394,
+  "hashed_artifacts": 3494,
+  "old_four_trees_unchanged": true,
+  "new_full_tables": 0,
+  "new_logical_source_alteration_cases": 495,
+  "new_scored_context_or_occurrence_cases": 855,
+  "reports": 12,
+  "science": "Exploratory only, no natural semantic gold or confirmed novelty"
+}
