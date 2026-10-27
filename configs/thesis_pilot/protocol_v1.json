@@ -1,5 +1,5 @@
 {
-  "version": "1.2-correct-missing-input-and-explicit-rng",
+  "version": "1.3-unique-full-source-history-before-calibration",
   "frozen_before_results": true,
   "datasets": [
     "credit",
@@ -44,5 +44,6 @@
   "no_op_rejected": true,
   "counterfactual_untouched_predictions": true,
   "policy": "No original outcome or clean-reference values in feature matrices; no tuning from evaluation injections. Unknown source correctness retained.",
-  "amendment": "After v1.1 diagnostic, CDC missing numeric input is scored as supported (native outlier mask excludes missing cells), while invalid lexical numeric inputs remain excluded. Seed original LUCARIO KMeans with 42 for reproducibility. No thresholds, operations, source populations or model selection tuned. Full v1.1 predictions and metrics preserved; entire 630-scenario grid rerun."
+  "amendment": "Observed 154 known Wine groups crossed the internal fit/calibration split. Retain unique full-feature history representatives for every method, explicitly changing reference weights; preserve v1.2 and rerun all 630 scenarios and affected supplements. No model threshold or selection tuned.",
+  "history_reference_policy": "After the fixed 2400-row history cap, retain one representative of each full original non-outcome feature vector. Same evaluation rows, operations, parameters, seeds and budget policies; no final labels used for repair."
 }

@@ -42,7 +42,11 @@ def load(name):
   ids=df.index[(groups>=lo)&(groups<hi)].tolist();ids=sorted(ids,key=lambda x:hashlib.sha256(x.encode()).hexdigest())
   if cap:ids=ids[:cap]
   partitions[label]=df.loc[ids].copy()
- meta={'dataset':name,'source_sha256':shash(p),'full_rows':len(df),'feature_columns':list(df),'evaluated_targets':SPECS[name]['targets'],'outcome_excluded':True,'parts':{k:list(v.index) for k,v in partitions.items()},'group_overlap':{}}
+  if label=='history':
+   # Remove known full-source duplicate groups before any internal model/calibration split.
+   # This explicitly changes reference weights, not original files or held-out records.
+   partitions[label]=partitions[label].loc[~partitions[label].duplicated(keep='first')].copy()
+ meta={'dataset':name,'source_sha256':shash(p),'full_rows':len(df),'feature_columns':list(df),'evaluated_targets':SPECS[name]['targets'],'outcome_excluded':True,'history_reference_policy':'one deterministic representative per complete source feature-vector group; source history not certified clean','parts':{k:list(v.index) for k,v in partitions.items()},'group_overlap':{}}
  for a,b in [('history','evaluation'),('development','evaluation'),('history','reserved')]:
   overlap=set(keys.loc[partitions[a].index])&set(keys.loc[partitions[b].index]);assert not overlap;meta['group_overlap'][a+'_'+b]=len(overlap)
  return partitions,meta

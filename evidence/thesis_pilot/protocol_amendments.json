@@ -9,5 +9,11 @@
     "reason": "After v1.1 diagnostic, CDC missing numeric input is scored as supported (native outlier mask excludes missing cells), while invalid lexical numeric inputs remain excluded. Seed original LUCARIO KMeans with 42 for reproducibility. No thresholds, operations, source populations or model selection tuned. Full v1.1 predictions and metrics preserved; entire 630-scenario grid rerun.",
     "evidence": "evidence/thesis_pilot/cdc_missing_probe.json",
     "superseded": "results/thesis_pilot/attempts/full_grid_v1.1"
+  },
+  {
+    "version": "1.3",
+    "reason": "Observed 154 known Wine groups crossed the internal fit/calibration split. Retain unique full-feature history representatives for every method, explicitly changing reference weights; preserve v1.2 and rerun all 630 scenarios and affected supplements. No model threshold or selection tuned.",
+    "evidence": "inner_calibration_group_audit.json",
+    "preserved": "results/thesis_pilot/attempts/full_grid_v1.2"
   }
 ]

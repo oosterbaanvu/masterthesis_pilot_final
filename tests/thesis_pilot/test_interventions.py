@@ -1,6 +1,6 @@
-import numpy as np
-import pandas as pd
 import pytest
+np=pytest.importorskip("numpy", reason="New intervention tests require the separately tested pilot environment")
+pd=pytest.importorskip("pandas", reason="New intervention tests require the separately tested pilot environment")
 from thesis_pilot.data import load,contracts,SPECS
 from thesis_pilot.inject import inject,scenarios
 from thesis_pilot.controls import Controls
@@ -26,7 +26,8 @@ def test_no_zero_scale_injections():
 
 @pytest.mark.parametrize('name',['credit','bank','wine'])
 def test_groups_outcomes_and_baseline_sanity(name):
- parts,meta=load(name);spec=SPECS[name];assert all(v==0 for v in meta['group_overlap'].values())
+ parts,meta=load(name);spec=SPECS[name];assert pd.util.hash_pandas_object(parts['history'],index=False).is_unique
+ assert all(v==0 for v in meta['group_overlap'].values())
  x=parts['history'][spec['targets']];ev=parts['evaluation'][spec['targets']];cat=[c for c in spec['categorical'] if c in x];c=Controls(contracts(name,parts['history']),spec['targets'],cat).fit(x)
  a,b=c.score(ev);assert a.shape==b.shape==(len(ev),4);assert not a.any();assert np.all(~a|b)
  assert spec['outcome'] not in meta['feature_columns'] and 'ID' not in x
@@ -55,3 +56,35 @@ def test_original_mechanism_behavior():
  for seed in range(80):
   m=ECAR(seed=seed).sample(x,'target',.1);means.append(float(x.condition[m.target].mean()/n))
  assert abs(np.mean(means)-.5)<.02
+
+def test_registration_rejects_reference_and_outcome_features(tmp_path):
+ import json
+ from argparse import Namespace
+ from dq_service.__main__ import register
+ for forbidden in ['ground_truth','quality','y','is_error','fraud_bool']:
+  csv=tmp_path/'source.csv';csv.write_text(forbidden+'\n1\n');contract=tmp_path/'contract.json';contract.write_text(json.dumps({'columns':{forbidden:{'type':'numeric'}},'targets':[forbidden]}))
+  with pytest.raises(ValueError,match='Outcome/reference/label'):register(Namespace(csv=str(csv),contract=str(contract),id='leak_test'))
+
+
+def test_adoption_decision_requires_semantic_and_population_evidence():
+ from dq_service.recommend import recommend
+ assert recommend({'scope':'generated changes','lower_additional_useful_hits':100})['recommendation']=='INSUFFICIENT_EVIDENCE'
+ closed={'scope':'stipulated schema errors only','complete_stipulated_contract_population':True,'baseline_recall':1,'maximum_additional_verified_hits':0}
+ assert recommend(closed)['recommendation']=='DO_NOT_ADOPT'
+ # Decision-policy fixtures, not actual pilot evidence or an operational certification.
+ verified={'reference_kind':'independently_verified_semantic_errors','target_population_match':True,'lower_additional_useful_hits':2,'upper_reviews_per_useful_hit':3,'maximum_acceptable_reviews_per_useful_hit':4}
+ assert recommend(verified)['recommendation']=='ADOPT'
+ verified['upper_reviews_per_useful_hit']=10
+ assert recommend(verified)['recommendation']=='INSUFFICIENT_EVIDENCE'
+
+def test_stable_dboost_population_moments_and_cache_invalidation():
+ import runpy,sys
+ from pathlib import Path
+ root=Path(__file__).resolve().parents[2]
+ namespace=runpy.run_path(str(root/'scripts/dboost_stable_compat.py'))
+ Stats=namespace['Stats'];s=Stats()
+ for _ in range(2400):s.update(.1)
+ assert s.sigma==0
+ s.update(.2)
+ assert abs(s.sigma-np.std(np.array([.1]*2400+[.2])))<1e-14
+ assert abs(s.avg-np.mean(np.array([.1]*2400+[.2])))<1e-14

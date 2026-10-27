@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "credit",
+    "history_rows": 2400,
+    "duplicate_full_feature_rows": 1,
+    "fixed_internal_fit_calibration_group_overlap": 0
+  },
+  {
+    "dataset": "bank",
+    "history_rows": 2400,
+    "duplicate_full_feature_rows": 0,
+    "fixed_internal_fit_calibration_group_overlap": 0
+  },
+  {
+    "dataset": "wine",
+    "history_rows": 2400,
+    "duplicate_full_feature_rows": 446,
+    "fixed_internal_fit_calibration_group_overlap": 154
+  }
+]
