@@ -1,0 +1,29 @@
+# Detector reproduction, fidelity and information access
+
+Source revisions/rights: `configs/thesis_pilot/sources.json`. Exact package environments: `envs/thesis_pilot/*.lock.txt`. The original source code stays in ignored caches; no LUCARIO or ZeroED source licence is invented. LUCARIO's top-level code licence remains unlocated, so local execution is conditional and its source is not redistributed. The author paper DOI metadata/abstract explicitly names LUCARIO; the final title is *Unsupervised, robust, and lightweight detection of data pattern anomalies and outliers*, DOI 10.1016/j.infsof.2026.108035, differing from the repository's preliminary title. Full paper PDF was not retrieved here; code and author-example evidence must not be called full-paper score reproduction.
+
+| Primary configuration | Scenarios scored | Implementation | Output |
+| --- | --- | --- | --- |
+| dboost_text_original | 630 | original configured source | cell flags; no fabricated ranking |
+| lucario_original_history | 630 | original configured source | cell flags; no fabricated ranking |
+| contextual_extra_trees | 630 | own explicitly named adaptation | cell flags; no fabricated ranking |
+| cdc_original | 495 | original configured source | cell flags; no fabricated ranking |
+| dboost_numeric_original | 360 | original configured source | cell flags; no fabricated ranking |
+
+- **dBoost:** actual original Pearson analyzer + Gaussian model, threshold 3, correlation 0.5. Text mode uses original API on explicit string tuples; numeric mode uses explicit numeric floats and string categories. The row-dropping CSV reader is bypassed. Neither multiple encodings nor multiple parameters count as independent algorithm families. Missing/invalid numeric scenarios are inapplicable for the numeric mode (270), not silently dropped rows or assigned zero performance. The mixed-period full Bank probe succeeded; a legitimate 20-row homogeneous Bank-period history reproduced the float fractional-part cancellation failure. A separately named cached stable-population-moment compatibility worker passed the same input and centred-variance tests. It did not replace primary original-code predictions.
+- **LUCARIO:** complete original type, categorical range, numeric MAD and regex/pattern inference classes execute. The application adapter matches all **20,000** author Hospital flags exactly after running both author scripts (only dataset-list selection parameterised). History fitting is an explicit regime adaptation; external tests use the current unlabelled table transductively. Original numeric range switch-off at >5% flagged is retained and documented. 10% operational contamination challenges its 95%-healthy assumption. KMeans is seeded with 42; author parity is a single-fixture check, not proof across all domains.
+- **CDC:** original `ConformalAutoGluonCleaner` and pinned `conformal-inference` cleaning-paper source, Python 3.9, AutoGluon 0.8.2. Supported compute-limited RF/XT portfolio, 40 trees each, one HPO trial, confidence .95, calibration fraction .25. This reproduces the released algorithm pipeline, not the paper's full AutoML search or published scores. Original automatic dtype guessing and boundary behaviour are retained in primary outputs. No independent clean-history or exchangeability guarantee is asserted. Invalid lexical numeric input is inapplicable (135); missing numeric input is supported and produces the native outlier-mask semantics (already-missing targets are excluded). The corrected eligibility triggered a complete rerun with old evidence preserved. **18 source-type diagnostics** separately override only inferred source types; they do not inherit original automatic-inference fidelity claims or prove semantic truth.
+- **Contextual ExtraTrees:** own adapter, 64 trees, depth 16, leaf size 5, fixed seed 42. Per-column prediction from other permitted fields; residual or class-probability threshold calibrated at .995 on held historical values. This is not CDC or another published detector implementation, and is not a new algorithm contribution. Unparseable target cells are explicitly counted as abstentions; their flags are not invented.
+- **Raha:** original strategy, feature, clustering, label propagation and GBC prediction stages, OD/PVD/RVD with KBVD disabled through its supported configuration. 727 strategies, 20 publisher-labelled rows / 380 cells. No clean_path reaches the method; bulk reference retrieval is guarded, and queried rows are excluded from evaluation. This is a separately named few-label ablation, not label-free competition or independent human annotation.
+- **Auto-Test:** paper/SDC resources reviewed. Actual inference entrypoint attempts and lightweight dependency repairs are logged; the full legacy model/embedding/pickle environment was not reproduced. No partial SDC subset is called full Auto-Test and no zero score is invented.
+- **ZeroED:** original paper and official source acquired. Actual entrypoint import failed on fasttext; additional missing measure module, external embeddings and large-model pseudo-label pipeline were inspected. Full original pipeline was NOT_EXECUTED. The local Qwen rule demo is not relabelled ZeroED or a reproduction of its Qwen2.5-72B results.
+
+| Method | Fit sec | Untouched score sec | Measured RSS MiB |
+| --- | --- | --- | --- |
+| dboost_text_original | 1.046 | 0.055 | 118.570 |
+| dboost_numeric_original | 1.322 | 0.062 | 118.340 |
+| lucario_original_history | 1.110 | 0.014 | 128.895 |
+| contextual_extra_trees | 1.020 | 0.082 | 292.609 |
+| cdc_original | 9.698 | 0.820 | 255.102 |
+
+RSS measurements are representative Credit workloads and include interpreter/library overhead; parent versus worker scopes are explicit in the machine-readable profile. They are not full-grid peak-memory claims. Per-scenario timings and fit times were recorded under shared capped CPU resources, not a controlled microbenchmark.

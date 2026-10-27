@@ -1,0 +1,8 @@
+Using Python 3.12.14 environment at: data/envs/pilot
+Resolved 2 packages in 475ms
+Downloading cmake (26.5MiB)
+ Downloaded cmake
+Prepared 2 packages in 819ms
+Installed 2 packages in 78ms
+ + cmake==3.31.6
+ + regex==2024.11.6

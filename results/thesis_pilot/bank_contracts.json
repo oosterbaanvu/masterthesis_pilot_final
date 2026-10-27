@@ -1,0 +1,269 @@
+{
+  "contract": {
+    "age": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound."
+    },
+    "job": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "admin.",
+        "blue-collar",
+        "entrepreneur",
+        "housemaid",
+        "management",
+        "retired",
+        "self-employed",
+        "services",
+        "student",
+        "technician",
+        "unemployed",
+        "unknown"
+      ]
+    },
+    "marital": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "divorced",
+        "married",
+        "single",
+        "unknown"
+      ]
+    },
+    "education": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "basic.4y",
+        "basic.6y",
+        "basic.9y",
+        "high.school",
+        "illiterate",
+        "professional.course",
+        "university.degree",
+        "unknown"
+      ]
+    },
+    "default": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "no",
+        "yes",
+        "unknown"
+      ]
+    },
+    "housing": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "no",
+        "yes",
+        "unknown"
+      ]
+    },
+    "loan": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "no",
+        "yes",
+        "unknown"
+      ]
+    },
+    "contact": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "cellular",
+        "telephone"
+      ]
+    },
+    "month": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "jan",
+        "feb",
+        "mar",
+        "apr",
+        "may",
+        "jun",
+        "jul",
+        "aug",
+        "sep",
+        "oct",
+        "nov",
+        "dec"
+      ]
+    },
+    "day_of_week": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ]
+    },
+    "duration": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound."
+    },
+    "campaign": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound."
+    },
+    "pdays": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound."
+    },
+    "previous": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound."
+    },
+    "poutcome": {
+      "required": true,
+      "type": "category",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "domain": [
+        "failure",
+        "nonexistent",
+        "success"
+      ]
+    },
+    "emp.var.rate": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "cons.price.idx": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "cons.conf.idx": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "euribor3m": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "nr.employed": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    }
+  },
+  "statistical_provenance": [
+    {
+      "column": "age",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    },
+    {
+      "column": "duration",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    },
+    {
+      "column": "previous",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    },
+    {
+      "column": "job",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    }
+  ],
+  "fit_scope": "history only",
+  "key_referential_reconciliation": "NOT_APPLICABLE in this single-table cell track; separate explicit fixture"
+}

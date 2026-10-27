@@ -1,0 +1,21 @@
+{
+  "status": "PASSED_WITH_SCIENTIFIC_LIMITATIONS",
+  "primary_protocol": "1.3",
+  "full_core_reproduction_log": "evidence/thesis_pilot/full_reproduction.log",
+  "full_core_exit_confirmed": true,
+  "final_wrapper_extensions": "Generic copy-based intervention, pinned four-file external acquisition and report consistency checker also executed after the full core reproduction.",
+  "scenario_count": 630,
+  "metric_rows": 52740,
+  "tests": "43 PASSED in pilot environment; 29 PASSED/1 module SKIPPED in original audit environment",
+  "primary_assertions": 205093,
+  "supplement_assertions": 52505,
+  "report_checks": 89,
+  "prepared_environment_setup": "scripts/setup.sh and scripts/setup_thesis_pilot.sh executed successfully; final_setup.log",
+  "fresh_source_downloads": "All three primary archives and four external files independently reacquired into clean ignored directories and SHA-verified.",
+  "limitations": [
+    "No fresh cloud-task restoration test",
+    "No independent human semantic gold standard",
+    "No production deployment or supervisor approval",
+    "Optional local model generation retained as separate executed provenance; default wrapper does not download or regenerate weights"
+  ]
+}

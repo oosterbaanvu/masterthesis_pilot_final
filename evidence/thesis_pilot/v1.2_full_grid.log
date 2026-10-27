@@ -1,0 +1,18 @@
+credit fitted dboost_text_original 1.75 seconds
+credit fitted dboost_numeric_original 1.72 seconds
+credit fitted lucario_original_history 3.37 seconds
+credit fitted contextual_extra_trees 0.68 seconds
+credit fitted cdc_original 12.47 seconds
+credit COMPLETED 225
+bank fitted dboost_text_original 0.95 seconds
+bank fitted dboost_numeric_original 1.14 seconds
+bank fitted lucario_original_history 1.29 seconds
+bank fitted contextual_extra_trees 0.76 seconds
+bank fitted cdc_original 7.47 seconds
+bank COMPLETED 225
+wine fitted dboost_text_original 1.05 seconds
+wine fitted dboost_numeric_original 1.59 seconds
+wine fitted lucario_original_history 1.23 seconds
+wine fitted contextual_extra_trees 0.63 seconds
+wine fitted cdc_original 10.87 seconds
+wine COMPLETED 180

@@ -1,0 +1,291 @@
+{
+  "contract": {
+    "LIMIT_BAL": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "SEX": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "1",
+        "2"
+      ]
+    },
+    "EDUCATION": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "MARRIAGE": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "AGE": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound."
+    },
+    "PAY_0": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "PAY_2": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "PAY_3": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "PAY_4": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "PAY_5": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "PAY_6": {
+      "required": true,
+      "type": "category",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "domain": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "BILL_AMT1": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "BILL_AMT2": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "BILL_AMT3": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "BILL_AMT4": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "BILL_AMT5": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "BILL_AMT6": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "PAY_AMT1": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "PAY_AMT2": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "PAY_AMT3": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "PAY_AMT4": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "PAY_AMT5": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    },
+    "PAY_AMT6": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness."
+    }
+  },
+  "statistical_provenance": [
+    {
+      "column": "AGE",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1799,
+      "calibration_rows": 600
+    },
+    {
+      "column": "LIMIT_BAL",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1799,
+      "calibration_rows": 600
+    },
+    {
+      "column": "BILL_AMT1",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1799,
+      "calibration_rows": 600
+    },
+    {
+      "column": "EDUCATION",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1799,
+      "calibration_rows": 600
+    }
+  ],
+  "fit_scope": "history only",
+  "key_referential_reconciliation": "NOT_APPLICABLE in this single-table cell track; separate explicit fixture"
+}

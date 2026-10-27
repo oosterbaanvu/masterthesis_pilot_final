@@ -1,0 +1,62 @@
+{
+  "mode": "original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change",
+  "native_constraint_output_path": "data/pilot_models/native_constraint_outputs/external_beers_lucario_original_history_fit.json",
+  "native_constraint_sha256": "3ba15b424db740d15de714eae3e78fcd24b99f18c4b406a7aa04fea1dee966ef",
+  "constraints_summary": {
+    "beer_name": {
+      "type": "String",
+      "category_count": null,
+      "pattern_count": 0,
+      "numerical_constraint_present": false
+    },
+    "style": {
+      "type": "String",
+      "category_count": 89,
+      "pattern_count": 13,
+      "numerical_constraint_present": false
+    },
+    "ounces": {
+      "type": "String",
+      "category_count": 10,
+      "pattern_count": 3,
+      "numerical_constraint_present": false
+    },
+    "abv": {
+      "type": "Mixed",
+      "category_count": 117,
+      "pattern_count": 2,
+      "numerical_constraint_present": false
+    },
+    "ibu": {
+      "type": "Numerical",
+      "category_count": 91,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "brewery_id": {
+      "type": "Numerical",
+      "category_count": null,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "brewery_name": {
+      "type": "String",
+      "category_count": null,
+      "pattern_count": 0,
+      "numerical_constraint_present": false
+    },
+    "city": {
+      "type": "String",
+      "category_count": null,
+      "pattern_count": 2,
+      "numerical_constraint_present": false
+    },
+    "state": {
+      "type": "String",
+      "category_count": 51,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    }
+  },
+  "retention": "Full native output kept in ignored data; original-source code/model values are not redistributed."
+}

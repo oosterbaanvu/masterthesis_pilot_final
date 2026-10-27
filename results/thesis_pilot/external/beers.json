@@ -1,0 +1,91 @@
+{
+  "dataset": "beers",
+  "shape": [
+    2410,
+    9
+  ],
+  "published_raw_disagreements": 4362,
+  "unit": "cell",
+  "fit_scope": "unlabelled current batch, transductive",
+  "reference_semantics": "raw publisher-reference disagreements; uncertain and representation changes retained as reference targets, NOT independently verified semantic errors",
+  "baseline_status": "generic lexical/statistical heuristics; not a mature domain-specific enterprise suite",
+  "outcomes": [
+    {
+      "baseline": "A",
+      "method": "A",
+      "reference_hits": 1132,
+      "alerts": 1199,
+      "union_reference_hits": 1132,
+      "additional_reference_hits": 0,
+      "additional_alerts": 0,
+      "marginal_reference_precision": null
+    },
+    {
+      "baseline": "A",
+      "method": "lucario_original_history",
+      "reference_hits": 1221,
+      "alerts": 1463,
+      "union_reference_hits": 1221,
+      "additional_reference_hits": 89,
+      "additional_alerts": 264,
+      "marginal_reference_precision": 0.3371212121212121
+    },
+    {
+      "baseline": "A",
+      "method": "dboost_text_original",
+      "reference_hits": 690,
+      "alerts": 881,
+      "union_reference_hits": 1695,
+      "additional_reference_hits": 563,
+      "additional_alerts": 687,
+      "marginal_reference_precision": 0.8195050946142649
+    },
+    {
+      "baseline": "B",
+      "method": "B",
+      "reference_hits": 1499,
+      "alerts": 5555,
+      "union_reference_hits": 1499,
+      "additional_reference_hits": 0,
+      "additional_alerts": 0,
+      "marginal_reference_precision": null
+    },
+    {
+      "baseline": "B",
+      "method": "lucario_original_history",
+      "reference_hits": 1221,
+      "alerts": 1463,
+      "union_reference_hits": 1499,
+      "additional_reference_hits": 0,
+      "additional_alerts": 43,
+      "marginal_reference_precision": 0.0
+    },
+    {
+      "baseline": "B",
+      "method": "dboost_text_original",
+      "reference_hits": 690,
+      "alerts": 881,
+      "union_reference_hits": 1870,
+      "additional_reference_hits": 371,
+      "additional_alerts": 476,
+      "marginal_reference_precision": 0.7794117647058824
+    }
+  ],
+  "method_status": [
+    {
+      "method": "lucario_original_history",
+      "state": "EXECUTED_CONDITIONAL",
+      "seconds": 1.4656176780044916
+    },
+    {
+      "method": "dboost_text_original",
+      "state": "EXECUTED_CONDITIONAL",
+      "seconds": 2.3214580209969427
+    }
+  ],
+  "source_ids_excluded": [
+    "index",
+    "id"
+  ],
+  "classifier_history_used": false
+}

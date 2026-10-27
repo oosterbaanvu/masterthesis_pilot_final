@@ -1,0 +1,122 @@
+{
+  "mode": "original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change",
+  "native_constraint_output_path": "data/pilot_models/native_constraint_outputs/external_hospital_lucario_original_history_fit.json",
+  "native_constraint_sha256": "e62b0a85082c6d11e8782375529087e153768cbcdee32d5e571455c3cbd4170f",
+  "constraints_summary": {
+    "provider_number": {
+      "type": "Numerical",
+      "category_count": 41,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "name": {
+      "type": "String",
+      "category_count": 42,
+      "pattern_count": 6,
+      "numerical_constraint_present": false
+    },
+    "address_1": {
+      "type": "String",
+      "category_count": 41,
+      "pattern_count": 5,
+      "numerical_constraint_present": false
+    },
+    "address_2": {
+      "type": "String",
+      "category_count": 1,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    },
+    "address_3": {
+      "type": "String",
+      "category_count": 1,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    },
+    "city": {
+      "type": "String",
+      "category_count": 36,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    },
+    "state": {
+      "type": "String",
+      "category_count": 1,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    },
+    "zip": {
+      "type": "Numerical",
+      "category_count": 40,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "county": {
+      "type": "String",
+      "category_count": 31,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    },
+    "phone": {
+      "type": "Numerical",
+      "category_count": 42,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "type": {
+      "type": "String",
+      "category_count": 1,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    },
+    "owner": {
+      "type": "String",
+      "category_count": 8,
+      "pattern_count": 4,
+      "numerical_constraint_present": false
+    },
+    "emergency_service": {
+      "type": "String",
+      "category_count": 2,
+      "pattern_count": 1,
+      "numerical_constraint_present": false
+    },
+    "condition": {
+      "type": "String",
+      "category_count": 4,
+      "pattern_count": 3,
+      "numerical_constraint_present": false
+    },
+    "measure_code": {
+      "type": "String",
+      "category_count": 25,
+      "pattern_count": 2,
+      "numerical_constraint_present": false
+    },
+    "measure_name": {
+      "type": "String",
+      "category_count": 25,
+      "pattern_count": 20,
+      "numerical_constraint_present": false
+    },
+    "score": {
+      "type": "String",
+      "category_count": null,
+      "pattern_count": 2,
+      "numerical_constraint_present": false
+    },
+    "sample": {
+      "type": "String",
+      "category_count": null,
+      "pattern_count": 2,
+      "numerical_constraint_present": false
+    },
+    "state_average": {
+      "type": "String",
+      "category_count": null,
+      "pattern_count": 2,
+      "numerical_constraint_present": false
+    }
+  },
+  "retention": "Full native output kept in ignored data; original-source code/model values are not redistributed."
+}

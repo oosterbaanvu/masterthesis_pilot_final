@@ -1,0 +1,5 @@
+{"rules": [{"column": "age", "operator": "numeric_nonnegative", "values": [], "reason": "Age is a non-negative numeric value representing the client's age."}, {"column": "duration", "operator": "numeric_nonnegative", "values": [], "reason": "Duration is a non-negative numeric value representing the last contact duration in seconds."}, {"column": "campaign", "operator": "integer", "values": [], "reason": "Campaign is an integer representing the number of contacts during this campaign, including the last contact."}, {"column": "previous", "operator": "integer", "values": [], "reason": "Previous is an integer representing the number of contacts before this campaign."}]}
+
+> EOF by user
+
+

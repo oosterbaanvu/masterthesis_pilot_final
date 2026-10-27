@@ -1,0 +1,14 @@
+[
+  {
+    "name": "rein",
+    "url": "https://arxiv.org/pdf/2302.04702",
+    "bytes": 1739789,
+    "sha256": "863a4ba652171b2af92027b153d1359bf74d509b67c0e73c5d2142819e1b7c3f"
+  },
+  {
+    "name": "realistic_errors",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1145/3774914",
+    "bytes": 21964,
+    "sha256": "fb8895f6b1b947f90a3f86aad96d584f4482629f4c9626c1a1c4508c4bba5269"
+  }
+]

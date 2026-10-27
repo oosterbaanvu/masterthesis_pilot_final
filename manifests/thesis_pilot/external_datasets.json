@@ -1,0 +1,46 @@
+[
+  {
+    "repository": "BigDaMa/raha",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "source_path": "datasets/beers/clean.csv",
+    "path": "data/raw/BigDaMa__raha/datasets/beers/clean.csv",
+    "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/datasets/beers/clean.csv",
+    "bytes": 233019,
+    "sha256": "373227df59ad197e154dd5149125789e415019535c7223355e9486ee1b3b93de",
+    "rights": "Repository code licence does not establish all underlying data rights; local audit only, no raw redistribution",
+    "state": "FULL_FILE_ACQUIRED"
+  },
+  {
+    "repository": "BigDaMa/raha",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "source_path": "datasets/beers/dirty.csv",
+    "path": "data/raw/BigDaMa__raha/datasets/beers/dirty.csv",
+    "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/datasets/beers/dirty.csv",
+    "bytes": 255295,
+    "sha256": "7110bf4931a9445a1675e544d6c996817c739136239f8a2b02e088c7ec0a1f68",
+    "rights": "Repository code licence does not establish all underlying data rights; local audit only, no raw redistribution",
+    "state": "FULL_FILE_ACQUIRED"
+  },
+  {
+    "repository": "BigDaMa/raha",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "source_path": "datasets/hospital/clean.csv",
+    "path": "data/raw/BigDaMa__raha/datasets/hospital/clean.csv",
+    "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/datasets/hospital/clean.csv",
+    "bytes": 303324,
+    "sha256": "ea3ee44998455c0b491750c348509de176c758a3bbf58e4530c0a136bb248b4b",
+    "rights": "Repository code licence does not establish all underlying data rights; local audit only, no raw redistribution",
+    "state": "FULL_FILE_ACQUIRED"
+  },
+  {
+    "repository": "BigDaMa/raha",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "source_path": "datasets/hospital/dirty.csv",
+    "path": "data/raw/BigDaMa__raha/datasets/hospital/dirty.csv",
+    "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/datasets/hospital/dirty.csv",
+    "bytes": 303306,
+    "sha256": "dbc5575b915fe8b5e0ac6dc6172f38ba91e611fdb76d09a8f4a81cb7ea9925ac",
+    "rights": "Repository code licence does not establish all underlying data rights; local audit only, no raw redistribution",
+    "state": "FULL_FILE_ACQUIRED"
+  }
+]

@@ -1,0 +1,7 @@
+row_position,column,method,interpretation
+0,amount_cents,basic_controls,contract violation
+1,status,basic_controls,contract violation
+0,amount_cents,extended_controls,statistical suspicion; not verified semantic error
+1,status,extended_controls,statistical suspicion; not verified semantic error
+199,amount_cents,extended_controls,statistical suspicion; not verified semantic error
+1,status,contextual_extra_trees,statistical suspicion; not verified semantic error

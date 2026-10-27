@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "credit",
+    "scope": "credit stipulated E1/E2/E3 schema families, evaluated populations only",
+    "recommendation": "DO_NOT_ADOPT",
+    "external_validity": "No statement about other error families, real bank prevalence or unseen sources.",
+    "reason": "For these stipulated error families existing controls already detect every verified violation; extra detector cost has no unconstrained detection benefit. This does not cover other error types or new sources."
+  },
+  {
+    "dataset": "credit",
+    "scope": "credit scale/substitution recovery",
+    "recommendation": "INSUFFICIENT_EVIDENCE",
+    "external_validity": "Independent semantic correctness and workplace usefulness unestablished.",
+    "reason": "Synthetic changes, uncertain references or unmatched populations cannot justify operational adoption."
+  },
+  {
+    "dataset": "bank",
+    "scope": "bank stipulated E1/E2/E3 schema families, evaluated populations only",
+    "recommendation": "DO_NOT_ADOPT",
+    "external_validity": "No statement about other error families, real bank prevalence or unseen sources.",
+    "reason": "For these stipulated error families existing controls already detect every verified violation; extra detector cost has no unconstrained detection benefit. This does not cover other error types or new sources."
+  },
+  {
+    "dataset": "bank",
+    "scope": "bank scale/substitution recovery",
+    "recommendation": "INSUFFICIENT_EVIDENCE",
+    "external_validity": "Independent semantic correctness and workplace usefulness unestablished.",
+    "reason": "Synthetic changes, uncertain references or unmatched populations cannot justify operational adoption."
+  },
+  {
+    "dataset": "wine",
+    "scope": "wine stipulated E1/E2/E3 schema families, evaluated populations only",
+    "recommendation": "DO_NOT_ADOPT",
+    "external_validity": "No statement about other error families, real bank prevalence or unseen sources.",
+    "reason": "For these stipulated error families existing controls already detect every verified violation; extra detector cost has no unconstrained detection benefit. This does not cover other error types or new sources."
+  },
+  {
+    "dataset": "wine",
+    "scope": "wine scale/substitution recovery",
+    "recommendation": "INSUFFICIENT_EVIDENCE",
+    "external_validity": "Independent semantic correctness and workplace usefulness unestablished.",
+    "reason": "Synthetic changes, uncertain references or unmatched populations cannot justify operational adoption."
+  }
+]

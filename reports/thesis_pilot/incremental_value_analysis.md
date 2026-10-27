@@ -1,0 +1,14 @@
+# Incremental value and review burden
+
+The investigation distinguishes new unconstrained hits, review selection, already-present alerts and semantic correctness. Source-specific tables are the evidence; no synthetic/natural/column-value pooled F1 is reported.
+
+1. **Closed operational schema families:** A already detects all stipulated E1/E2/E3 violations. More unconstrained detection is mathematically impossible within that target; combining a learned detector mainly adds burden. This says nothing about undocumented real errors.
+2. **Alteration recovery:** a model can add many reference hits while sending hundreds of extra alerts. Example: native CDC on Credit ECAR 5% substitution adds 28.6 changed-cell hits, with 1,124.2 extra alerts per batch. These cannot be called extra independently verified semantic data errors. Its automatic numeric-to-categorical inference and rare/tied calibration behaviour require attention.
+3. **Shared total capacity:** there are 6,665 negative net-hit metric rows under the predeclared policies. These rows are repeated conditions on fixed sources, not independent negative discoveries. Baseline strength, fusion policy and relative alert volume explain why union recall alone can mislead.
+4. **Control maturity includes priority:** provenance-based hard-contract priority is a separate, justified sensitivity. The order is chosen from control category, not held-out labels. It prevents statistical suspicion from arbitrarily displacing known hard failures before capacity is shared. The original binary-hash policy remains visible.
+5. **Information and model fidelity:** text/numeric dBoost are one family; history-fitted LUCARIO is not its transductive author benchmark; CDC native types differ from source-declared numeric semantics; the ExtraTrees predictor is an explicit adaptation. Raha and local LLM knowledge have additional information and remain separate.
+6. **Mechanisms:** fixed relative ×10 severity and matched counts do not guarantee equal absolute difficulty. EAR/ENAR's hard-window position, source correlations and tied category order change selected populations. The full mechanism tables, not a cross-source global mean, support interpretation.
+
+`conditional_group_sensitivity.csv` resamples exact-feature duplicate groups **within each fixed source**, with predictions and review decisions frozen. These are conditional sensitivity intervals, not new-source confidence intervals, independent customer inference or significance from five seeds. No measured human handling time exists, so operational money saved and cost per genuinely useful semantic detection are NOT_ESTIMATED. Runtime and count-based review burden are measured.
+
+The bounded recommendation is DO_NOT_ADOPT a detector solely to add coverage for already complete stipulated schema families; for plausible changes and operational deployment, INSUFFICIENT_EVIDENCE. No universal rejection or adoption of AI follows from these examples.

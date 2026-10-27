@@ -1,0 +1,15 @@
+{
+ "version":"row-crossfield-1.0-exploratory",
+ "frozen_before_its_interventions":true,
+ "dataset":"bank", "unit":"row",
+ "contract":"previous == 0 if and only if poutcome == nonexistent",
+ "provenance":"EXPLICIT_STIPULATED_CONTRACT motivated by source campaign semantics; validated on untouched approved history/evaluation; not a universal bank business rule",
+ "eligibility":"original previous > 0 and original poutcome in {failure,success}",
+ "intervention":"previous becomes 0, violating the stipulated previous-outcome relation while preserving numeric datatype/domain",
+ "mechanisms":["ECAR","EAR","ENAR"],"EAR_condition":"age",
+ "rates":[0.01,0.05,0.10],"seeds":[101,202,303,404,505],
+ "minimum_actual_changes":1,
+ "policies":["control_first","equal_share"],
+ "review_budget_unit":"rows per 1000 rows, unlike the primary cell-review track",
+ "not_pooled_with_primary_cell_metrics":true
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "dataset": "credit",
+    "path": "data/recovery_downloads/default+of+credit+card+clients.zip",
+    "url": "https://archive.ics.uci.edu/static/public/350/default+of+credit+card+clients.zip",
+    "sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+    "bytes": 5539494,
+    "selected_member": "default of credit card clients.xls",
+    "original_rows": 30000,
+    "original_columns_including_outcome_and_id": 25,
+    "license": "CC BY 4.0 per official UCI pages; attribution required",
+    "error_reference": "No natural cell-error labels; source not presumed perfectly clean. Controlled interventions only.",
+    "outcome_is_not_a_dq_label": true
+  },
+  {
+    "dataset": "bank",
+    "path": "data/recovery_downloads/bank+marketing.zip",
+    "url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+    "sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+    "bytes": 1023843,
+    "selected_member": "bank-additional.zip!bank-additional/bank-additional-full.csv",
+    "original_rows": 41188,
+    "original_columns_including_outcome_and_id": 21,
+    "license": "CC BY 4.0 per official UCI pages; attribution required",
+    "error_reference": "No natural cell-error labels; source not presumed perfectly clean. Controlled interventions only.",
+    "outcome_is_not_a_dq_label": true
+  },
+  {
+    "dataset": "wine",
+    "path": "data/pilot_sources/wine.zip",
+    "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+    "sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+    "bytes": 91353,
+    "selected_member": "winequality-white.csv",
+    "original_rows": 4898,
+    "original_columns_including_outcome_and_id": 12,
+    "license": "CC BY 4.0 per official UCI pages; attribution required",
+    "error_reference": "No natural cell-error labels; source not presumed perfectly clean. Controlled interventions only.",
+    "outcome_is_not_a_dq_label": true
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "qwen",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3-0.6B-GGUF",
+    "bytes": 5859,
+    "sha": "23749fefcc72300e3a2ad315e1317431b06b590a",
+    "files": [
+      "Qwen3-0.6B-Q8_0.gguf"
+    ],
+    "open_access": null
+  },
+  {
+    "name": "lucario_publication",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.infsof.2026.108035",
+    "bytes": 17504,
+    "sha": null,
+    "files": [],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.infsof.2026.108035",
+      "any_repository_has_fulltext": true
+    }
+  }
+]

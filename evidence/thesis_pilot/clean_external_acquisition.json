@@ -1,0 +1,26 @@
+[
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/beers/clean.csv",
+    "state": "DOWNLOADED_VERIFIED",
+    "bytes": 233019,
+    "sha256": "373227df59ad197e154dd5149125789e415019535c7223355e9486ee1b3b93de"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/beers/dirty.csv",
+    "state": "DOWNLOADED_VERIFIED",
+    "bytes": 255295,
+    "sha256": "7110bf4931a9445a1675e544d6c996817c739136239f8a2b02e088c7ec0a1f68"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/hospital/clean.csv",
+    "state": "DOWNLOADED_VERIFIED",
+    "bytes": 303324,
+    "sha256": "ea3ee44998455c0b491750c348509de176c758a3bbf58e4530c0a136bb248b4b"
+  },
+  {
+    "path": "data/raw/BigDaMa__raha/datasets/hospital/dirty.csv",
+    "state": "DOWNLOADED_VERIFIED",
+    "bytes": 303306,
+    "sha256": "dbc5575b915fe8b5e0ac6dc6172f38ba91e611fdb76d09a8f4a81cb7ea9925ac"
+  }
+]

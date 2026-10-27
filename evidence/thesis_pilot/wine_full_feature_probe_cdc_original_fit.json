@@ -1,0 +1,18 @@
+{
+  "native_categorical": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "native_numerical": [
+    "residual sugar",
+    "density"
+  ],
+  "regime": "untouched-source-history assumed usable, not independently clean; original guarantees not asserted"
+}

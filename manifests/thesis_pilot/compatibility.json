@@ -1,0 +1,2152 @@
+[
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "credit",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "credit",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "bank",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E3_code",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "bank",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E1_missing",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Native numeric expansion cannot accept missing or nonnumeric values without dropping/coercing observations"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "INCOMPATIBLE",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Typed numeric host protocol rejects nonnumeric lexical input; no model output fabricated"
+  },
+  {
+    "dataset": "wine",
+    "family": "E2_type",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "STIPULATED_OPERATIONAL_ERROR",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E4_scale",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.01,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.05,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "dboost_numeric_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed stress case exceeds 95%-healthy presumption for true operational violations; no within-assumption generalisation"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "cdc_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "wine",
+    "family": "E5_substitution",
+    "rate": 0.1,
+    "method": "contextual_extra_trees",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "CONTROLLED_ALTERATION",
+    "reason": "Executed on common approved original history and current batch, source cleanliness/semantic interpretation not guaranteed"
+  },
+  {
+    "dataset": "hospital",
+    "family": "published_raw_reference_difference",
+    "rate": null,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "PUBLISHER_REFERENCE_ONLY",
+    "reason": "Executed transductive; reference discrepancy is not independent semantic truth"
+  },
+  {
+    "dataset": "hospital",
+    "family": "published_raw_reference_difference",
+    "rate": null,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "PUBLISHER_REFERENCE_ONLY",
+    "reason": "Executed transductive; reference discrepancy is not independent semantic truth"
+  },
+  {
+    "dataset": "beers",
+    "family": "published_raw_reference_difference",
+    "rate": null,
+    "method": "lucario_original_history",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "PUBLISHER_REFERENCE_ONLY",
+    "reason": "Executed transductive; reference discrepancy is not independent semantic truth"
+  },
+  {
+    "dataset": "beers",
+    "family": "published_raw_reference_difference",
+    "rate": null,
+    "method": "dboost_text_original",
+    "unit": "cell",
+    "status": "CONDITIONAL",
+    "label_type": "PUBLISHER_REFERENCE_ONLY",
+    "reason": "Executed transductive; reference discrepancy is not independent semantic truth"
+  },
+  {
+    "dataset": "hospital",
+    "family": "publisher_labels",
+    "rate": null,
+    "method": "raha_OD_PVD_RVD",
+    "unit": "cell, 20 labelled rows excluded",
+    "status": "CONDITIONAL",
+    "label_type": "PUBLISHER_NORMALIZED_REFERENCE",
+    "reason": "Additional metered supervision; separate regime, not pooled with label-free models"
+  }
+]

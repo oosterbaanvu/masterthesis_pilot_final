@@ -1,0 +1,74 @@
+[
+  {
+    "repository": "cpitclaudel/dBoost",
+    "revision": "a47cb564e900c3e5220413f810e810b00046d561",
+    "checkout": "data/sources/cpitclaudel__dBoost",
+    "url": "https://github.com/cpitclaudel/dBoost.git",
+    "license": "GPL-3.0",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "mooselab/Detect-Cell-level-Data-Anomalies-With-LUCARIO",
+    "revision": "3664bfa830b7b13f8a08cc7dd960c871c56aaeeb",
+    "checkout": "data/sources/mooselab__Detect-Cell-level-Data-Anomalies-With-LUCARIO",
+    "url": "https://github.com/mooselab/Detect-Cell-level-Data-Anomalies-With-LUCARIO.git",
+    "license": "NO_TOP_LEVEL_LICENSE_LOCATED",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "calgo-lab/tab_err",
+    "revision": "4e5d348e442824f3c09ed462e37dbbe910ef330a",
+    "checkout": "data/sources/calgo-lab__tab_err",
+    "url": "https://github.com/calgo-lab/tab_err.git",
+    "license": "Apache-2.0",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "se-jaeger/conformal-data-cleaning",
+    "revision": "fd8a2126c9626099f3d45511fd05d30af8de6b64",
+    "checkout": "/workspace/research_sources/se-jaeger__conformal-data-cleaning",
+    "url": "https://github.com/se-jaeger/conformal-data-cleaning.git",
+    "license": "MIT",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "se-jaeger/conformal-inference",
+    "revision": "e25cb5938808360033201afc2ae567e5de3ad6c0",
+    "checkout": "data/sources/conformal-inference",
+    "url": "https://github.com/se-jaeger/conformal-inference.git",
+    "license": "Apache-2.0",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "BigDaMa/raha",
+    "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+    "checkout": "/workspace/research_sources/BigDaMa__raha",
+    "url": "https://github.com/BigDaMa/raha.git",
+    "license": "Apache-2.0",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "qixuchen/AutoTest",
+    "revision": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+    "checkout": "/workspace/research_sources/qixuchen__AutoTest",
+    "url": "https://github.com/qixuchen/AutoTest.git",
+    "license": "NO_TOP_LEVEL_LICENSE_LOCATED",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "ZJU-Data-Governance-and-Services-Team/ZeroED",
+    "revision": "2b84266e1d8b2014d36643d343429d9a20bd769e",
+    "checkout": "data/sources/ZeroED",
+    "url": "https://github.com/ZJU-Data-Governance-and-Services-Team/ZeroED.git",
+    "license": "NO_TOP_LEVEL_LICENSE_LOCATED",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  },
+  {
+    "repository": "ggml-org/llama.cpp",
+    "revision": "961c376a2daa42220ec09663b9bde32c5fba1f70",
+    "checkout": "data/sources/llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp.git",
+    "license": "MIT",
+    "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+  }
+]

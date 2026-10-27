@@ -1,0 +1,70 @@
+Fontconfig error: No writable cache directories
+{'scenario_count': 630, 'metric_rows': 50580, 'scenario_counts_by_dataset': {'bank': 225, 'credit': 225, 'wine': 180}, 'scenario_counts_by_family': {'E1_missing': 135, 'E2_type': 135, 'E3_code': 90, 'E4_scale': 135, 'E5_substitution': 135}, 'scenario_counts_by_mechanism': {'EAR': 210, 'ECAR': 210, 'ENAR': 210}, 'failure_states': {'INCOMPATIBLE_SCENARIO': 540}, 'metrics_sha256': 'f5ec1c72bd75a1e8c000b4acf005557f9c976ff6a3e7093e05d4ddb2010f1e56', 'tables': 'Source/family/mechanism/prevalence kept separate; five seeds describe intervention sensitivity, not independent source replication.'}
+dataset          family                   method  mean_extra_hits  mean_extra_alerts  mean_incremental_recall
+   bank        E4_scale             cdc_original              1.2              919.8                 0.030000
+   bank        E4_scale   contextual_extra_trees              0.0               11.2                 0.000000
+   bank        E4_scale  dboost_numeric_original              0.0               16.0                 0.000000
+   bank        E4_scale     dboost_text_original              0.0                2.0                 0.000000
+   bank        E4_scale lucario_original_history              0.0               16.0                 0.000000
+   bank E5_substitution             cdc_original              0.6              917.0                 0.015000
+   bank E5_substitution   contextual_extra_trees              0.0               11.2                 0.000000
+   bank E5_substitution  dboost_numeric_original              0.0               16.0                 0.000000
+   bank E5_substitution     dboost_text_original              0.0                2.0                 0.000000
+   bank E5_substitution lucario_original_history              0.0               16.0                 0.000000
+ credit        E4_scale             cdc_original              8.4             1128.6                 0.227027
+ credit        E4_scale   contextual_extra_trees              0.0                4.0                 0.000000
+ credit        E4_scale  dboost_numeric_original              0.2               18.0                 0.005405
+ credit        E4_scale     dboost_text_original              0.0                0.0                 0.000000
+ credit        E4_scale lucario_original_history              0.2               70.4                 0.005405
+ credit E5_substitution             cdc_original             30.2             1122.6                 0.755000
+ credit E5_substitution   contextual_extra_trees              0.0                4.0                 0.000000
+ credit E5_substitution  dboost_numeric_original              0.2               17.8                 0.005000
+ credit E5_substitution     dboost_text_original              0.0                0.0                 0.000000
+ credit E5_substitution lucario_original_history              1.0               86.8                 0.025000
+   wine        E4_scale             cdc_original              0.0             1291.4                 0.000000
+   wine        E4_scale   contextual_extra_trees              0.0                1.8                 0.000000
+   wine        E4_scale  dboost_numeric_original              0.0               90.0                 0.000000
+   wine        E4_scale     dboost_text_original              0.0               15.0                 0.000000
+   wine        E4_scale lucario_original_history              0.0               33.6                 0.000000
+   wine E5_substitution             cdc_original             30.0             1362.4                 0.750000
+   wine E5_substitution   contextual_extra_trees              0.0                1.8                 0.000000
+   wine E5_substitution  dboost_numeric_original              3.2               94.0                 0.080000
+   wine E5_substitution     dboost_text_original              0.0               16.0                 0.000000
+   wine E5_substitution lucario_original_history              0.2               48.0                 0.005000
+dataset          family                   method  mean_net_hits  mean_lost_hits
+   bank        E4_scale                        B            0.0             0.0
+   bank        E4_scale             cdc_original           -1.0             1.0
+   bank        E4_scale   contextual_extra_trees            3.2             0.0
+   bank        E4_scale  dboost_numeric_original            2.8             0.0
+   bank        E4_scale     dboost_text_original            0.2             0.4
+   bank        E4_scale lucario_original_history           -1.0             1.0
+   bank E5_substitution                        B            0.0             0.0
+   bank E5_substitution             cdc_original           -0.6             0.6
+   bank E5_substitution   contextual_extra_trees           -0.2             0.6
+   bank E5_substitution  dboost_numeric_original            0.2             0.4
+   bank E5_substitution     dboost_text_original           -0.6             0.6
+   bank E5_substitution lucario_original_history            0.6             0.4
+ credit        E4_scale                        B            0.0             0.0
+ credit        E4_scale             cdc_original           -4.6             4.6
+ credit        E4_scale   contextual_extra_trees           -0.2             0.4
+ credit        E4_scale  dboost_numeric_original           -1.2             1.2
+ credit        E4_scale     dboost_text_original            0.0             0.0
+ credit        E4_scale lucario_original_history           -4.0             4.0
+ credit E5_substitution                        B            0.0             0.0
+ credit E5_substitution             cdc_original            0.0             0.0
+ credit E5_substitution   contextual_extra_trees            0.0             0.0
+ credit E5_substitution  dboost_numeric_original            0.0             0.0
+ credit E5_substitution     dboost_text_original            0.0             0.0
+ credit E5_substitution lucario_original_history            0.0             0.0
+   wine        E4_scale                        B            0.0             0.0
+   wine        E4_scale             cdc_original           -2.0             2.0
+   wine        E4_scale   contextual_extra_trees            2.0             0.0
+   wine        E4_scale  dboost_numeric_original           -1.6             1.6
+   wine        E4_scale     dboost_text_original           -2.0             2.4
+   wine        E4_scale lucario_original_history            0.6             0.0
+   wine E5_substitution                        B            0.0             0.0
+   wine E5_substitution             cdc_original            0.2             0.0
+   wine E5_substitution   contextual_extra_trees            0.0             0.0
+   wine E5_substitution  dboost_numeric_original            0.4             0.0
+   wine E5_substitution     dboost_text_original            0.0             0.0
+   wine E5_substitution lucario_original_history            0.2             0.0

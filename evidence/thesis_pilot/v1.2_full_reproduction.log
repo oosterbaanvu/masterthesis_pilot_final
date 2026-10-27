@@ -1,0 +1,23 @@
+{'path': 'data/recovery_downloads/default+of+credit+card+clients.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 5539494, 'sha256': '56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602'}
+{'path': 'data/recovery_downloads/bank+marketing.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 1023843, 'sha256': 'e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4'}
+{'path': 'data/pilot_sources/wine.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 91353, 'sha256': '3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4'}
+Native constraints retained locally; metadata sanitized.
+{
+  "datasets": 3,
+  "primary_cell_scenarios": 630,
+  "bank_row_scenarios": 45,
+  "scope_probes": 18,
+  "source_type_probes": 18,
+  "metrics": 52740,
+  "tests": "42 PASSED in pilot environment; 29 PASSED/1 module SKIPPED in original audit environment",
+  "independent_primary_checks": 205090,
+  "independent_supplemental_checks": 52424,
+  "full_lucario_original_components": "EXECUTED; author-example exact parity; history-fit regime explicit",
+  "faithful_published_learned_execution": "CDC original pipeline with restricted supported RF/XT portfolio, assumptions conditional; Raha original KB-disabled few-label regime separate",
+  "external_status": "two publisher-reference sources, not independent semantic gold standard",
+  "engineering_cli": "EXECUTED_VALID",
+  "novelty": "NOT_ESTABLISHED; supervisor/literature gate for confirmation",
+  "research_feasibility": "CONDITIONAL_GO",
+  "scope_limitations": "Primary results cover four predeclared fields per source, 800 evaluation rows per source and at most 2,400 historical training rows. Full archives were acquired. This is substantial exploratory evidence, not an exhaustive all-field benchmark, a final confirmatory thesis or a production-bank validation."
+}
+Exploratory pilot and independent checks complete; read the scientific limitations.

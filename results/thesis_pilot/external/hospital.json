@@ -1,0 +1,90 @@
+{
+  "dataset": "hospital",
+  "shape": [
+    1000,
+    19
+  ],
+  "published_raw_disagreements": 509,
+  "unit": "cell",
+  "fit_scope": "unlabelled current batch, transductive",
+  "reference_semantics": "raw publisher-reference disagreements; uncertain and representation changes retained as reference targets, NOT independently verified semantic errors",
+  "baseline_status": "generic lexical/statistical heuristics; not a mature domain-specific enterprise suite",
+  "outcomes": [
+    {
+      "baseline": "A",
+      "method": "A",
+      "reference_hits": 0,
+      "alerts": 2227,
+      "union_reference_hits": 0,
+      "additional_reference_hits": 0,
+      "additional_alerts": 0,
+      "marginal_reference_precision": null
+    },
+    {
+      "baseline": "A",
+      "method": "lucario_original_history",
+      "reference_hits": 509,
+      "alerts": 766,
+      "union_reference_hits": 509,
+      "additional_reference_hits": 509,
+      "additional_alerts": 766,
+      "marginal_reference_precision": 0.664490861618799
+    },
+    {
+      "baseline": "A",
+      "method": "dboost_text_original",
+      "reference_hits": 92,
+      "alerts": 152,
+      "union_reference_hits": 92,
+      "additional_reference_hits": 92,
+      "additional_alerts": 92,
+      "marginal_reference_precision": 1.0
+    },
+    {
+      "baseline": "B",
+      "method": "B",
+      "reference_hits": 346,
+      "alerts": 3150,
+      "union_reference_hits": 346,
+      "additional_reference_hits": 0,
+      "additional_alerts": 0,
+      "marginal_reference_precision": null
+    },
+    {
+      "baseline": "B",
+      "method": "lucario_original_history",
+      "reference_hits": 509,
+      "alerts": 766,
+      "union_reference_hits": 509,
+      "additional_reference_hits": 163,
+      "additional_alerts": 353,
+      "marginal_reference_precision": 0.46175637393767704
+    },
+    {
+      "baseline": "B",
+      "method": "dboost_text_original",
+      "reference_hits": 92,
+      "alerts": 152,
+      "union_reference_hits": 438,
+      "additional_reference_hits": 92,
+      "additional_alerts": 92,
+      "marginal_reference_precision": 1.0
+    }
+  ],
+  "method_status": [
+    {
+      "method": "lucario_original_history",
+      "state": "EXECUTED_CONDITIONAL",
+      "seconds": 2.0476095210033236
+    },
+    {
+      "method": "dboost_text_original",
+      "state": "EXECUTED_CONDITIONAL",
+      "seconds": 3.7155184049988748
+    }
+  ],
+  "source_ids_excluded": [
+    "index"
+  ],
+  "classifier_history_used": false
+}

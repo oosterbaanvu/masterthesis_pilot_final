@@ -1,0 +1,32 @@
+{
+  "mode": "original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change",
+  "native_constraint_output_path": "data/pilot_models/native_constraint_outputs/credit_lucario_original_history_fit.json",
+  "native_constraint_sha256": "cf6a130cb97cbd891edd1423becac9d1860596cc7517afb0914ebc3a5cc1ec5c",
+  "constraints_summary": {
+    "AGE": {
+      "type": "Numerical",
+      "category_count": 36,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "LIMIT_BAL": {
+      "type": "Numerical",
+      "category_count": 52,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "BILL_AMT1": {
+      "type": "Numerical",
+      "category_count": null,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "EDUCATION": {
+      "type": "Numerical",
+      "category_count": 3,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    }
+  },
+  "retention": "Full native output kept in ignored data; original-source code/model values are not redistributed."
+}

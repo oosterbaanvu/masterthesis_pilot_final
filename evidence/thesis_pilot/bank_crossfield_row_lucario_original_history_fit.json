@@ -1,0 +1,32 @@
+{
+  "mode": "original inference classes including full pattern inference; native application parity checked separately; history fit is explicit regime change",
+  "native_constraint_output_path": "data/pilot_models/native_constraint_outputs/bank_crossfield_row_lucario_original_history_fit.json",
+  "native_constraint_sha256": "05add576df963235187b4e3d49721d2d2baa871e52992ca580a6254378e3436c",
+  "constraints_summary": {
+    "age": {
+      "type": "Numerical",
+      "category_count": 58,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "duration": {
+      "type": "Numerical",
+      "category_count": null,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "previous": {
+      "type": "Numerical",
+      "category_count": 2,
+      "pattern_count": 1,
+      "numerical_constraint_present": true
+    },
+    "job": {
+      "type": "String",
+      "category_count": 12,
+      "pattern_count": 3,
+      "numerical_constraint_present": false
+    }
+  },
+  "retention": "Full native output kept in ignored data; original-source code/model values are not redistributed."
+}

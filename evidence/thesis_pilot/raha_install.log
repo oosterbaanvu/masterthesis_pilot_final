@@ -1,0 +1,50 @@
+Using Python 3.9.25 environment at: data/envs/raha
+Resolved 34 packages in 1.87s
+   Building prettytable==0.7.2
+Downloading brotli (1.4MiB)
+Downloading matplotlib (11.0MiB)
+ Downloaded brotli
+Downloading pycryptodomex (2.2MiB)
+Downloading pandas (12.1MiB)
+ Downloaded pycryptodomex
+      Built prettytable==0.7.2
+   Building mwparserfromhell==0.5.4
+ Downloaded matplotlib
+ Downloaded pandas
+      Built mwparserfromhell==0.5.4
+Prepared 16 packages in 5.66s
+Installed 34 packages in 80ms
+ + beautifulsoup4==4.6.0
+ + brotli==1.2.1
+ + contourpy==1.3.0
+ + cycler==0.12.1
+ + fonttools==4.60.2
+ + importlib-resources==6.5.2
+ + inflate64==1.0.4
+ + joblib==1.5.3
+ + kiwisolver==1.4.7
+ + matplotlib==3.7.1
+ + multivolumefile==0.2.3
+ + mwparserfromhell==0.5.4
+ + numpy==1.24.3
+ + packaging==26.3
+ + pandas==2.1.0
+ + pillow==11.3.0
+ + prettytable==0.7.2
+ + psutil==7.2.2
+ + py7zr==0.20.2
+ + pybcj==1.0.6
+ + pycryptodomex==3.24.1
+ + pyparsing==3.3.3
+ + pyppmd==1.0.0
+ + python-dateutil==3.0.0
+ + pytz==2026.5
+ + pyzstd==0.18.0
+ + scikit-learn==1.2.2
+ + scipy==1.10.1
+ + six==1.17.0
+ + texttable==1.7.2
+ + threadpoolctl==3.7.0
+ + typing-extensions==4.16.0
+ + tzdata==2026.5
+ + zipp==3.23.1

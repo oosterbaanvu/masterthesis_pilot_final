@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-0.6B-GGUF",
+  "revision": "23749fefcc72300e3a2ad315e1317431b06b590a",
+  "file": "Qwen3-0.6B-Q8_0.gguf",
+  "quantization": "Q8_0",
+  "bytes": 639446688,
+  "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+  "expected_lfs_sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+  "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/23749fefcc72300e3a2ad315e1317431b06b590a/Qwen3-0.6B-Q8_0.gguf",
+  "license": "Apache-2.0 per official model card",
+  "status": "VERIFIED",
+  "scope": "0.6B local rule-generation engineering experiment, not reproduction of ZeroED Qwen2.5-72B"
+}

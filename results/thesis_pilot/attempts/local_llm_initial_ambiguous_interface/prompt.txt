@@ -1,0 +1,8 @@
+<|im_start|>system
+You return only JSON candidate rules, with no explanation outside JSON.<|im_end|>
+<|im_start|>user
+You propose candidate data quality rules from the PUBLIC source schema only. Return a JSON object with a rules array of at most 4 objects. Each rule has column, operator, values, reason. Allowed operators: numeric_nonnegative, integer, enum. Do not invent numeric upper bounds, business relationships, requiredness or valid codes. Unknown or unsupported semantics must not be invented. No data records or test labels are available. Schema: {"age": {"type": "numeric", "meaning": "client age in years"}, "duration": {"type": "numeric", "meaning": "last contact duration in seconds"}, "campaign": {"type": "integer", "meaning": "number of contacts during this campaign, includes last contact"}, "previous": {"type": "integer", "meaning": "number of contacts before this campaign"}, "contact": {"type": "category", "values": ["cellular", "telephone"]}} /no_think<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>

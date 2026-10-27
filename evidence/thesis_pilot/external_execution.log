@@ -1,0 +1,2 @@
+hospital 509 [{'method': 'lucario_original_history', 'state': 'EXECUTED_CONDITIONAL', 'seconds': 2.0476095210033236}, {'method': 'dboost_text_original', 'state': 'EXECUTED_CONDITIONAL', 'seconds': 3.7155184049988748}]
+beers 4362 [{'method': 'lucario_original_history', 'state': 'EXECUTED_CONDITIONAL', 'seconds': 1.4656176780044916}, {'method': 'dboost_text_original', 'state': 'EXECUTED_CONDITIONAL', 'seconds': 2.3214580209969427}]

@@ -1,0 +1,5 @@
+{"rules": [{"column": "age", "operator": "numeric_nonnegative", "values": ["18"], "reason": "Valid age value for the client."}, {"column": "duration", "operator": "numeric_nonnegative", "values": ["3600"], "reason": "Valid duration value for the last contact."}, {"column": "campaign", "operator": "integer", "values": ["123"], "reason": "Valid campaign number."}, {"column": "previous", "operator": "integer", "values": ["98"], "reason": "Valid previous campaign contacts."}]}
+
+> EOF by user
+
+

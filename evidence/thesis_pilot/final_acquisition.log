@@ -1,0 +1,7 @@
+{'path': 'data/recovery_downloads/default+of+credit+card+clients.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 5539494, 'sha256': '56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602'}
+{'path': 'data/recovery_downloads/bank+marketing.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 1023843, 'sha256': 'e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4'}
+{'path': 'data/pilot_sources/wine.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 91353, 'sha256': '3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4'}
+{'path': 'data/raw/BigDaMa__raha/datasets/beers/clean.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 233019, 'sha256': '373227df59ad197e154dd5149125789e415019535c7223355e9486ee1b3b93de'}
+{'path': 'data/raw/BigDaMa__raha/datasets/beers/dirty.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 255295, 'sha256': '7110bf4931a9445a1675e544d6c996817c739136239f8a2b02e088c7ec0a1f68'}
+{'path': 'data/raw/BigDaMa__raha/datasets/hospital/clean.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 303324, 'sha256': 'ea3ee44998455c0b491750c348509de176c758a3bbf58e4530c0a136bb248b4b'}
+{'path': 'data/raw/BigDaMa__raha/datasets/hospital/dirty.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 303306, 'sha256': 'dbc5575b915fe8b5e0ac6dc6172f38ba91e611fdb76d09a8f4a81cb7ea9925ac'}

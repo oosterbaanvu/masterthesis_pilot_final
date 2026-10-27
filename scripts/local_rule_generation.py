@@ -1,0 +1,29 @@
+"""Local free model schema-only rule generation. No private records, labels or APIs."""
+import hashlib,json,os,re,resource,subprocess,time
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];out=R/'results/thesis_pilot/local_llm';out.mkdir(exist_ok=True)
+metadata=json.loads((R/'evidence/thesis_pilot/local_model_acquisition.json').read_text());model=R/'data/models'/metadata['file'];assert hashlib.sha256(model.read_bytes()).hexdigest()==metadata['sha256']
+schema={'age':{'type':'numeric','meaning':'client age in years'},'duration':{'type':'numeric','meaning':'last contact duration in seconds'},'campaign':{'type':'integer','meaning':'number of contacts during this campaign, includes last contact'},'previous':{'type':'integer','meaning':'number of contacts before this campaign'},'contact':{'type':'category','values':['cellular','telephone']}}
+instruction='You propose candidate data quality rules from the PUBLIC source schema only. Return a JSON object with a rules array of at most 4 objects. Each rule has column, operator, values, reason. Allowed operators: numeric_nonnegative, integer, enum. The values field MUST be [] for the unary numeric_nonnegative and integer operators. For enum, values MUST be exactly the supplied category list. Do not add example numbers or thresholds to unary operators. Do not invent numeric upper bounds, business relationships, requiredness or valid codes. Unknown or unsupported semantics must not be invented. No data records or test labels are available. Schema: '+json.dumps(schema)+' /no_think'
+prompt='<|im_start|>system\nYou return only JSON candidate rules, with no explanation outside JSON.<|im_end|>\n<|im_start|>user\n'+instruction+'<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n'
+(out/'prompt.txt').write_text(prompt)
+cmd=[str(R/'data/llama_build/bin/llama-completion'),'-m',str(model),'-f',str(out/'prompt.txt'),'-n','512','-c','2048','--temp','0','--seed','42','-t','2','--no-display-prompt','--grammar-file',str(R/'data/sources/llama.cpp/grammars/json.gbnf')]
+start=time.perf_counter();p=subprocess.run(cmd,capture_output=True,text=True,timeout=240);elapsed=time.perf_counter()-start
+(out/'response.txt').write_text(p.stdout);(R/'evidence/thesis_pilot/local_llm_runtime.log').write_text(p.stderr)
+text=p.stdout.strip();first=text.find('{');last=text.rfind('}');parsed=None;error=None
+try:
+ parsed=json.loads(text[first:last+1]);assert isinstance(parsed.get('rules'),list)
+except Exception as e:error=repr(e)
+review=[]
+if parsed:
+ for rule in parsed['rules']:
+  c=rule.get('column');op=rule.get('operator');values=rule.get('values');state='REJECTED_UNSUPPORTED_SEMANTICS'
+  if op in {'numeric_nonnegative','integer'} and values not in [None,[]]:
+   state='REJECTED_AMBIGUOUS_PARAMETERS'
+  elif c in schema:
+   if op=='enum' and c=='contact' and isinstance(values,list) and set(values)==set(schema[c]['values']):state='VALID_DOCUMENTED_SCHEMA_CANDIDATE_NOT_EVALUATED'
+   elif op=='integer' and c in ['campaign','previous']:state='VALID_EXPLICIT_SCHEMA_CANDIDATE_NOT_EVALUATED'
+   elif op=='numeric_nonnegative' and c in ['age','duration','previous','campaign']:state='VALID_STIPULATED_DUPLICATE_BASELINE'
+  review.append({'candidate':rule,'state':state,'semantic_review':'automated comparison to the explicitly supplied source contract; not independent human validation','incremental_detection_claim':'NONE'})
+result={'prompt_amendment':'One interface repair specifies empty values for unary operators; original underspecified prompt and all four rejected outputs preserved under attempts/local_llm_initial_ambiguous_interface. No evaluation labels or rows used.','track_status':'EXECUTED_CONDITIONAL' if p.returncode==0 else 'BLOCKED_TECHNICAL','model':metadata,'runtime_git_revision':subprocess.check_output(['git','-C',str(R/'data/sources/llama.cpp'),'rev-parse','HEAD'],text=True).strip(),'backend':'local llama.cpp llama-completion CPU, Ollama not required','command':cmd,'sampling':{'temperature':0,'seed':42,'maximum_new_tokens':512,'threads':2},'prompt_sha256':hashlib.sha256(prompt.encode()).hexdigest(),'response_sha256':hashlib.sha256(p.stdout.encode()).hexdigest(),'exit_code':p.returncode,'seconds':elapsed,'peak_child_rss_kib':resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss,'parser_error':error,'candidates':review,'source_context':'public schema only; no customer rows, outcomes, test labels, reference values or private information','scope':'optional small-model engineering experiment; neither Qwen3-8B nor original ZeroED results reproduced'}
+(out/'result.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2))

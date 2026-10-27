@@ -1,0 +1,13 @@
+# Independent computational and skeptical scientific audit
+
+Primary independent script imports neither the production injector nor scoring/scheduling functions. It reopens source archives, verifies hashes/outcome exclusion/duplicate-group partitions, reconstructs ECAR/EAR/ENAR locations without tab_err, checks every original/new logged value and operation, re-counts truth coordinates, all unconstrained/incremental/budget/new-trigger metrics and displacements.
+
+Result: **205,093 primary assertions passed over 630 scenarios and 52,740 metric rows**. Supplemental independent arithmetic: **52,505 assertions**, including published references, the metered label regime, identical transformations across mechanisms, all-feature/type probes, 45 row scenarios, hard-priority capacity and actual CLI executions. Detailed categories are in the JSON verification files. This is an independently coded implementation, not a second human annotator or external academic examiner.
+
+43 software tests pass in the full pilot environment. The original audit-only environment passes its 29 tests and explicitly skips the optional pilot module because numerical dependencies are separate. Its skip is not used to claim new experiment readiness. No zero-test success or missing model is counted as passing detection.
+
+Supported: acquired byte identities, controlled operations under stipulated contracts, exact native example parity, documented implementation executions, source-specific reference-relative increments and measured review burden. Unsupported: verified natural correctness of every benchmark cell, bank production efficacy, independent customer/source confidence, globally mature business controls, novelty confirmation or original ZeroED/complete Auto-Test scores.
+
+Challenges retained: B is richer but research-defined; hard-rule prioritisation changes operational interpretation; duplicate-feature groups are not known independent customers; native CDC dtype/calibration and boundary behaviour can inflate alerts; LUCARIO coverage assumptions are challenged by 10% contamination; binary flag order is not optimal ranking; history source values are not certified clean. Publisher-reference performance and alteration recovery cannot be combined into one semantic F1.
+
+No unresolved unexpected primary model execution failure remains among applicable combinations. The 405 method/scenario exclusions are explicit input-domain limitations (270 numeric dBoost; 135 CDC lexical numeric), not dropped records or zero scores. Remaining scientific limitations restrict the claim and final-study design rather than stopping unaffected tracks.

@@ -88,3 +88,19 @@ def test_stable_dboost_population_moments_and_cache_invalidation():
  s.update(.2)
  assert abs(s.sigma-np.std(np.array([.1]*2400+[.2])))<1e-14
  assert abs(s.avg-np.mean(np.array([.1]*2400+[.2])))<1e-14
+
+def test_generic_registered_intervention_is_a_copy_and_rejects_scale_noop(tmp_path):
+ import json,hashlib
+ from argparse import Namespace
+ from dq_service.intervene import experiment
+ source=tmp_path/'source.csv';pd.DataFrame({'amount':np.arange(1,51),'status':['BOOKED']*50}).to_csv(source,index=False)
+ contract={'columns':{'amount':{'type':'numeric','required':True,'bounds':[0,None]},'status':{'type':'category','required':True,'domain':['BOOKED']}},'targets':['amount','status']}
+ registry=tmp_path/'data/service_registry';registry.mkdir(parents=True);digest=hashlib.sha256(source.read_bytes()).hexdigest();(registry/'new_source.json').write_text(json.dumps({'source':str(source),'source_sha256':digest,'contract':contract}))
+ args=Namespace(id='new_source',history=str(source),target='amount',family='type',mechanism='ECAR',condition=None,rate=.1,seed=42,factor=10.,new_code='BAD',output=str(tmp_path/'derived'))
+ result=experiment(args,tmp_path)
+ assert result['realized_changes']==5 and result['original_source_unchanged'] and result['detector_abstained_invalid_numeric_targets']==5
+ assert hashlib.sha256(source.read_bytes()).hexdigest()==digest
+ derived=pd.read_csv(tmp_path/'derived/dirty_copy.csv',dtype=str)
+ assert (derived.amount=='INVALID_NUMERIC').sum()==5
+ args.family='scale';args.factor=1
+ with pytest.raises(ValueError,match='Scaling must change'):experiment(args,tmp_path)

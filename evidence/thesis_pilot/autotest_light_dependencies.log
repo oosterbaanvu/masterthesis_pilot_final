@@ -1,0 +1,6 @@
+Using Python 3.12.14 environment at: data/envs/pilot
+Resolved 2 packages in 488ms
+Prepared 2 packages in 227ms
+Installed 2 packages in 8ms
+ + easydict==1.13
+ + validators==0.35.0

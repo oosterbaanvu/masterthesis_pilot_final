@@ -1,0 +1,24 @@
+[
+  {
+    "method": "autotest",
+    "command": [
+      "data/envs/pilot/bin/python",
+      "/workspace/research_sources/qixuchen__AutoTest/code/AutoTest/STEP3_SDC_application.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "stdout": "usage: STEP3_SDC_application.py [-h]\n                                {rt_bench,st_bench}\n                                {rt_train,st_train,tablib,tablib_small}\n\npositional arguments:\n  {rt_bench,st_bench}   Name of the benchmark.\n  {rt_train,st_train,tablib,tablib_small}\n                        Name of the corpus where SDC are learnt.\n\noptions:\n  -h, --help            show this help message and exit\n",
+    "stderr": ""
+  },
+  {
+    "method": "zeroed",
+    "command": [
+      "data/envs/pilot/bin/python",
+      "data/sources/ZeroED/main.py",
+      "--help"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/masterthesis_pilot_final/data/sources/ZeroED/main.py\", line 14, in <module>\n    import fasttext.util\nModuleNotFoundError: No module named 'fasttext'\n"
+  }
+]

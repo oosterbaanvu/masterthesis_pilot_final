@@ -1,0 +1,62 @@
+[
+  {
+    "method": "dboost_text_original",
+    "status": "EXECUTED_CONDITIONAL",
+    "history_rows": 2399,
+    "batch_rows": 800,
+    "input_columns": 4,
+    "fit_seconds": 1.0460463620038354,
+    "score_seconds": 0.05533287000434939,
+    "rss_high_water_kib": 121416,
+    "memory_scope": "worker high-water RSS after fit and untouched score; parent and descendants not summed",
+    "alerts": 0
+  },
+  {
+    "method": "dboost_numeric_original",
+    "status": "EXECUTED_CONDITIONAL",
+    "history_rows": 2399,
+    "batch_rows": 800,
+    "input_columns": 4,
+    "fit_seconds": 1.3218190289990162,
+    "score_seconds": 0.06209890599711798,
+    "rss_high_water_kib": 121180,
+    "memory_scope": "worker high-water RSS after fit and untouched score; parent and descendants not summed",
+    "alerts": 48
+  },
+  {
+    "method": "lucario_original_history",
+    "status": "EXECUTED_CONDITIONAL",
+    "history_rows": 2399,
+    "batch_rows": 800,
+    "input_columns": 4,
+    "fit_seconds": 1.1095833979998133,
+    "score_seconds": 0.013695461995666847,
+    "rss_high_water_kib": 131988,
+    "memory_scope": "worker high-water RSS after fit and untouched score; parent and descendants not summed",
+    "alerts": 83
+  },
+  {
+    "method": "contextual_extra_trees",
+    "status": "EXECUTED_CONDITIONAL",
+    "history_rows": 2399,
+    "batch_rows": 800,
+    "input_columns": 4,
+    "fit_seconds": 1.0197491090002586,
+    "score_seconds": 0.0816726609991747,
+    "rss_high_water_kib": 299632,
+    "memory_scope": "parent high-water RSS includes other already imported libraries; not isolated algorithm allocation",
+    "alerts": 20
+  },
+  {
+    "method": "cdc_original",
+    "status": "EXECUTED_CONDITIONAL",
+    "history_rows": 2399,
+    "batch_rows": 800,
+    "input_columns": 4,
+    "fit_seconds": 9.698125246999552,
+    "score_seconds": 0.8200183240041952,
+    "rss_high_water_kib": 261224,
+    "memory_scope": "worker high-water RSS after fit and untouched score; parent and descendants not summed",
+    "alerts": 1138
+  }
+]

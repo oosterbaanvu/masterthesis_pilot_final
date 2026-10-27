@@ -1,0 +1,32 @@
+[
+  {
+    "method": "dboost_text_original",
+    "status": "EXECUTED_CONDITIONAL",
+    "fit_seconds": 0.8491420610007481,
+    "untouched_alerts": 16
+  },
+  {
+    "method": "dboost_numeric_original",
+    "status": "EXECUTED_CONDITIONAL",
+    "fit_seconds": 1.3486171959993953,
+    "untouched_alerts": 109
+  },
+  {
+    "method": "lucario_original_history",
+    "status": "EXECUTED_CONDITIONAL",
+    "fit_seconds": 1.11512236499766,
+    "untouched_alerts": 64
+  },
+  {
+    "method": "contextual_extra_trees",
+    "status": "EXECUTED_CONDITIONAL",
+    "fit_seconds": 0.6444555960006255,
+    "untouched_alerts": 18
+  },
+  {
+    "method": "cdc_original",
+    "status": "EXECUTED_CONDITIONAL",
+    "fit_seconds": 9.21413373100222,
+    "untouched_alerts": 1391
+  }
+]

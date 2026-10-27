@@ -1,0 +1,362 @@
+{
+  "status": "PASSED",
+  "checks": 89,
+  "details": [
+    {
+      "check": "metric_csv_hash_and_count",
+      "status": "PASSED"
+    },
+    {
+      "check": "unique_final_scenarios",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E4_scale:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E4_scale:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E4_scale:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E4_scale:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E4_scale:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E5_substitution:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E5_substitution:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E5_substitution:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E5_substitution:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:bank:E5_substitution:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E4_scale:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E4_scale:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E4_scale:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E4_scale:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E4_scale:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E5_substitution:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E5_substitution:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E5_substitution:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E5_substitution:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:credit:E5_substitution:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E4_scale:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E4_scale:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E4_scale:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E4_scale:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E4_scale:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E5_substitution:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E5_substitution:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E5_substitution:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E5_substitution:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_increment:wine:E5_substitution:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E4_scale:B",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E4_scale:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E4_scale:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E4_scale:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E4_scale:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E4_scale:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E5_substitution:B",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E5_substitution:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E5_substitution:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E5_substitution:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E5_substitution:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:bank:E5_substitution:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E4_scale:B",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E4_scale:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E4_scale:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E4_scale:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E4_scale:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E4_scale:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E5_substitution:B",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E5_substitution:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E5_substitution:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E5_substitution:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E5_substitution:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:credit:E5_substitution:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E4_scale:B",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E4_scale:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E4_scale:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E4_scale:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E4_scale:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E4_scale:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E5_substitution:B",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E5_substitution:cdc_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E5_substitution:contextual_extra_trees",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E5_substitution:dboost_numeric_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E5_substitution:dboost_text_original",
+      "status": "PASSED"
+    },
+    {
+      "check": "report_budget:wine:E5_substitution:lucario_original_history",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:executive_summary.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:research_design.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:dataset_qualification.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:rule_baselines.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:injection_validation.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:detector_reproduction.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:experimental_results.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:external_validation.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:incremental_value_analysis.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:domain_issues_and_repairs.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:literature_and_novelty.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:engineering_artifact.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:final_recommendation.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "required_report:independent_audit.md",
+      "status": "PASSED"
+    },
+    {
+      "check": "acceptance_matches_outputs",
+      "status": "PASSED"
+    },
+    {
+      "check": "llm_prompt_response_provenance",
+      "status": "PASSED"
+    },
+    {
+      "check": "no_semantic_adoption_claim",
+      "status": "PASSED"
+    },
+    {
+      "check": "test_count_matches_executed_log",
+      "status": "PASSED"
+    },
+    {
+      "check": "every_applied_control_has_separate_provenance",
+      "status": "PASSED"
+    },
+    {
+      "check": "requiredness_is_explicitly_stipulated",
+      "status": "PASSED"
+    },
+    {
+      "check": "all_final_cases_match_current_frozen_code_and_protocol",
+      "status": "PASSED"
+    }
+  ]
+}

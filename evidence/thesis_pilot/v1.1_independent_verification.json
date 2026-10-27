@@ -1,0 +1,55 @@
+{
+  "status": "PASSED",
+  "scenarios": 630,
+  "metric_rows": 50580,
+  "checks": {
+    "source_hash": 3,
+    "group_split_disjoint": 18,
+    "outcome_exclusion_and_columns": 3,
+    "prediction_hash": 630,
+    "injection_log_hash": 630,
+    "original_value_and_identity": 26730,
+    "no_noops": 26730,
+    "requiredness_operation": 5760,
+    "exact_injection_counts": 630,
+    "independent_mechanism_placement": 630,
+    "saved_truth_coordinates": 630,
+    "complete_prediction_population": 3870,
+    "independent_unconstrained_metrics": 11700,
+    "independent_newly_triggered_hits": 11700,
+    "independent_incremental_metrics": 11700,
+    "independent_budget_and_hits": 38880,
+    "independent_displacement": 38880,
+    "lexical_operation": 5760,
+    "invalid_domain_operation": 3840,
+    "scale_operation": 5610,
+    "plausible_substitution_operation": 5760,
+    "full_predeclared_scenario_count": 1
+  },
+  "datasets": {
+    "bank": 225,
+    "credit": 225,
+    "wine": 180
+  },
+  "families": {
+    "E1_missing": 135,
+    "E2_type": 135,
+    "E3_code": 90,
+    "E4_scale": 135,
+    "E5_substitution": 135
+  },
+  "method_scenario_coverage": {
+    "A": 630,
+    "B": 630,
+    "dboost_text_original": 630,
+    "lucario_original_history": 630,
+    "contextual_extra_trees": 630,
+    "dboost_numeric_original": 360,
+    "cdc_original": 360
+  },
+  "inapplicabilities_and_failures": {
+    "dboost_numeric_original|INCOMPATIBLE_SCENARIO": 270,
+    "cdc_original|INCOMPATIBLE_SCENARIO": 270
+  },
+  "limitations": "Independent implementation of acquisition/splitting/intervention/evaluation arithmetic, not independent human annotation. No seed-based source-population significance claim."
+}

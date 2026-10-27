@@ -1,0 +1,54 @@
+{
+  "primary_configurations": [
+    {
+      "name": "dboost_text_original",
+      "scenarios_scored": 630,
+      "output": "binary cell flags",
+      "ranking_or_pr_auc": "NOT_CLAIMED"
+    },
+    {
+      "name": "lucario_original_history",
+      "scenarios_scored": 630,
+      "output": "binary cell flags",
+      "ranking_or_pr_auc": "NOT_CLAIMED"
+    },
+    {
+      "name": "contextual_extra_trees",
+      "scenarios_scored": 630,
+      "output": "binary cell flags",
+      "ranking_or_pr_auc": "NOT_CLAIMED"
+    },
+    {
+      "name": "cdc_original",
+      "scenarios_scored": 495,
+      "output": "binary cell flags",
+      "ranking_or_pr_auc": "NOT_CLAIMED"
+    },
+    {
+      "name": "dboost_numeric_original",
+      "scenarios_scored": 360,
+      "output": "binary cell flags",
+      "ranking_or_pr_auc": "NOT_CLAIMED"
+    }
+  ],
+  "regimes": {
+    "primary": "approved untouched-source history, no error labels; source not certified clean",
+    "external": "transductive publisher-reference agreement",
+    "raha": "20 metered labelled rows, excluded from evaluation",
+    "llm": "public schema only; no automatic promotion"
+  },
+  "source_types_diagnostic": "separate adaptation, 18 scenarios; full input features, same four targets",
+  "basic_coverage_operational_scenarios": 360,
+  "tracks": {
+    "controlled_interventions": "EXECUTED_CONDITIONAL",
+    "published_reference_errors": "EXECUTED_CONDITIONAL",
+    "recent_detector_reproduction": "EXECUTED_CONDITIONAL",
+    "local_llm_rule_generation": "EXECUTED_CONDITIONAL",
+    "engineering_artifact": "EXECUTED_VALID"
+  },
+  "unavailable": {
+    "AutoTest": "NOT_EXECUTED full inference; bounded setup attempts",
+    "ZeroED": "NOT_EXECUTED full pipeline; source/paper reviewed"
+  },
+  "global_adoption": "INSUFFICIENT_EVIDENCE"
+}

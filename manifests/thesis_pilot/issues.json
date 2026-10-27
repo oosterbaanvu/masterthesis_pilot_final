@@ -1,0 +1,122 @@
+[
+  {
+    "id": "T01",
+    "root_cause_type": "technical",
+    "root_cause": "uv cache read-only / unavailable PyPI tab_err 0.2.2",
+    "repair": "Workspace cache; pinned official source installation",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "pilot_install_source.log, reusable_setup_test.log"
+  },
+  {
+    "id": "T02",
+    "root_cause_type": "technical",
+    "root_cause": "CDC Python/AutoGluon compatibility",
+    "repair": "Separate Python 3.9 plus exact author CI source and supported RF/XT budget",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "cdc_install.log, *_cdc_original_fit.json"
+  },
+  {
+    "id": "T03",
+    "root_cause_type": "methodological",
+    "root_cause": "Prior LUCARIO-core omitted regex inference",
+    "repair": "Execute all original inference classes and both author scripts; exact flag parity",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "lucario_authors_parity.json"
+  },
+  {
+    "id": "T04",
+    "root_cause_type": "technical",
+    "root_cause": "One-pass float variance cancellation in native dBoost",
+    "repair": "Mixed-period probe succeeds; homogeneous real Bank-period failure reproduced, stable cached population moments retested without clipping or dropping inputs",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "dboost_period_retest.json, dboost_numeric_diagnosis.json"
+  },
+  {
+    "id": "T05",
+    "root_cause_type": "technical",
+    "root_cause": "First stable moment attempt exceeded time limit by recomputing moments per query",
+    "repair": "Cache exact moment values and invalidate cache on update; complete failing-input retest",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "dboost_stable_attempt1_timeout.log, all_tests.log"
+  },
+  {
+    "id": "T06",
+    "root_cause_type": "methodological",
+    "root_cause": "CDC missing numeric input wrongly excluded",
+    "repair": "Original input probe proves support; preserve native missing-mask semantics; rerun all 630 scenarios",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "cdc_missing_probe.json, protocol_amendments.json"
+  },
+  {
+    "id": "T07",
+    "root_cause_type": "technical",
+    "root_cause": "Original LUCARIO KMeans unseeded",
+    "repair": "Seed 42, preserve old outputs, rerun main and external outputs",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "protocol_amendments.json"
+  },
+  {
+    "id": "T08",
+    "root_cause_type": "domain",
+    "root_cause": "Native CDC may infer numerical amounts/ages as categorical; native boundary/rare-class effects",
+    "repair": "Retain primary native behaviour and execute 18 source-declared-type diagnostics; no theoretical guarantee or replacement of originals claimed",
+    "status": "RESOLVED_CONDITIONALLY",
+    "evidence": "cdc_type_diagnostic/results.json"
+  },
+  {
+    "id": "T09",
+    "root_cause_type": "methodological",
+    "root_cause": "Shared capacity can prioritise statistical suspicion before hard contract failures",
+    "repair": "Separate post hoc provenance-priority sensitivity, without test-label ordering or retuning models",
+    "status": "RESOLVED_CONDITIONALLY",
+    "evidence": "hard_priority_budget_results.csv"
+  },
+  {
+    "id": "T10",
+    "root_cause_type": "technical",
+    "root_cause": "llama-cli target unavailable in current build layout; model redirect denied",
+    "repair": "Use actual llama-completion target and specific public CDN allowlist; verify checkpoint against publisher LFS checksum",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "llama_completion_build.log, local_model_acquisition.json"
+  },
+  {
+    "id": "T11",
+    "root_cause_type": "scientific",
+    "root_cause": "LLM valid JSON contains ambiguous parameters; prompt omitted unary-parameter convention; validator omitted stipulated age bound and overstated integer checks as baseline duplicates",
+    "repair": "Preserve initial four rejected outputs; specify empty unary values and retry once without labels. Validate against actual frozen controls: two bound duplicates and two schema repetitions without detector evaluation. Preserve prior classification; no automatic promotion.",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "local_llm/result.json, attempts/local_llm_initial_ambiguous_interface"
+  },
+  {
+    "id": "T12",
+    "root_cause_type": "technical/licensing",
+    "root_cause": "Complete Auto-Test/ZeroED environments, artifacts and rights not qualified",
+    "repair": "Bounded code/paper and execution attempts, no approximate scores or paid inference; continue all other tracks",
+    "status": "BLOCKED_TECHNICAL",
+    "evidence": "optional_attempts.json, autotest_retry_after_dependencies.json"
+  },
+  {
+    "id": "T13",
+    "root_cause_type": "scientific",
+    "root_cause": "Published reference disagreement is not independent semantic truth",
+    "repair": "Keep reference-relative labels/metrics; no invented human annotation; separate from intervention tracks",
+    "status": "INTRINSIC_LIMITATION",
+    "evidence": "external_validation.md"
+  },
+  {
+    "id": "T15",
+    "root_cause_type": "technical/methodological",
+    "root_cause": "Known full-feature duplicates crossed the internal reference fit/calibration split (154 Wine groups)",
+    "repair": "Retain one original full-feature representative per approved history group, prove history uniqueness independently, preserve v1.2 and rerun all affected comparisons",
+    "status": "RESOLVED_VERIFIED",
+    "evidence": "inner_calibration_group_audit.json, protocol_amendments.json, independent_verification.json"
+  },
+  {
+    "id": "T14",
+    "root_cause_type": "scientific",
+    "root_cause": "Exact duplicate groups are not independent sources or known clients",
+    "repair": "Correct interpretation explicitly; conditional within-source sensitivity only; no seed-based source significance",
+    "status": "INTRINSIC_LIMITATION",
+    "evidence": "research_design.md, source_group_metadata.json"
+  }
+]

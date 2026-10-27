@@ -1,0 +1,8 @@
+{
+ "version":"hard-contract-priority-1.0-exploratory",
+ "reason":"A mature control process can prioritize independently stipulated hard schema violations over statistical suspicion. Predeclared binary-hash policy remains reported; this is an explicit post hoc policy sensitivity, not relabelling or model retuning.",
+ "order":"A hard-control alerts first; B statistical-only alerts thereafter; detector flags use fixed identity hashes, no fake continuous scores",
+ "fusion":"Never displace hard-control reviews; control_first or equal_share among remaining statistical/model flags",
+ "uses_test_labels_for_priority":false,
+ "scope":"same 630 primary source/scenario populations; only recorded compatible method outputs"
+}

@@ -1,0 +1,69 @@
+{
+  "dataset": "Bank Marketing",
+  "population": "20 approved historical rows with emp.var.rate=-3.4, all 20 non-outcome input features",
+  "source_row_ids": [
+    "bank:37951",
+    "bank:38088",
+    "bank:38875",
+    "bank:38548",
+    "bank:38931",
+    "bank:38783",
+    "bank:38868",
+    "bank:38943",
+    "bank:38300",
+    "bank:38113",
+    "bank:38632",
+    "bank:38834",
+    "bank:38769",
+    "bank:38243",
+    "bank:38563",
+    "bank:38920",
+    "bank:38760",
+    "bank:38653",
+    "bank:38237",
+    "bank:38232"
+  ],
+  "original_failure_reproduced": true,
+  "repaired_full_population_score_succeeded": true,
+  "root_cause": "Native float fractional-part expansion produces a constant approximately -0.4; one-pass variance becomes slightly negative through cancellation. Cached stable population moments avoid this without clipping variances or dropping inputs.",
+  "results": [
+    {
+      "script": "native_detector_worker.py",
+      "exit_code": 0,
+      "responses": [
+        {
+          "ok": false,
+          "error": "ValueError('math domain error')"
+        },
+        {
+          "ok": false,
+          "error": "KeyError('convert')"
+        }
+      ],
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/masterthesis_pilot_final/scripts/native_detector_worker.py\", line 97, in <module>\n    with contextlib.redirect_stdout(sys.stderr):result=dispatch(req)\n                                                       ^^^^^^^^^^^^^\n  File \"/workspace/masterthesis_pilot_final/scripts/native_detector_worker.py\", line 55, in dispatch\n    an.fit(dboost.expand_stream(gen,rules,False,None));an.expand_stats();model.fit(dboost.expand_stream(gen,rules,False,an.hints),an)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/masterthesis_pilot_final/data/sources/cpitclaudel__dBoost/dboost/analyzers/statistical.py\", line 69, in fit\n    pearson = self.pearson(pair_id)\n              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/masterthesis_pilot_final/data/sources/cpitclaudel__dBoost/dboost/analyzers/statistical.py\", line 50, in pearson\n    return Stats.pearson(self.stats[idx][sidx], self.stats[idy][sidy],\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/masterthesis_pilot_final/data/sources/cpitclaudel__dBoost/dboost/analyzers/utils.py\", line 45, in pearson\n    sigmas = s1.sigma * s2.sigma\n                        ^^^^^^^^\n  File \"/workspace/masterthesis_pilot_final/data/sources/cpitclaudel__dBoost/dboost/analyzers/utils.py\", line 36, in sigma\n    return sqrt((self.sum2 / self.count) - (self.sum / self.count) ** 2)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: math domain error\nTraceback (most recent call last):\n  File \"/workspace/masterthesis_pilot_final/scripts/native_detector_worker.py\", line 97, in <module>\n    with contextlib.redirect_stdout(sys.stderr):result=dispatch(req)\n                                                       ^^^^^^^^^^^^^\n  File \"/workspace/masterthesis_pilot_final/scripts/native_detector_worker.py\", line 75, in dispatch\n    tuples=STATE['convert'](df);flags=np.zeros((len(df),len(targets)),bool);an=STATE['an'];model=STATE['model'];col={c:j for j,c in enumerate(targets)}\n           ~~~~~^^^^^^^^^^^\nKeyError: 'convert'\n"
+    },
+    {
+      "script": "dboost_stable_compat.py",
+      "exit_code": 0,
+      "responses": [
+        {
+          "ok": true,
+          "result": {
+            "mode": "original Gaussian; reference fit; no row-dropping CSV reader used",
+            "typed": true
+          }
+        },
+        {
+          "ok": true,
+          "shape": [
+            20,
+            4
+          ],
+          "alerts": 0
+        }
+      ],
+      "stderr": ""
+    }
+  ],
+  "primary_results_changed": false
+}

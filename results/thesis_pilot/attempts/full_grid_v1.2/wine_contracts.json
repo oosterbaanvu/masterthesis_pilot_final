@@ -1,0 +1,176 @@
+{
+  "contract": {
+    "fixed acidity": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "volatile acidity": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "citric acid": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "residual sugar": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "chlorides": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "free sulfur dioxide": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "total sulfur dioxide": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "density": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "pH": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        14
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "sulphates": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        null
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    },
+    "alcohol": {
+      "required": true,
+      "type": "numeric",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "bounds": [
+        0,
+        100
+      ],
+      "bounds_provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "bounds_evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention)."
+    }
+  },
+  "statistical_provenance": [
+    {
+      "column": "alcohol",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    },
+    {
+      "column": "density",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    },
+    {
+      "column": "pH",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    },
+    {
+      "column": "sulphates",
+      "control": "extended_profile_and_conditional_linear_residual",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "quantile": 0.995,
+      "hard_validity": false,
+      "fit_rows": 1800,
+      "calibration_rows": 600
+    }
+  ],
+  "fit_scope": "history only",
+  "key_referential_reconciliation": "NOT_APPLICABLE in this single-table cell track; separate explicit fixture"
+}

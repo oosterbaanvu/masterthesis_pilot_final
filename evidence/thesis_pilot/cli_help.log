@@ -1,0 +1,7 @@
+usage: dqeval [-h] {register,scan,pilot} ...
+
+positional arguments:
+  {register,scan,pilot}
+
+options:
+  -h, --help            show this help message and exit

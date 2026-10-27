@@ -1,0 +1,60 @@
+credit fitted dboost_text_original 1.15 seconds
+credit fitted dboost_numeric_original 1.04 seconds
+credit fitted lucario_original_history 1.09 seconds
+credit fitted contextual_extra_trees 1.14 seconds
+credit fitted cdc_original 8.57 seconds
+credit 15 scenarios completed 0.72 sec latest
+credit 30 scenarios completed 0.79 sec latest
+credit 45 scenarios completed 0.75 sec latest
+credit 60 scenarios completed 0.19 sec latest
+credit 75 scenarios completed 0.16 sec latest
+credit 90 scenarios completed 0.19 sec latest
+credit 105 scenarios completed 0.77 sec latest
+credit 120 scenarios completed 0.73 sec latest
+credit 135 scenarios completed 0.97 sec latest
+credit 150 scenarios completed 1.08 sec latest
+credit 165 scenarios completed 0.82 sec latest
+credit 180 scenarios completed 0.68 sec latest
+credit 195 scenarios completed 0.67 sec latest
+credit 210 scenarios completed 0.83 sec latest
+credit 225 scenarios completed 1.19 sec latest
+credit COMPLETED 225
+bank fitted dboost_text_original 1.61 seconds
+bank fitted dboost_numeric_original 1.47 seconds
+bank fitted lucario_original_history 2.04 seconds
+bank fitted contextual_extra_trees 0.84 seconds
+bank fitted cdc_original 8.15 seconds
+bank 15 scenarios completed 0.68 sec latest
+bank 30 scenarios completed 0.92 sec latest
+bank 45 scenarios completed 0.83 sec latest
+bank 60 scenarios completed 0.18 sec latest
+bank 75 scenarios completed 0.15 sec latest
+bank 90 scenarios completed 0.29 sec latest
+bank 105 scenarios completed 0.8 sec latest
+bank 120 scenarios completed 0.75 sec latest
+bank 135 scenarios completed 0.73 sec latest
+bank 150 scenarios completed 0.94 sec latest
+bank 165 scenarios completed 0.92 sec latest
+bank 180 scenarios completed 0.92 sec latest
+bank 195 scenarios completed 0.77 sec latest
+bank 210 scenarios completed 0.73 sec latest
+bank 225 scenarios completed 1.87 sec latest
+bank COMPLETED 225
+wine fitted dboost_text_original 1.18 seconds
+wine fitted dboost_numeric_original 1.07 seconds
+wine fitted lucario_original_history 1.5 seconds
+wine fitted contextual_extra_trees 1.29 seconds
+wine fitted cdc_original 13.52 seconds
+wine 15 scenarios completed 1.62 sec latest
+wine 30 scenarios completed 0.96 sec latest
+wine 45 scenarios completed 0.76 sec latest
+wine 60 scenarios completed 0.16 sec latest
+wine 75 scenarios completed 0.29 sec latest
+wine 90 scenarios completed 0.28 sec latest
+wine 105 scenarios completed 0.92 sec latest
+wine 120 scenarios completed 0.98 sec latest
+wine 135 scenarios completed 1.01 sec latest
+wine 150 scenarios completed 0.87 sec latest
+wine 165 scenarios completed 0.86 sec latest
+wine 180 scenarios completed 1.5 sec latest
+wine COMPLETED 180

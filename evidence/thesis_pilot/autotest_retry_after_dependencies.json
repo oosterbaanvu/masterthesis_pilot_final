@@ -1,0 +1,5 @@
+{
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/workspace/research_sources/qixuchen__AutoTest/code/AutoTest/STEP3_SDC_application.py\", line 22, in <module>\n    from util import utils, sbert_utils, doduo_utils\n  File \"/workspace/research_sources/qixuchen__AutoTest/code/AutoTest/util/utils.py\", line 2, in <module>\n    import regex as re\nModuleNotFoundError: No module named 'regex'\n"
+}

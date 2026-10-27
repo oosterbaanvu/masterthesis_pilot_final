@@ -1,0 +1,926 @@
+{
+  "scope": "Applied primary four-field controls; separate row/linked-fixture contracts in their own protocols. Fitted values deterministically reconstructed from the identical frozen source/history and implementation, with no evaluation values or labels.",
+  "controls": [
+    {
+      "dataset": "credit",
+      "column": "AGE",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "AGE",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "AGE",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          null
+        ]
+      },
+      "evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "AGE",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 22.0,
+          "qhi": 62.0,
+          "ilo": -11.0,
+          "ihi": 80.0
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "credit",
+      "column": "AGE",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 31.813626130955825,
+        "predictor_columns": [
+          "LIMIT_BAL",
+          "BILL_AMT1",
+          "EDUCATION"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "credit",
+      "column": "LIMIT_BAL",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "LIMIT_BAL",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "LIMIT_BAL",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 10000.0,
+          "qhi": 500199.9999999953,
+          "ilo": -490000.0,
+          "ihi": 770000.0
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "credit",
+      "column": "LIMIT_BAL",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 385202.9605847412,
+        "predictor_columns": [
+          "AGE",
+          "BILL_AMT1",
+          "EDUCATION"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "credit",
+      "column": "BILL_AMT1",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "BILL_AMT1",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "BILL_AMT1",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": -375.29999999999995,
+          "qhi": 345472.8199999985,
+          "ilo": -188014.0,
+          "ihi": 259982.5
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "credit",
+      "column": "BILL_AMT1",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 242969.5306031274,
+        "predictor_columns": [
+          "AGE",
+          "LIMIT_BAL",
+          "EDUCATION"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "credit",
+      "column": "EDUCATION",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "EDUCATION",
+      "control": "categorical_domain",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "domain": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness. Permissive codes include known legitimate/uncertain source exceptions; no claim those exceptions are errors.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "credit",
+      "column": "EDUCATION",
+      "control": "history_category_frequency",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "minimum_share": 0.005,
+        "fitted_shares": {
+          "2": 0.47269695706544396,
+          "1": 0.35431429762401,
+          "3": 0.15923301375573157,
+          "5": 0.00917048770320967,
+          "4": 0.003334722801167153,
+          "6": 0.0008336807002917883,
+          "0": 0.00041684035014589413
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; uncommon does not mean semantically invalid.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "bank",
+      "column": "age",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "age",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "age",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          null
+        ]
+      },
+      "evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "age",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 22.0,
+          "qhi": 76.0,
+          "ilo": -13.0,
+          "ihi": 92.0
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "bank",
+      "column": "age",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 22.14544096955464,
+        "predictor_columns": [
+          "duration",
+          "previous",
+          "job"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "bank",
+      "column": "duration",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "duration",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "duration",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          null
+        ]
+      },
+      "evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "duration",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 8.0,
+          "qhi": 1464.550000000012,
+          "ilo": -494.0,
+          "ihi": 899.0
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "bank",
+      "column": "duration",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 882.5483789474947,
+        "predictor_columns": [
+          "age",
+          "previous",
+          "job"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "bank",
+      "column": "previous",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "previous",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "previous",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          null
+        ]
+      },
+      "evidence": "Nonnegative count/age/duration convention; no arbitrary upper bound.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "previous",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 0.0,
+          "qhi": 3.0,
+          "ilo": 0.0,
+          "ihi": 0.0
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "bank",
+      "column": "previous",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 2.8236217348629493,
+        "predictor_columns": [
+          "age",
+          "duration",
+          "job"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "bank",
+      "column": "job",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "job",
+      "control": "categorical_domain",
+      "baseline": "A_and_B",
+      "provenance": "DOCUMENTED_SOURCE_CONTRACT",
+      "parameters": {
+        "domain": [
+          "admin.",
+          "blue-collar",
+          "entrepreneur",
+          "housemaid",
+          "management",
+          "retired",
+          "self-employed",
+          "services",
+          "student",
+          "technician",
+          "unemployed",
+          "unknown"
+        ]
+      },
+      "evidence": "bank-additional-names.txt category list; unknown is retained as a legitimate source token. Requiredness separately stipulated.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "bank",
+      "column": "job",
+      "control": "history_category_frequency",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "minimum_share": 0.005,
+        "fitted_shares": {
+          "admin.": 0.26,
+          "blue-collar": 0.22458333333333333,
+          "technician": 0.15416666666666667,
+          "services": 0.09625,
+          "management": 0.07541666666666667,
+          "retired": 0.04,
+          "self-employed": 0.03791666666666667,
+          "entrepreneur": 0.035416666666666666,
+          "housemaid": 0.029166666666666667,
+          "unemployed": 0.022083333333333333,
+          "student": 0.0175,
+          "unknown": 0.0075
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; uncommon does not mean semantically invalid.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "alcohol",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "alcohol",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "alcohol",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          100
+        ]
+      },
+      "evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention).",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "alcohol",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 8.6,
+          "qhi": 13.6,
+          "ilo": 3.799999999999999,
+          "ihi": 17.1
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "alcohol",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 2.2303049500394607,
+        "predictor_columns": [
+          "density",
+          "pH",
+          "sulphates"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "density",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "density",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "density",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          null
+        ]
+      },
+      "evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention).",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "density",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 0.98818295,
+          "qhi": 1.0006234999999999,
+          "ilo": 0.9793875,
+          "ihi": 1.0079825
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "density",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 0.004312181900317236,
+        "predictor_columns": [
+          "alcohol",
+          "pH",
+          "sulphates"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "pH",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "pH",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "pH",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          14
+        ]
+      },
+      "evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention).",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "pH",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 2.85,
+          "qhi": 3.682349999999999,
+          "ilo": 2.52,
+          "ihi": 3.8499999999999996
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "pH",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 0.41255744243203507,
+        "predictor_columns": [
+          "alcohol",
+          "density",
+          "sulphates"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "sulphates",
+      "control": "requiredness",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "required": true
+      },
+      "evidence": "Frozen operational feed contract; publisher-wide completeness is not asserted.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "sulphates",
+      "control": "numeric_lexical_finite",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "type": "finite numeric"
+      },
+      "evidence": "Operational feed: every declared feature supplied, numeric lexical validity; stipulation is not an assertion that publisher demands completeness.",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "sulphates",
+      "control": "numeric_bounds",
+      "baseline": "A_and_B",
+      "provenance": "EXPLICIT_STIPULATED_CONTRACT",
+      "parameters": {
+        "bounds": [
+          0,
+          null
+        ]
+      },
+      "evidence": "Physical measurement units: concentrations/density nonnegative, pH aqueous operational interval 0..14 and alcohol percentage 0..100 (explicit operational convention).",
+      "hard_validity": true
+    },
+    {
+      "dataset": "wine",
+      "column": "sulphates",
+      "control": "history_quantiles_and_IQR",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "quantiles": [
+          0.005,
+          0.995
+        ],
+        "IQR_multiplier": 3,
+        "fitted_limits": {
+          "qlo": 0.27,
+          "qhi": 0.9,
+          "ilo": -0.010000000000000231,
+          "ihi": 0.9700000000000002
+        }
+      },
+      "evidence": "Fit only on the approved unique full-feature history; values are statistical suspicion.",
+      "hard_validity": false
+    },
+    {
+      "dataset": "wine",
+      "column": "sulphates",
+      "control": "conditional_Ridge_residual",
+      "baseline": "B",
+      "provenance": "TRAINING_ONLY_STATISTICAL_CONTROL",
+      "parameters": {
+        "alpha": 10,
+        "fit_fraction": 0.75,
+        "calibration_fraction": 0.25,
+        "residual_quantile": 0.995,
+        "quantile_method": "higher",
+        "fitted_residual_cutoff": 0.3453671179664044,
+        "predictor_columns": [
+          "alcohol",
+          "density",
+          "pH"
+        ]
+      },
+      "evidence": "Other permitted primary fields predict target; no held-out intervention/reference labels.",
+      "hard_validity": false
+    }
+  ],
+  "primary_not_applicable": [
+    "foreign-key consistency: no parent table",
+    "ledger reconciliation: no legitimate linked balance",
+    "key uniqueness: no documented evaluated entity key"
+  ]
+}

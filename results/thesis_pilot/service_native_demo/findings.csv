@@ -1,0 +1,8 @@
+row_position,column,method,interpretation
+0,amount_cents,basic_controls,contract violation
+1,status,basic_controls,contract violation
+0,amount_cents,extended_controls,statistical suspicion; not verified semantic error
+1,status,extended_controls,statistical suspicion; not verified semantic error
+199,amount_cents,extended_controls,statistical suspicion; not verified semantic error
+0,amount_cents,dboost_text_original,statistical suspicion; not verified semantic error
+1,status,dboost_text_original,statistical suspicion; not verified semantic error

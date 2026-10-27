@@ -1,0 +1,18 @@
+{
+  "datasets": 3,
+  "primary_cell_scenarios": 630,
+  "bank_row_scenarios": 45,
+  "scope_probes": 18,
+  "source_type_probes": 18,
+  "metrics": 52740,
+  "tests": "42 PASSED in pilot environment; 29 PASSED/1 module SKIPPED in original audit environment",
+  "independent_primary_checks": 205090,
+  "independent_supplemental_checks": 52424,
+  "full_lucario_original_components": "EXECUTED; author-example exact parity; history-fit regime explicit",
+  "faithful_published_learned_execution": "CDC original pipeline with restricted supported RF/XT portfolio, assumptions conditional; Raha original KB-disabled few-label regime separate",
+  "external_status": "two publisher-reference sources, not independent semantic gold standard",
+  "engineering_cli": "EXECUTED_VALID",
+  "novelty": "NOT_ESTABLISHED; supervisor/literature gate for confirmation",
+  "research_feasibility": "CONDITIONAL_GO",
+  "scope_limitations": "Primary results cover four predeclared fields per source, 800 evaluation rows per source and at most 2,400 historical training rows. Full archives were acquired. This is substantial exploratory evidence, not an exhaustive all-field benchmark, a final confirmatory thesis or a production-bank validation."
+}

@@ -1,0 +1,188 @@
+{
+  "state": "EXECUTED_VALID",
+  "synthetic_only": true,
+  "untouched_findings": [],
+  "scenarios": [
+    {
+      "scenario": "foreign_key",
+      "basic_findings": [],
+      "extended_findings": [
+        [
+          "transactions",
+          "ACCOUNT_FOREIGN_KEY"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    },
+    {
+      "scenario": "duplicate_key",
+      "basic_findings": [
+        [
+          "transactions",
+          "UNIQUE_KEY"
+        ]
+      ],
+      "extended_findings": [
+        [
+          "ledger",
+          "SOURCE_LEDGER_RECONCILIATION"
+        ],
+        [
+          "ledger",
+          "TRANSACTION_FOREIGN_KEY"
+        ],
+        [
+          "transactions",
+          "UNIQUE_KEY"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    },
+    {
+      "scenario": "unsupported_status",
+      "basic_findings": [
+        [
+          "transactions",
+          "STATUS_DOMAIN"
+        ]
+      ],
+      "extended_findings": [
+        [
+          "transactions",
+          "STATUS_DOMAIN"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    },
+    {
+      "scenario": "missing_delivery",
+      "basic_findings": [],
+      "extended_findings": [
+        [
+          "ledger",
+          "TRANSACTION_FOREIGN_KEY"
+        ],
+        [
+          "transactions",
+          "EXPECTED_DELIVERY_COUNT"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    },
+    {
+      "scenario": "ledger_imbalance",
+      "basic_findings": [],
+      "extended_findings": [
+        [
+          "ledger",
+          "DEBIT_CREDIT_RECONCILIATION"
+        ],
+        [
+          "ledger",
+          "SOURCE_LEDGER_RECONCILIATION"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    },
+    {
+      "scenario": "source_aggregate_mismatch",
+      "basic_findings": [],
+      "extended_findings": [
+        [
+          "ledger",
+          "SOURCE_LEDGER_RECONCILIATION"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    },
+    {
+      "scenario": "required_missing",
+      "basic_findings": [
+        [
+          "transactions",
+          "REQUIRED"
+        ],
+        [
+          "transactions",
+          "STATUS_DOMAIN"
+        ]
+      ],
+      "extended_findings": [
+        [
+          "transactions",
+          "REQUIRED"
+        ],
+        [
+          "transactions",
+          "STATUS_DOMAIN"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    },
+    {
+      "scenario": "invalid_numeric",
+      "basic_findings": [
+        [
+          "transactions",
+          "INTEGER_NONNEGATIVE_CENTS"
+        ]
+      ],
+      "extended_findings": [
+        [
+          "ledger",
+          "SOURCE_LEDGER_RECONCILIATION"
+        ],
+        [
+          "transactions",
+          "INTEGER_NONNEGATIVE_CENTS"
+        ]
+      ],
+      "label": "EXPLICIT_STIPULATED_CONTRACT",
+      "unit": "table/rule event; not cell detection leaderboard"
+    }
+  ],
+  "cli_executions": [
+    {
+      "command": [
+        "/workspace/masterthesis_pilot_final/data/envs/pilot/bin/python",
+        "-m",
+        "dq_service",
+        "register",
+        "--id",
+        "synthetic_finance_demo",
+        "--csv",
+        "/workspace/masterthesis_pilot_final/data/engineering_fixture/new_delivery.csv",
+        "--contract",
+        "/workspace/masterthesis_pilot_final/data/engineering_fixture/contract.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"registered\": \"synthetic_finance_demo\", \"rows\": 200, \"sha256\": \"9116cf9a1f7836f54cf355074c8453acbf46a36aa702eb9285623f5928b12800\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/masterthesis_pilot_final/data/envs/pilot/bin/python",
+        "-m",
+        "dq_service",
+        "scan",
+        "--id",
+        "synthetic_finance_demo",
+        "--history",
+        "/workspace/masterthesis_pilot_final/data/engineering_fixture/transactions.csv",
+        "--output",
+        "/workspace/masterthesis_pilot_final/results/thesis_pilot/service_demo"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"dataset\": \"synthetic_finance_demo\", \"rows\": 200, \"scored_columns\": [\"amount_cents\", \"status\"], \"counts\": {\"basic_controls\": 2, \"extended_controls\": 3, \"contextual_extra_trees\": 1}, \"recommendation\": \"INSUFFICIENT_EVIDENCE\", \"reason\": \"Operational source scan has no independent error labels; suspicion alone cannot justify adoption. Consult qualified pilot evidence and domain review.\", \"reference_scope\": \"history provided separately; source values never treated as confirmed clean\", \"detector\": \"contextual_extra_trees\", \"detector_status\": \"EXECUTED_CONDITIONAL\"}\n",
+      "stderr": ""
+    }
+  ],
+  "control_provenance": "All fixture invariants explicitly stipulated independently of mutations; no claim these are bank production rules."
+}

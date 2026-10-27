@@ -1,0 +1,78 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Requirement already satisfied: setuptools==80.9.0 in ./.venv/lib/python3.12/site-packages (from -r requirements-dev.txt (line 1)) (80.9.0)
+Requirement already satisfied: pytest==8.3.5 in ./.venv/lib/python3.12/site-packages (from -r requirements-dev.txt (line 2)) (8.3.5)
+Requirement already satisfied: xlrd==2.0.2 in ./.venv/lib/python3.12/site-packages (from -r requirements-dev.txt (line 3)) (2.0.2)
+Requirement already satisfied: iniconfig==2.1.0 in ./.venv/lib/python3.12/site-packages (from -r requirements-dev.txt (line 4)) (2.1.0)
+Requirement already satisfied: pluggy==1.6.0 in ./.venv/lib/python3.12/site-packages (from -r requirements-dev.txt (line 5)) (1.6.0)
+Requirement already satisfied: packaging==25.0 in ./.venv/lib/python3.12/site-packages (from -r requirements-dev.txt (line 6)) (25.0)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Obtaining file:///workspace/masterthesis_pilot_final
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: thesis-audit
+  Building editable for thesis-audit (pyproject.toml): started
+  Building editable for thesis-audit (pyproject.toml): finished with status 'done'
+  Created wheel for thesis-audit: filename=thesis_audit-0.2.0-0.editable-py3-none-any.whl size=1787 sha256=9f0bdc3ac616c770297986ac061a26de7f298b97bcbe2171c04dcfb6d4cef674
+  Stored in directory: /tmp/pip-ephem-wheel-cache-6di0lqnr/wheels/07/c8/c4/32049d03c6605ea3e6afb3eadab24a955c6d21f692a45451a7
+Successfully built thesis-audit
+Installing collected packages: thesis-audit
+  Attempting uninstall: thesis-audit
+    Found existing installation: thesis-audit 0.1.0
+    Uninstalling thesis-audit-0.1.0:
+      Successfully uninstalled thesis-audit-0.1.0
+Successfully installed thesis-audit-0.2.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip
+cpitclaudel/dBoost a47cb564e900c3e5220413f810e810b00046d561
+mooselab/Detect-Cell-level-Data-Anomalies-With-LUCARIO 3664bfa830b7b13f8a08cc7dd960c871c56aaeeb
+calgo-lab/tab_err 4e5d348e442824f3c09ed462e37dbbe910ef330a
+se-jaeger/conformal-data-cleaning fd8a2126c9626099f3d45511fd05d30af8de6b64
+se-jaeger/conformal-inference e25cb5938808360033201afc2ae567e5de3ad6c0
+BigDaMa/raha 7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c
+Python 3.9 is already installed
+Using CPython 3.12.14 interpreter at: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12
+Creating virtual environment at: data/envs/pilot
+Activate with: source data/envs/pilot/bin/activate
+Using CPython 3.9.25 interpreter at: data/uv-python/cpython-3.9-linux-x86_64-gnu/bin/python3.9
+warning: The requested interpreter resolved to Python 3.9.25, which is incompatible with the project's Python requirement: `>=3.11` (from `project.requires-python`)
+Creating virtual environment at: data/envs/cdc
+Activate with: source data/envs/cdc/bin/activate
+Using CPython 3.9.25 interpreter at: data/uv-python/cpython-3.9-linux-x86_64-gnu/bin/python3.9
+warning: The requested interpreter resolved to Python 3.9.25, which is incompatible with the project's Python requirement: `>=3.11` (from `project.requires-python`)
+Creating virtual environment at: data/envs/lucario
+Activate with: source data/envs/lucario/bin/activate
+Using CPython 3.9.25 interpreter at: data/uv-python/cpython-3.9-linux-x86_64-gnu/bin/python3.9
+warning: The requested interpreter resolved to Python 3.9.25, which is incompatible with the project's Python requirement: `>=3.11` (from `project.requires-python`)
+Creating virtual environment at: data/envs/raha
+Activate with: source data/envs/raha/bin/activate
+Using Python 3.12.14 environment at: data/envs/pilot
+Resolved 29 packages in 818ms
+Checked 29 packages in 1ms
+Using Python 3.9.25 environment at: data/envs/cdc
+Resolved 43 packages in 784ms
+Checked 43 packages in 0.37ms
+Using Python 3.9.25 environment at: data/envs/lucario
+Checked 20 packages in 4ms
+Using Python 3.9.25 environment at: data/envs/raha
+Checked 34 packages in 3ms
+Using Python 3.12.14 environment at: data/envs/pilot
+Resolved 1 package in 2ms
+   Building thesis-audit @ file:///workspace/masterthesis_pilot_final
+      Built thesis-audit @ file:///workspace/masterthesis_pilot_final
+Prepared 1 package in 1.15s
+Uninstalled 1 package in 1ms
+Installed 1 package in 4ms
+ ~ thesis-audit==0.2.0 (from file:///workspace/masterthesis_pilot_final)
+{'path': 'data/recovery_downloads/default+of+credit+card+clients.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 5539494, 'sha256': '56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602'}
+{'path': 'data/recovery_downloads/bank+marketing.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 1023843, 'sha256': 'e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4'}
+{'path': 'data/pilot_sources/wine.zip', 'state': 'VERIFIED_LOCAL', 'bytes': 91353, 'sha256': '3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4'}
+{'path': 'data/raw/BigDaMa__raha/datasets/beers/clean.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 233019, 'sha256': '373227df59ad197e154dd5149125789e415019535c7223355e9486ee1b3b93de'}
+{'path': 'data/raw/BigDaMa__raha/datasets/beers/dirty.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 255295, 'sha256': '7110bf4931a9445a1675e544d6c996817c739136239f8a2b02e088c7ec0a1f68'}
+{'path': 'data/raw/BigDaMa__raha/datasets/hospital/clean.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 303324, 'sha256': 'ea3ee44998455c0b491750c348509de176c758a3bbf58e4530c0a136bb248b4b'}
+{'path': 'data/raw/BigDaMa__raha/datasets/hospital/dirty.csv', 'state': 'VERIFIED_LOCAL', 'bytes': 303306, 'sha256': 'dbc5575b915fe8b5e0ac6dc6172f38ba91e611fdb76d09a8f4a81cb7ea9925ac'}

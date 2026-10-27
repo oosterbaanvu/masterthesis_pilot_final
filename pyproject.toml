@@ -4,13 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "thesis-audit"
-version = "0.1.0"
+version = "0.2.0"
 description = "Conservative, provenance-first tabular error benchmark audit"
 requires-python = ">=3.11"
 dependencies = ["xlrd==2.0.2"]
 
 [project.optional-dependencies]
 test = ["pytest==8.3.5"]
+pilot = ["numpy==2.3.5", "pandas==2.3.3", "scipy==1.16.3", "scikit-learn==1.7.2", "matplotlib==3.10.7", "pyarrow==22.0.0", "tab-err @ git+https://github.com/calgo-lab/tab_err.git@4e5d348e442824f3c09ed462e37dbbe910ef330a"]
+
+[project.scripts]
+dqeval = "dq_service.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

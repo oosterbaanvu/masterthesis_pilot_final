@@ -1,0 +1,4 @@
+credit {'dataset': 'credit', 'source_feature_count': 23, 'untouched_alerts': 190, 'A_untouched_alerts': 0, 'B_untouched_alerts': 39, 'method': 'cdc_source_type_adaptation', 'fit_and_untouched_seconds': 9.128970940997533}
+bank {'dataset': 'bank', 'source_feature_count': 20, 'untouched_alerts': 989, 'A_untouched_alerts': 0, 'B_untouched_alerts': 139, 'method': 'cdc_source_type_adaptation', 'fit_and_untouched_seconds': 23.936063005996402}
+wine {'dataset': 'wine', 'source_feature_count': 11, 'untouched_alerts': 157, 'A_untouched_alerts': 0, 'B_untouched_alerts': 25, 'method': 'cdc_source_type_adaptation', 'fit_and_untouched_seconds': 9.4939670140011}
+18 source-type diagnostic scenarios executed; primary native-dtype evidence preserved

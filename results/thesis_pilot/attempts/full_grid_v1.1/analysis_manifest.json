@@ -1,0 +1,26 @@
+{
+  "scenario_count": 630,
+  "metric_rows": 50580,
+  "scenario_counts_by_dataset": {
+    "bank": 225,
+    "credit": 225,
+    "wine": 180
+  },
+  "scenario_counts_by_family": {
+    "E1_missing": 135,
+    "E2_type": 135,
+    "E3_code": 90,
+    "E4_scale": 135,
+    "E5_substitution": 135
+  },
+  "scenario_counts_by_mechanism": {
+    "EAR": 210,
+    "ECAR": 210,
+    "ENAR": 210
+  },
+  "failure_states": {
+    "INCOMPATIBLE_SCENARIO": 540
+  },
+  "metrics_sha256": "f5ec1c72bd75a1e8c000b4acf005557f9c976ff6a3e7093e05d4ddb2010f1e56",
+  "tables": "Source/family/mechanism/prevalence kept separate; five seeds describe intervention sensitivity, not independent source replication."
+}
