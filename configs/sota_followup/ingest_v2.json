@@ -1,0 +1,55 @@
+{
+  "version": "2.0",
+  "claim": "exploratory source-relative ingest alterations, not semantic gold standard",
+  "base_protocol": "v1.3 preserved",
+  "cases": {
+    "credit": [
+      "P2 wrong-month BILL_AMT1 <- BILL_AMT2",
+      "P4 valid EDUCATION donor within LIMIT_BAL quantile bin"
+    ],
+    "bank": [
+      "P1 valid duration donor within age quantile bin",
+      "P4 valid job donor within age quantile bin",
+      "P6 age+1 systematic source shift"
+    ],
+    "wine": [
+      "P1 alcohol donor within density quantile bin",
+      "P3 density*1.01",
+      "P3 density*.99"
+    ]
+  },
+  "mechanisms": [
+    "ECAR",
+    "EAR",
+    "ENAR"
+  ],
+  "rates": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "logical_scenarios": 360,
+  "views": [
+    "four original targets",
+    "all approved non-outcome source features, same four targets"
+  ],
+  "scored_context_pairs": 720,
+  "baselines": {
+    "R": "same frozen hard contract as A",
+    "RS": "R + original .005/.995 quantile/3IQR/.005 category frequency, no Ridge",
+    "RSM": "RS + original conditional Ridge alpha10 residual .995"
+  },
+  "review": "hard contracts first; control_first and equal_share sensitivity; fixed binary hash ties; 10/25/50 cells per1000 rows",
+  "history": "same exact original v1.3 approved unique full-feature history",
+  "model_parameters": "same original native configurations and ExtraTrees64depth16leaf5; no evaluation-label tuning",
+  "source_reconciliation": "separate upstream-snapshot regime: exact alterations recoverable deterministically",
+  "noops": "rejected; exact non-target values preserved",
+  "amendments": []
+}

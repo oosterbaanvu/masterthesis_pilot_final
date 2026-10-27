@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "mooselab/Discover-Data-Quality-With-RIOLU",
+    "revision": "df3f7dc7673fda3f02d147fdf4c539a2bf3cc4d5",
+    "checkout": "data/sources/RIOLU",
+    "source_license_files": [
+      "LICENSE"
+    ],
+    "data_rights": "Separate provenance required; no raw redistribution inferred from code license",
+    "role": "original inference"
+  },
+  {
+    "repository": "zphuangHKUCS/Auto-Detect-released-data",
+    "revision": "fdb40813eb426b776b4b74ed9335fa513d3d292a",
+    "checkout": "data/sources/Auto-Detect",
+    "source_license_files": [
+      "license.pdf"
+    ],
+    "data_rights": "Separate provenance required; no raw redistribution inferred from code license",
+    "role": "selected human-label reference"
+  },
+  {
+    "repository": "mohamedyd/SAGED",
+    "revision": "1db0b3a44fc6f013dbb660413a592818ce6bde37",
+    "checkout": "data/sources/SAGED",
+    "source_license_files": [],
+    "data_rights": "Separate provenance required; no raw redistribution inferred from code license",
+    "role": "separate supervised-history qualification"
+  }
+]

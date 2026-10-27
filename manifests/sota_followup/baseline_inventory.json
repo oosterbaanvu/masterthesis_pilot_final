@@ -1,0 +1,193 @@
+{
+  "base": "46b9f3171aa9200b5b1cc97bb97ed70b2b38082b",
+  "branch": "research/sota-dataset-extension",
+  "original_working_tree": "CLEAN before branch creation",
+  "historical_primary": {
+    "scenarios": 630,
+    "source": "results/thesis_pilot/acceptance.json",
+    "predictions_tree": "55891b7d8d65ae1d714bdbddb5d8158886e2d6d4"
+  },
+  "datasets": [
+    {
+      "dataset": "credit",
+      "path": "data/recovery_downloads/default+of+credit+card+clients.zip",
+      "url": "https://archive.ics.uci.edu/static/public/350/default+of+credit+card+clients.zip",
+      "sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+      "bytes": 5539494,
+      "selected_member": "default of credit card clients.xls",
+      "original_rows": 30000,
+      "original_columns_including_outcome_and_id": 25,
+      "license": "CC BY 4.0 per official UCI pages; attribution required",
+      "error_reference": "No natural cell-error labels; source not presumed perfectly clean. Controlled interventions only.",
+      "outcome_is_not_a_dq_label": true
+    },
+    {
+      "dataset": "bank",
+      "path": "data/recovery_downloads/bank+marketing.zip",
+      "url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+      "sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+      "bytes": 1023843,
+      "selected_member": "bank-additional.zip!bank-additional/bank-additional-full.csv",
+      "original_rows": 41188,
+      "original_columns_including_outcome_and_id": 21,
+      "license": "CC BY 4.0 per official UCI pages; attribution required",
+      "error_reference": "No natural cell-error labels; source not presumed perfectly clean. Controlled interventions only.",
+      "outcome_is_not_a_dq_label": true
+    },
+    {
+      "dataset": "wine",
+      "path": "data/pilot_sources/wine.zip",
+      "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+      "sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "bytes": 91353,
+      "selected_member": "winequality-white.csv",
+      "original_rows": 4898,
+      "original_columns_including_outcome_and_id": 12,
+      "license": "CC BY 4.0 per official UCI pages; attribution required",
+      "error_reference": "No natural cell-error labels; source not presumed perfectly clean. Controlled interventions only.",
+      "outcome_is_not_a_dq_label": true
+    }
+  ],
+  "methods": {
+    "primary_configurations": [
+      {
+        "name": "dboost_text_original",
+        "scenarios_scored": 630,
+        "output": "binary cell flags",
+        "ranking_or_pr_auc": "NOT_CLAIMED"
+      },
+      {
+        "name": "lucario_original_history",
+        "scenarios_scored": 630,
+        "output": "binary cell flags",
+        "ranking_or_pr_auc": "NOT_CLAIMED"
+      },
+      {
+        "name": "contextual_extra_trees",
+        "scenarios_scored": 630,
+        "output": "binary cell flags",
+        "ranking_or_pr_auc": "NOT_CLAIMED"
+      },
+      {
+        "name": "cdc_original",
+        "scenarios_scored": 495,
+        "output": "binary cell flags",
+        "ranking_or_pr_auc": "NOT_CLAIMED"
+      },
+      {
+        "name": "dboost_numeric_original",
+        "scenarios_scored": 360,
+        "output": "binary cell flags",
+        "ranking_or_pr_auc": "NOT_CLAIMED"
+      }
+    ],
+    "regimes": {
+      "primary": "approved untouched-source history, no error labels; source not certified clean",
+      "external": "transductive publisher-reference agreement",
+      "raha": "20 metered labelled rows, excluded from evaluation",
+      "llm": "public schema only; no automatic promotion"
+    },
+    "source_types_diagnostic": "separate adaptation, 18 scenarios; full input features, same four targets",
+    "basic_coverage_operational_scenarios": 360,
+    "tracks": {
+      "controlled_interventions": "EXECUTED_CONDITIONAL",
+      "published_reference_errors": "EXECUTED_CONDITIONAL",
+      "recent_detector_reproduction": "EXECUTED_CONDITIONAL",
+      "local_llm_rule_generation": "EXECUTED_CONDITIONAL",
+      "engineering_artifact": "EXECUTED_VALID"
+    },
+    "unavailable": {
+      "AutoTest": "NOT_EXECUTED full inference; bounded setup attempts",
+      "ZeroED": "NOT_EXECUTED full pipeline; source/paper reviewed"
+    },
+    "global_adoption": "INSUFFICIENT_EVIDENCE"
+  },
+  "implementation_sources": [
+    {
+      "repository": "cpitclaudel/dBoost",
+      "revision": "a47cb564e900c3e5220413f810e810b00046d561",
+      "checkout": "data/sources/cpitclaudel__dBoost",
+      "url": "https://github.com/cpitclaudel/dBoost.git",
+      "license": "GPL-3.0",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "mooselab/Detect-Cell-level-Data-Anomalies-With-LUCARIO",
+      "revision": "3664bfa830b7b13f8a08cc7dd960c871c56aaeeb",
+      "checkout": "data/sources/mooselab__Detect-Cell-level-Data-Anomalies-With-LUCARIO",
+      "url": "https://github.com/mooselab/Detect-Cell-level-Data-Anomalies-With-LUCARIO.git",
+      "license": "NO_TOP_LEVEL_LICENSE_LOCATED",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "calgo-lab/tab_err",
+      "revision": "4e5d348e442824f3c09ed462e37dbbe910ef330a",
+      "checkout": "data/sources/calgo-lab__tab_err",
+      "url": "https://github.com/calgo-lab/tab_err.git",
+      "license": "Apache-2.0",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "se-jaeger/conformal-data-cleaning",
+      "revision": "fd8a2126c9626099f3d45511fd05d30af8de6b64",
+      "checkout": "/workspace/research_sources/se-jaeger__conformal-data-cleaning",
+      "url": "https://github.com/se-jaeger/conformal-data-cleaning.git",
+      "license": "MIT",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "se-jaeger/conformal-inference",
+      "revision": "e25cb5938808360033201afc2ae567e5de3ad6c0",
+      "checkout": "data/sources/conformal-inference",
+      "url": "https://github.com/se-jaeger/conformal-inference.git",
+      "license": "Apache-2.0",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "BigDaMa/raha",
+      "revision": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+      "checkout": "/workspace/research_sources/BigDaMa__raha",
+      "url": "https://github.com/BigDaMa/raha.git",
+      "license": "Apache-2.0",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "qixuchen/AutoTest",
+      "revision": "4acf65cf37a506206bf2888dbd45f17e58dce2e2",
+      "checkout": "/workspace/research_sources/qixuchen__AutoTest",
+      "url": "https://github.com/qixuchen/AutoTest.git",
+      "license": "NO_TOP_LEVEL_LICENSE_LOCATED",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "ZJU-Data-Governance-and-Services-Team/ZeroED",
+      "revision": "2b84266e1d8b2014d36643d343429d9a20bd769e",
+      "checkout": "data/sources/ZeroED",
+      "url": "https://github.com/ZJU-Data-Governance-and-Services-Team/ZeroED.git",
+      "license": "NO_TOP_LEVEL_LICENSE_LOCATED",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    },
+    {
+      "repository": "ggml-org/llama.cpp",
+      "revision": "961c376a2daa42220ec09663b9bde32c5fba1f70",
+      "checkout": "data/sources/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp.git",
+      "license": "MIT",
+      "scope": "Public author source examined/executed locally; no source copied into Git except distributable license texts."
+    }
+  ],
+  "hardware": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "cpu_affinity": 5,
+    "cpu_quota": "400000 100000",
+    "memory_limit_bytes": 34359738368,
+    "GPU": false
+  },
+  "limitations": [
+    "B historically combines R, S and contextual Ridge; preserve old results and report layers separately",
+    "All inspected sources are exploratory",
+    "Four-field primary scope; full-context probes separate",
+    "No independently adjudicated semantic gold standard"
+  ],
+  "task_document_sha256": "1c7036499e8f82299c291bba84fd82b625c81c1331023363e564f391dc8f0f68"
+}
